@@ -406,6 +406,7 @@ Constraints
 \begin{columns}
 \column{0.5\textwidth}
 \begin{alertblock}{}
+\textbf{In words}
 \vspace{-.25cm}
 \begin{align*}
 \vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]\\
@@ -417,7 +418,8 @@ Constraints
 \end{columns}
 \visible<2->{
 \begin{block}{}
-\vspace{-.1cm}
+\textbf{Formally}
+\vspace{-.25cm}
 \begin{align*}
 \vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[  \sum_{\text{time}} \left(\text{Utility} - \cmatr{ccc}{0&\text{if}&\text{Constraint ok}\\\infty &\text{if}&\text{Constraint not ok}}\right)\right]
 \end{align*}
@@ -639,18 +641,44 @@ Constraints
 
 \begin{columns}[t]
 \column{0.5\textwidth}
-
+\vspace{.5cm}\\
+\textbf{Remarks}:
+\begin{itemize}
+%\item Matches the ``worst-case" (robust) version for $c=0$
+\item If we can tolerate $c>0$ (small) it can make a big gain in performance
+\item Building decisions can be difficult from a computational point of view
+\end{itemize}
 \column{0.5\textwidth}
+\vspace{-.5cm}
+\begin{figure}
    \includegraphics[width=1\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
+   \end{figure}
 \end{columns}
 
 \end{frame}
 
-\end{document}
+\begin{frame}{\normalsize ???}
+\footnotesize
 
-\section{Advance Notions?}
+\end{frame}
 
-\begin{frame}{\normalsize Safe Action Set}
+\section{Methods}
+
+\begin{frame}{\normalsize Robust Repeated Planning}
+\footnotesize
+
+
+\begin{columns}[t]
+\column{0.5\textwidth}
+
+
+\includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
+\column{0.5\textwidth}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{\normalsize Safe Action Set \& Safety Filters}
 \footnotesize
 
 Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the king"...\\
@@ -661,6 +689,23 @@ Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the
 \includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
 \column{0.5\textwidth}
 \end{columns}
+
+\end{frame}
+
+\begin{frame}{\normalsize Control Barrier Functions}
+\footnotesize
+
+\end{frame}
+
+\section{Safe Decisions from Data \& AI}
+
+\begin{frame}{\normalsize Reinforcement Learning}
+\footnotesize
+
+\end{frame}
+
+\begin{frame}{\normalsize Probabilistic AI}
+\footnotesize
 
 \end{frame}
 
