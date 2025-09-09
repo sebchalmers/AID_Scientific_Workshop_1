@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Some Basics of Safe Decision Making}{3}{0}{1}
+\beamer@sectionintoc {2}{Safe Decision Making}{14}{0}{2}
+\beamer@sectionintoc {3}{Probabilistic Safety in Decision Making}{30}{0}{3}
