@@ -678,22 +678,101 @@ Constraints
 
 \end{frame}
 
-\begin{frame}{\normalsize Safe Action Set \& Safety Filters}
+\begin{frame}{\normalsize Safety Filters \& Reinforcement Learning}
 \footnotesize
+\begin{itemize}
+\item For any state $\vect s$, an ``oracle" tells you which actions will not jeopardize safety in the long run$\rightarrow$``Safe set" $\mathrm{S}\left(\vect s\right)$
+\item \visible<2->{We can learn an ``unsafe" policy $$\vect\pi^\star = \argmax_{\vect\pi}\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]$$
+\begin{flushright} that focuses only on utility\end{flushright}}
+\item \visible<3->{For state $\vect s$, take the decisions using: $\text{Action} = \text{Projection}_{\mathrm{S}(\vect s)}\vect\pi^\star\left(\vect s\right)$}
+\end{itemize}
 
-Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the king"...\\
+
+%Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the king"...\\
+\visible<13->{\textbf{Remarks}: the ``oracle" can be very hard to build, or not...}
 \begin{columns}[t]
-\column{0.5\textwidth}
-
-
+\column{0.3\textwidth}
+\visible<13->{
 \includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
-\column{0.5\textwidth}
+\center
+Not losing the king
+}
+\column{0.3\textwidth}
+\visible<14->{
+\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.eps}
+\center
+Able to stop in the visible distance}
+\column{0.3\textwidth}
+
+  \begin{overlayarea}{\textwidth}{.5\textheight}
+    \begin{figure}
+     \newcommand{\FS}{1}
+      \only<3>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection0.eps}
+	}
+	      \only<4>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection1.eps}
+	}
+	      \only<5>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection2.eps}
+	}
+	      \only<6>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection3.eps}
+	}
+	      \only<7>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection4.eps}
+	}
+	      \only<8>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection5.eps}
+	}
+	      \only<9>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection6.eps}
+	}
+	      \only<10>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection7.eps}
+	}
+	      \only<11>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection8.eps}
+	}
+	      \only<12->
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection9.eps}
+	}
+%		      \only<14->
+%        {
+%        \center
+%	\includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
+%	}
+\end{figure}
+\end{overlayarea}
+	
 \end{columns}
 
 \end{frame}
 
 \begin{frame}{\normalsize Control Barrier Functions}
 \footnotesize
+
+\textcolor{red}{Akhil?}
 
 \end{frame}
 
@@ -702,9 +781,11 @@ Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the
 \begin{frame}{\normalsize Reinforcement Learning}
 \footnotesize
 
+\textcolor{red}{Akhil?}
+
 \end{frame}
 
-\begin{frame}{\normalsize Probabilistic AI}
+\begin{frame}{\normalsize The Role of Probabilistic AI}
 \footnotesize
 
 \end{frame}
