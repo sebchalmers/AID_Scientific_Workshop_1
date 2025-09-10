@@ -599,6 +599,7 @@ Constraints
    \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel40.eps}%
         }%
     \end{figure}
+    \textcolor{red}{Illustrate: wide \& thin-tailed distribution requires a big box, to contain transitions that almost surely won't happen. Who does it?}
   \end{overlayarea} 
 
 
@@ -732,7 +733,8 @@ Constraints
 \item For any state $\vect s$, an ``oracle" tells you which actions will not jeopardize safety in the long run$\rightarrow$``Safe set" $\mathrm{S}\left(\vect s\right)$
 \item \visible<2->{We can learn an ``unsafe" policy $$\vect\pi^\star = \argmax_{\vect\pi}\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]$$
 \begin{flushright} that focuses only on utility\end{flushright}}
-\item \visible<3->{For state $\vect s$, take the decisions using: $\text{Action} = \text{Projection}_{\mathrm{S}(\vect s)}\vect\pi^\star\left(\vect s\right)$}
+\item \visible<3->{For state $\vect s$, take the decisions using: $\text{Action} = \text{Projection}_{\mathrm{S}(\vect s)}\left[\vect\pi^\star\left(\vect s\right)\right]$}
+
 \end{itemize}
 
 \begin{columns}[t]
@@ -755,6 +757,13 @@ Not losing the king}
 \vspace{-.25cm}
 Able to stop within the visible distance}
 \end{columns}
+}
+\only<15>{
+\textbf{Remarks}:
+\begin{itemize}
+\item Often close to practice, e.g., flight envelop protection in modern airplane, semi-autonomous driving in cars, etc
+\item Oracle $\Rightarrow$ knowledge-based \& conservative!
+\end{itemize} 
 }
 \end{overlayarea}
 
@@ -845,22 +854,63 @@ Able to stop within the visible distance}
 
 \begin{frame}{\normalsize Control Barrier Functions}
 \footnotesize
-
 \textcolor{red}{Akhil?}
+
 
 \end{frame}
 
 \section{Safe Decisions from Data \& AI}
 
-\begin{frame}{\normalsize Reinforcement Learning}
+\begin{frame}{\normalsize Reinforcement Learning with Safety}
 \footnotesize
 
-\textcolor{red}{Akhil?}
+\textcolor{red}{SG can do}
 
 \end{frame}
 
+\section{Epistemic Uncertainty and Safe Decisions}
+
 \begin{frame}{\normalsize The Role of Probabilistic AI}
 \footnotesize
+
+\begin{columns}[t]
+\column{0.5\textwidth}
+
+
+  \begin{overlayarea}{\textwidth}{.5\textheight}
+    \begin{figure}
+     \newcommand{\FS}{1}
+      \only<1>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/Epistemic/DataVsDist0.eps}
+	}
+	      \only<2>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/Epistemic/DataVsDist1.eps}
+	}
+	      \only<3>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/Epistemic/DataVsDist2.eps}
+	}
+	      \only<4>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/Epistemic/DataVsDist3.eps}
+	}
+	      \only<5->
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/Epistemic/DataVsDist4.eps}
+	}
+\end{figure}
+\end{overlayarea}
+
+\column{0.5\textwidth}
+\end{columns}
+
 
 \end{frame}
 
