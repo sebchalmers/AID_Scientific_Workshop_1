@@ -630,6 +630,7 @@ Constraints
 
 
 \column{0.44\textwidth}
+\visible<2->{
 \begin{block}{}
 \textbf{Formally}
 \vspace{-.2cm}
@@ -637,7 +638,7 @@ Constraints
 \vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
 \mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
 \end{align*}
-\end{block}
+\end{block}}
 \end{columns}
 
 \begin{columns}[t]
@@ -652,10 +653,9 @@ Constraints
 \end{itemize}}
 \column{0.5\textwidth}
 \vspace{-.25cm}
-\visible<2->{
-\begin{figure}
+%\visible<2->{
    \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
-   \end{figure}}
+%}
 \end{columns}
 
 \end{frame}
