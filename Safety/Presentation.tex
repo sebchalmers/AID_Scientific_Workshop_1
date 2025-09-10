@@ -260,8 +260,94 @@
 
 \begin{document}
 
+\begin{frame}{\normalsize The Role of Probabilistic AI}
+\footnotesize
+
+%\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.eps}}
+
+\tikzstyle{Dist_block} = [rectangle, draw=none, fill=none,  text width=5.cm, text centered, minimum height=4em,inner sep=2pt]
+\tikzstyle{SA_block} = [rectangle, draw, fill=none,  text width=4cm,  text height=3cm,  text centered]
+\tikzstyle{line} = [draw, -latex']
 
 
+\begin{tikzpicture}[->,>=stealth']
+
+
+%\node [Sys_block] (sys0) {\Sys};
+%
+%
+% \node [Opt_block, left of=sys0, node distance = 5cm] (opt0) {
+% \begin{minipage}[c]{3.5cm}
+% \center
+%Information to Decisions\\
+%\textbf{Policy} $\vect\pi$
+%\end{minipage}
+% };
+
+
+
+\node [SA_block] (SA0) {\textbf{State action space}
+
+};
+
+%\draw[blue,thick] ($(SA0.north east)+(+0,1)$)  rectangle ($(SA0.south west)+(-0,-1)$);
+
+% \node [anchor=$SA0.north east)+(+0,1)$] (SA1) {
+%$\vect s,\vect a$
+% };
+
+% \node at (1,1) [above=2pt+3pt,draw] {above};
+
+ % \node [below left =10mm of SA0.north east] (SA1) {$\vect s,\vect a$};
+  
+ \node[  below right = 15mm and 10mm of SA0.north west] (SA1) {$1:\vect s,\vect a$};
+ \node[  below right =  5mm and 10mm of SA0.north west] (SA2) {$2:\vect s,\vect a$};
+  \node[  below right =  20mm and 25mm of SA0.north west] (SA3) {$3:\vect s,\vect a$};
+
+  
+   \node [Dist_block, right of=SA0, node distance = 5cm] (Dist0) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_1.eps}
+ };
+ 
+ 
+   \node [Dist_block, above of=Dist0, node distance = 2.7cm] (Dist1) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_2.eps}
+ };
+ 
+
+  \node [Dist_block, below of=Dist0, node distance = 2.7cm] (Dist2) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_0.eps}
+ };
+ 
+ 
+ \path  (SA1)  edge[bend left=10] [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist0);
+ \path  (SA2) edge[bend left=20]  [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist1);
+  \path  (SA3) edge[bend left=20]  [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist2);
+  
+ 
+\end{tikzpicture}
+
+
+
+\end{frame}
 
 
 
@@ -667,6 +753,54 @@ Constraints
 
 \end{frame}
 
+\begin{frame}{\normalsize Risk-sensitive MDPs}
+\footnotesize
+
+\begin{columns}
+\column{0.48\textwidth}
+\begin{alertblock}{}
+\textbf{In words}
+% \vspace{-.2cm}
+\begin{itemize}
+  \item Risk-sensitive MDPs optimizes a \textbf{risk measure} to account for the severity of rare outcomes.
+  \item Intuition: a “tail-risk filter”  even if outcomes are good most of the time, severe tails influence decisions.
+\end{itemize}
+\end{alertblock}
+
+\column{0.44\textwidth}
+\visible<2->{
+\begin{block}{}
+\textbf{Formally}
+\vspace{-.2cm}
+\[
+\pi^* = \arg\max_{\pi}\; \rho\!\Big(\sum_{t=0}^{\infty} \gamma^t r_t\Big)
+\]
+%\vspace{-0.35em}
+ $\rho$ is a risk measure (e.g., VaR, Entropic, CVaR). 
+\end{block}}
+\end{columns}
+
+\vspace{0.2cm}
+\begin{columns}[t]
+\column{0.5\textwidth}
+\vspace{-.1cm}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.95\linewidth]{Codes/Risk/HeavyTail_vs_Mean.pdf}
+  \centering\caption*{\scriptsize Mean-optimal can ignore tails; risk-sensitive downweights heavy losses.}
+\end{figure}
+
+\column{0.5\textwidth}
+\visible<3->{
+\scriptsize\textbf{Remarks:}
+\begin{itemize}
+  \item Often possile to solve using classical methods such as DP.
+  \item Risk-sensitive criteria do \emph{not} guarantee a bound on violation.
+  \item  Cares only about the average severity of bad outcomes in the tail and not about the rest.
+ \end{itemize}}
+\end{columns}
+
+\end{frame}
 
 \section{Methods}
 
@@ -956,9 +1090,7 @@ Able to stop within the visible distance}
   \item Requires a (possibly simplified, conservative) \textbf{system model}: \textbf{robust} approach.
 \end{itemize}
 }
-
 \endgroup
-
 \end{frame}
 
 \section{Safe Decisions from Data \& AI}
