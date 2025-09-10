@@ -9,24 +9,36 @@
 \headcommand {\beamer@framepages {3}{3}}
 \headcommand {\slideentry {1}{0}{2}{4/13}{}{0}}
 \headcommand {\beamer@framepages {4}{13}}
-\headcommand {\beamer@sectionpages {3}{13}}
-\headcommand {\beamer@subsectionpages {3}{13}}
-\headcommand {\sectionentry {2}{Safe Decision Making}{14}{Safe Decision Making}{0}}
-\headcommand {\slideentry {2}{0}{1}{14/14}{}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{0}{2}{15/17}{}{0}}
-\headcommand {\beamer@framepages {15}{17}}
-\headcommand {\slideentry {2}{0}{3}{18/29}{}{0}}
-\headcommand {\beamer@framepages {18}{29}}
-\headcommand {\beamer@sectionpages {14}{29}}
-\headcommand {\beamer@subsectionpages {14}{29}}
-\headcommand {\sectionentry {3}{Probabilistic Safety in Decision Making}{30}{Probabilistic Safety in Decision Making}{0}}
-\headcommand {\slideentry {3}{0}{1}{30/30}{}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {3}{0}{2}{31/31}{}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@partpages {1}{31}}
-\headcommand {\beamer@subsectionpages {30}{31}}
-\headcommand {\beamer@sectionpages {30}{31}}
-\headcommand {\beamer@documentpages {31}}
-\headcommand {\gdef \inserttotalframenumber {9}}
+\headcommand {\slideentry {1}{0}{3}{14/16}{}{0}}
+\headcommand {\beamer@framepages {14}{16}}
+\headcommand {\slideentry {1}{0}{4}{17/28}{}{0}}
+\headcommand {\beamer@framepages {17}{28}}
+\headcommand {\slideentry {1}{0}{5}{29/31}{}{0}}
+\headcommand {\beamer@framepages {29}{31}}
+\headcommand {\beamer@sectionpages {3}{31}}
+\headcommand {\beamer@subsectionpages {3}{31}}
+\headcommand {\sectionentry {2}{Methods}{32}{Methods}{0}}
+\headcommand {\slideentry {2}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {2}{0}{2}{33/33}{}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {2}{0}{3}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {2}{0}{4}{35/48}{}{0}}
+\headcommand {\beamer@framepages {35}{48}}
+\headcommand {\slideentry {2}{0}{5}{49/52}{}{0}}
+\headcommand {\beamer@framepages {49}{52}}
+\headcommand {\beamer@sectionpages {32}{52}}
+\headcommand {\beamer@subsectionpages {32}{52}}
+\headcommand {\sectionentry {3}{Safe Decisions from Data \& AI}{53}{Safe Decisions from Data \& AI}{0}}
+\headcommand {\slideentry {3}{0}{1}{53/53}{}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {3}{0}{2}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {3}{0}{3}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@partpages {1}{55}}
+\headcommand {\beamer@subsectionpages {53}{55}}
+\headcommand {\beamer@sectionpages {53}{55}}
+\headcommand {\beamer@documentpages {55}}
+\headcommand {\gdef \inserttotalframenumber {15}}

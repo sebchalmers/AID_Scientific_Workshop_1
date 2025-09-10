@@ -843,11 +843,110 @@ Able to stop within the visible distance}
 
 \end{frame}
 
-\begin{frame}{\normalsize Control Barrier Functions}
-\footnotesize
 
-\textcolor{red}{Akhil?}
 
+\begin{frame}{\normalsize Control Barrier Functions (CBFs)}
+\begingroup
+% Tighter look + small headers
+\setbeamerfont{block title}{size=\small}
+\scriptsize
+% Visible gap between the "In words" and "Formally" columns
+\setlength{\columnsep}{1.1cm}
+
+% =======================
+% TOP HALF: text content
+% =======================
+\begin{columns}[T,onlytextwidth]
+  % ---- Left: In words (always visible) ----
+  \column{0.45\textwidth}
+  \begin{alertblock}{}
+  \textbf{In words}
+  \vspace{-0.25em}
+  \begin{itemize}
+    \item Define a safe set $\mathcal{C} = \{x : h(x)\ge 0\}$ using a barrier function $h$.
+    \item Keep the state inside $\mathcal{C}$ by enforcing a simple inequality at each step.
+    \item If a suggested action is unsafe, a small QP adjusts it to the nearest safe action.
+  \end{itemize}
+  \vspace{-0.35em}
+  \end{alertblock}
+
+  % ---- Right: Formal (appears from overlay 2) ----
+  \column{0.48\textwidth}
+  \only<2->{
+  \begin{block}{}
+    \textbf{Formally}
+  \vspace{-0.3em}
+  \[ 
+  \dot x = f(x)+g(x)u,\qquad \mathcal{C}=\{x: h(x)\ge 0\}
+  \]
+  % \vspace{-0.6em}
+  \[
+    u^\star(x) = \arg\min_{u}\tfrac12\|u-u_{\mathrm{des}}(x)\|_2^2
+    \quad\text{s.t.}
+  \]
+    \[
+  \quad\underbrace{L_f h(x) + L_g h(x)\,u + \alpha(h(x)) \ge 0}_{\text{\scriptsize CBF constraint}}
+  \]
+  \vspace{-0.6em}
+  \end{block}
+  } % end only<2->
+\end{columns}
+
+\vspace{0.4em}
+
+% =======================
+% BOTTOM HALF: figures
+% =======================
+\begin{columns}[T,onlytextwidth]
+  % ---- Left figure: swap unsafe -> safe on overlay 4 ----
+  \column{0.52\textwidth}
+  % Fix the drawing area so later content doesn't reflow
+  \begin{overlayarea}{\linewidth}{0.42\textheight}
+    \only<1-3>{
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.40\linewidth]{Codes/CBF/CBF_Traj_unsafe.eps}
+        \caption*{\scriptsize Unsafe trajectory: violates $h(x)\ge 0$.}
+      \end{figure}
+    }% end only<1-3>
+    \only<4>{
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.4\linewidth]{Codes/CBF/CBF_Traj_safe.eps}
+        \caption*{\scriptsize CBF-filtered trajectory.}
+      \end{figure}
+    }% end only<4>
+  \end{overlayarea}
+
+  % ---- Right figure: QP projection appears from overlay 3 ----
+  \column{0.48\textwidth}
+  \begin{overlayarea}{\linewidth}{0.42\textheight}
+    \only<1-2>{ % keep the area blank on overlays 1-2 to preserve layout
+      \vspace{0.2em}
+    }
+    \only<3->{
+      \begin{figure}
+        \centering
+        \includegraphics[width=0.55\linewidth]{Codes/CBF/CBF_QP_projection.eps}
+        \caption*{\scriptsize CBF filter: project $u_{\mathrm{des}}$ to feasible $u_{\mathrm{safe}}$.}
+      \end{figure}
+    }
+  \end{overlayarea}
+\end{columns}
+
+% ==============
+% remarks 
+% ==============
+\only<4->{%
+\vspace{-0.35em}
+\scriptsize
+\begin{itemize}
+  \item The barrier function and safe set $\mathcal{C}$ are typically \textbf{constructed from domain knowledge} (physics, rules, safety envelopes).
+  \item Requires a (possibly simplified, conservative) \textbf{system model}: \textbf{robust} approach.
+\end{itemize}
+}
+
+\endgroup
 \end{frame}
 
 \section{Safe Decisions from Data \& AI}
