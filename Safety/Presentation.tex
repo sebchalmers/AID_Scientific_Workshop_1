@@ -873,9 +873,9 @@ Able to stop within the visible distance}
   \textbf{In words}
   \vspace{-0.25em}
   \begin{itemize}
-    \item Define a safe set $\mathcal{C} = \{x : h(x)\ge 0\}$ using a barrier function $h$.
-    \item Keep the state inside $\mathcal{C}$ by enforcing a simple inequality at each step.
-    \item If a suggested action is unsafe, a small QP adjusts it to the nearest safe action.
+    \item CBFs provide a formal, model-based way to build the ``oracle'' safe set.
+    \item Use a barrier function $h(x)$ so that staying safe means $h(x)\ge 0$.
+    \item At each step, if the proposed action would leave the safe set, a small QP minimally adjusts it be safe.
   \end{itemize}
   \vspace{-0.35em}
   \end{alertblock}
