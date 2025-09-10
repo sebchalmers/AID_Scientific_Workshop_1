@@ -47,7 +47,7 @@ for k in range(0,N):
     plt.show(block=False)
     plt.pause(0.1)
     #sys.exit()
-    figID.savefig('Projection'+str(k)+'.eps', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', facecolor='auto',edgecolor='auto', backend=None) #
+    figID.savefig('Projection'+str(k)+'.pdf', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', facecolor='auto',edgecolor='auto', backend=None) #
 
 
 

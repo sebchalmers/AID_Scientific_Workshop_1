@@ -66,5 +66,5 @@ for i, Ns in enumerate(Nsamples):
     plt.pause(1)
     #sys.exit()
     
-    figID.savefig('Dist_s_a_'+str(i)+'.eps', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+    figID.savefig('Dist_s_a_'+str(i)+'.pdf', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
 

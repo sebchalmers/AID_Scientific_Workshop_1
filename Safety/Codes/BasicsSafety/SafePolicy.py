@@ -116,7 +116,7 @@ for now in range(0,End):
     #plt.pause(.1)
         
     #sys.exit()
-    figID.savefig('Safe'+str(now)+'.eps', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+    figID.savefig('Safe'+str(now)+'.pdf', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
     
     
 

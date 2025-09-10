@@ -145,7 +145,7 @@ ax1.set_aspect('equal', 'box')
 
 plt.show(block=False)
 
-figID.savefig('ProbabilisticModel.eps', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+figID.savefig('ProbabilisticModel.pdf', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
 
 
 

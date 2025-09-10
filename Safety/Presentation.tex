@@ -243,7 +243,7 @@
 {
 {\usebackgroundtemplate{
  \parbox[c][\paperheight][b]{\paperwidth}{
-    \flushright\includegraphics[width=0.55\paperwidth, height = \paperheight]{Figures/Track.eps}}}
+    \flushright\includegraphics[width=0.55\paperwidth, height = \paperheight]{Figures/Track.pdf}}}
   \begin{frame}{\normalsize Outline}
   \tableofcontents[currentsection]
   \end{frame}}
@@ -260,97 +260,6 @@
 
 \begin{document}
 
-\begin{frame}{\normalsize The Role of Probabilistic AI}
-\footnotesize
-
-%\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.eps}}
-
-\tikzstyle{Dist_block} = [rectangle, draw=none, fill=none,  text width=5.cm, text centered, minimum height=4em,inner sep=2pt]
-\tikzstyle{SA_block} = [rectangle, draw, fill=none,  text width=4cm,  text height=3cm,  text centered]
-\tikzstyle{line} = [draw, -latex']
-
-
-\begin{tikzpicture}[->,>=stealth']
-
-
-%\node [Sys_block] (sys0) {\Sys};
-%
-%
-% \node [Opt_block, left of=sys0, node distance = 5cm] (opt0) {
-% \begin{minipage}[c]{3.5cm}
-% \center
-%Information to Decisions\\
-%\textbf{Policy} $\vect\pi$
-%\end{minipage}
-% };
-
-
-
-\node [SA_block] (SA0) {\textbf{State action space}
-
-};
-
-%\draw[blue,thick] ($(SA0.north east)+(+0,1)$)  rectangle ($(SA0.south west)+(-0,-1)$);
-
-% \node [anchor=$SA0.north east)+(+0,1)$] (SA1) {
-%$\vect s,\vect a$
-% };
-
-% \node at (1,1) [above=2pt+3pt,draw] {above};
-
- % \node [below left =10mm of SA0.north east] (SA1) {$\vect s,\vect a$};
-  
- \node[  below right = 15mm and 10mm of SA0.north west] (SA1) {$1:\vect s,\vect a$};
- \node[  below right =  5mm and 10mm of SA0.north west] (SA2) {$2:\vect s,\vect a$};
-  \node[  below right =  20mm and 25mm of SA0.north west] (SA3) {$3:\vect s,\vect a$};
-
-  
-   \node [Dist_block, right of=SA0, node distance = 5cm] (Dist0) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_1.eps}
- };
- 
- 
-   \node [Dist_block, above of=Dist0, node distance = 2.7cm] (Dist1) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_2.eps}
- };
- 
-
-  \node [Dist_block, below of=Dist0, node distance = 2.7cm] (Dist2) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_0.eps}
- };
- 
- 
- \path  (SA1)  edge[bend left=10] [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist0);
- \path  (SA2) edge[bend left=20]  [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist1);
-  \path  (SA3) edge[bend left=20]  [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist2);
-  
- 
-\end{tikzpicture}
-
-
-
-\end{frame}
-
-\end{document}
-
 
 
 
@@ -358,7 +267,7 @@
 
 {\usebackgroundtemplate{
  \parbox[c][\paperheight][b]{\paperwidth}{
-    \flushright\includegraphics[width=0.55\paperwidth, height = 1\paperheight]{Figures/Track.eps}}}
+    \flushright\includegraphics[width=0.55\paperwidth, height = 1\paperheight]{Figures/Track.pdf}}}
 \begin{frame}
 \titlepage
 \end{frame}}
@@ -380,7 +289,7 @@
 \textbf{Disclaimer:} we are a broad group who needs to get to know each others scientifically. Apologies if I don't "hit" the right level for all. \\I have favored simplicity over ``absolute" rigor. 
 
 \vspace{1cm}
-\includegraphics[width=1\textwidth,clip]{Figures/SmartGridLab.eps}
+\includegraphics[width=1\textwidth,clip]{Figures/SmartGridLab.pdf}
 
 \end{frame}
 
@@ -390,7 +299,7 @@
 \begin{frame}{\normalsize Formally Defining Safety?}
 \footnotesize
 
-\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.eps}}
+\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
 
 \tikzstyle{Sys_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
 \tikzstyle{Opt_block} = [rectangle, draw, fill=myLightGreen,  text width=3.5cm,  text centered, rounded corners]
@@ -437,12 +346,12 @@ Constraints
 \column{0.35\textwidth}
 %\center
 \textbf{Safety in the real world}
-\includegraphics[width=1\textwidth,clip]{Figures/OSHA.eps}
+\includegraphics[width=1\textwidth,clip]{Figures/OSHA.pdf}
 \column{0.2\textwidth}
 \vspace{.1cm}
 %\center
-%\includegraphics[width=1\textwidth,clip]{Figures/Bridge.eps}
-\includegraphics[width=1\textwidth,clip,angle=-15]{Figures/Arrow.eps}
+%\includegraphics[width=1\textwidth,clip]{Figures/Bridge.pdf}
+\includegraphics[width=1\textwidth,clip,angle=-15]{Figures/Arrow.pdf}
 \column{0.45\textwidth}
 %\center
 \textbf{Safety in the math world} \\ %Stay within certain ``sets"
@@ -453,36 +362,36 @@ Constraints
 
       \only<1-3>
         {%
-       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe0.eps}%
+       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe0.pdf}%
         }%
               \only<4>
         {%
-        \hspace{-1.5cm}            \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe1.eps}%
+        \hspace{-1.5cm}            \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe1.pdf}
         }%
                       \only<5>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe2.eps}%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe2.pdf}
         }%
                       \only<6>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe3.eps}%
-        }%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe3.pdf}
+               }%
                       \only<7>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe4.eps}%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe4.pdf}
         }%
                       \only<8>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe5.eps}%
-        }%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe5.pdf}
+               }%
                       \only<9>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe6.eps}%
-        }%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe6.pdf}
+               }%
                       \only<10>
         {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe7.eps}%
-        }%
+       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe7.pdf}
+               }%
     \end{figure}
   \end{overlayarea} 
   
@@ -509,7 +418,7 @@ Constraints
 \end{align*}
 \end{alertblock}
 \column{0.3\textwidth}
- \includegraphics[width=1\textwidth]{Codes/BasicsSafety/Safe7.eps}
+ \includegraphics[width=1\textwidth]{Codes/BasicsSafety/Safe7.pdf}
 \end{columns}
 \visible<2->{
 \begin{block}{}
@@ -533,7 +442,7 @@ Constraints
 }
 
 %\column{0.4\textwidth}
-%\hspace{-2cm}\includegraphics[width=1.5\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep.eps}
+%\hspace{-2cm}\includegraphics[width=1.5\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep.pdf}
 %\end{columns}
 
 %\begin{columns}
@@ -553,39 +462,39 @@ Constraints
 %     \newcommand{\FS}{0.65}
 %      \only<3>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED0.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED0.pdf}%
 %        }%
 %              \only<4>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED1.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED1.pdf}%
 %        }%
 %              \only<5>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED2.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED2.pdf}%
 %        }%
 %                      \only<6>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED3.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED3.pdf}%
 %        }%
 %                      \only<7>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED4.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED4.pdf}%
 %        }%
 %                              \only<8>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED5.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED5.pdf}%
 %        }%
 %                              \only<9>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED6.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED6.pdf}%
 %        }%
 %                              \only<10>
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED7.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED7.pdf}%
 %        }%
 %                      \only<11->
 %        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED40.eps}%
+%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED40.pdf}%
 %        }%
 %    \end{figure}
 %  \end{overlayarea} 
@@ -628,67 +537,67 @@ Constraints
         {
         \center
         Distribution of one-step forward
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep0.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep0.pdf}
 	}
       \only<2>
         {
         \center
         Distribution of one-step forward with ``container"
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep1.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep1.pdf}
 	}
       \only<3>
         {%
         \center
         Trajectories 
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel0.eps}%
+   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel0.pdf}%
         }%
               \only<4>
         {%
         \center
         Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel1.eps}%
+  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel1.pdf}%
         }%
               \only<5>
         {%
                 \center
         Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel2.eps}%
+  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel2.pdf}%
         }%
                       \only<6>
         {%
                 \center
         Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel3.eps}%
+  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel3.pdf}%
         }%
                       \only<7>
         {%
                 \center
         Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel4.eps}%
+   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel4.pdf}%
         }%
                               \only<8>
         {%
                 \center
         Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel5.eps}%
+  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel5.pdf}%
         }%
                               \only<9>
         {%
                 \center
         Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel6.eps}%
+   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel6.pdf}%
         }%
                               \only<10>
         {%
                 \center
         Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel7.eps}%
+  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel7.pdf}%
         }%
                       \only<11->
         {%
                 \center
         Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel40.eps}%
+   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel40.pdf}%
         }%
     \end{figure}
     \textcolor{red}{Illustrate: wide \& thin-tailed distribution requires a big box, to contain transitions that almost surely won't happen. Who does it?}
@@ -752,7 +661,7 @@ Constraints
 \column{0.5\textwidth}
 \vspace{-.25cm}
  \begin{figure}
-   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
+   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
   \end{figure}
 \end{columns}
 
@@ -772,7 +681,7 @@ Constraints
 \column{0.5\textwidth}
 
 
-\includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
+\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
 \column{0.5\textwidth}
 \end{columns}
 
@@ -808,7 +717,7 @@ Constraints
 
 \column{0.35\textwidth}
  \begin{figure}
-   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
+   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
   \end{figure}
 \end{columns}
 \begin{itemize}
@@ -839,12 +748,12 @@ Constraints
 \column{0.5\textwidth}
 \visible<13->{
 \vspace{-.35cm}
-\includegraphics[width=1.025\textwidth,clip]{Figures/Chess.eps}
+\includegraphics[width=1.025\textwidth,clip]{Figures/Chess.pdf}
 \center
 Not losing the king}
 \column{0.5\textwidth}
 \visible<14->{
-\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.eps}
+\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.pdf}
 \center
 \vspace{-.25cm}
 Able to stop within the visible distance}
@@ -867,12 +776,12 @@ Able to stop within the visible distance}
 %\begin{columns}
 %\column{0.5\textwidth}
 %\vspace{-.35cm}
-%\includegraphics[width=1.05\textwidth,clip]{Figures/Chess.eps}
+%\includegraphics[width=1.05\textwidth,clip]{Figures/Chess.pdf}
 %\center
 %Not losing the king
 %\column{0.5\textwidth}
 %\visible<14->{
-%\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.eps}
+%\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.pdf}
 %\center
 %Able to stop within the visible distance}
 %\end{columns}}
@@ -885,57 +794,57 @@ Able to stop within the visible distance}
       \only<3>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection0.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection0.pdf}
 	}
 	      \only<4>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection1.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection1.pdf}
 	}
 	      \only<5>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection2.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection2.pdf}
 	}
 	      \only<6>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection3.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection3.pdf}
 	}
 	      \only<7>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection4.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection4.pdf}
 	}
 	      \only<8>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection5.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection5.pdf}
 	}
 	      \only<9>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection6.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection6.pdf}
 	}
 	      \only<10>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection7.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection7.pdf}
 	}
 	      \only<11>
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection8.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection8.pdf}
 	}
 	      \only<12->
         {
         \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection9.eps}
+	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection9.pdf}
 	}
 %		      \only<14->
 %        {
 %        \center
-%	\includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
+%	\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
 %	}
 \end{figure}
 \end{overlayarea}
@@ -1063,11 +972,84 @@ Able to stop within the visible distance}
 
 \section{Epistemic Uncertainty and Safe Decisions}
 
-INSERT
+
+\begin{frame}{\normalsize The Role of Probabilistic AI}
+\footnotesize
+
+%\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
+
+\tikzstyle{Dist_block} = [rectangle, draw=none, fill=none,  text width=5.cm, text centered, minimum height=4em,inner sep=2pt]
+\tikzstyle{SA_block} = [rectangle, draw=none, fill=none,  text width=4cm,  text height=3cm,  text centered]
+\tikzstyle{line} = [draw, -latex']
+
+
+\begin{tikzpicture}[->,>=stealth']
+
+
+
+
+
+\node [SA_block] (SA0) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Explored_SA.jpeg}
+\textbf{State \& actions}
+};
+
+  
+ \node[  below right = 18mm and 4mm of SA0.north west] (SA1) {\textcolor{red}{$\vect s,\vect a$}};
+ \node[  below right =  -3mm and 20mm of SA0.north west] (SA2) {\textcolor{red}{$\vect s,\vect a$}};
+  \node[  below right =  26mm and 30mm of SA0.north west] (SA3) {\textcolor{red}{$\vect s,\vect a$}};
+
+  
+   \node [Dist_block, right of=SA0, node distance = 5cm] (Dist0) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_2.pdf}
+ };
+ 
+ 
+   \node [Dist_block, above of=Dist0, node distance = 2.7cm] (Dist1) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_1.pdf}
+ };
+ 
+
+  \node [Dist_block, below of=Dist0, node distance = 2.7cm] (Dist2) {
+ \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_0.pdf}
+ };
+ 
+ 
+ \path  (SA1)  edge[bend left=10] [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist0);
+ \path  (SA2) edge[bend left=20]  [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist1);
+  \path  (SA3) edge[bend left=20]  [
+   postaction={decorate},
+     decoration={
+       markings,
+       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
+  }
+] (Dist2);
+  
+ 
+\end{tikzpicture}
+
+
+
+\end{frame}
+
+\end{document}
+
 
 \begin{frame}{\normalsize RL over Decision Making}
 \footnotesize
-\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.eps}}
+\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
 
 %\vspace{-1cm}
 \tikzstyle{Sys_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]

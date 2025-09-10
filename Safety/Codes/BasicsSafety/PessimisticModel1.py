@@ -144,7 +144,7 @@ for now in range(0,End):
             Box = MakeBox(spredAll,[.7,0,0],Time = [now,time],LW = 1)
             plt.show(block=False)
             plt.pause(0.1)
-            figID.savefig('PessimisticModel'+str(time)+'.eps', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+            figID.savefig('PessimisticModel'+str(time)+'.pdf', transparent=True, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
             
 
 
