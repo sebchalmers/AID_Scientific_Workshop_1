@@ -398,7 +398,7 @@ Constraints
 
 \end{frame}
 
-\section{Safe Decision Making}
+%\section{Safe Decision Making}
 
 \begin{frame}{\normalsize Constrained MDPs}
 \footnotesize
@@ -511,11 +511,12 @@ Constraints
 \item Trajectories predicted by pessimistic model will ``cover" the real world
 \item Decision policy wants to be safe w.r.t. the ``containers"
 \end{itemize}
-\vspace{1cm}
+\vspace{0.5cm}
 \visible<12->{
 \textbf{Remarks}
 \begin{itemize}
 \item The propagation of the ``containers" in the model predictions can be expensive / difficult
+\item Pessimistic propagations are usually needed $\rightarrow$ pessimistic over pessimistic
 \item Policy based on worst-case perspective makes the decisions highly conservative
 \item Often labelled ``Robust" decision making
 \end{itemize}
@@ -609,7 +610,7 @@ Constraints
 
 \end{frame}
 
-\section{Probabilistic Safety in Decision Making}
+%\section{Probabilistic Safety in Decision Making}
 
 
 \begin{frame}{\normalsize MDPs with probabilistic safety}
@@ -642,31 +643,32 @@ Constraints
 \begin{columns}[t]
 \column{0.5\textwidth}
 \vspace{.5cm}\\
+\visible<3->{
 \textbf{Remarks}:
 \begin{itemize}
 %\item Matches the ``worst-case" (robust) version for $c=0$
 \item If we can tolerate $c>0$ (small) it can make a big gain in performance
 \item Building decisions can be difficult from a computational point of view
-\end{itemize}
+\end{itemize}}
 \column{0.5\textwidth}
-\vspace{-.5cm}
+\vspace{-.25cm}
+\visible<2->{
 \begin{figure}
-   \includegraphics[width=1\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
-   \end{figure}
+   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
+   \end{figure}}
 \end{columns}
 
 \end{frame}
 
-\begin{frame}{\normalsize Difficulties with Probabilistic Safety}
-\footnotesize
-
-\end{frame}
 
 \section{Methods}
 
 \begin{frame}{\normalsize Robust Repeated Planning}
 \footnotesize
-
+\begin{itemize}
+\item Introduction
+\item Difficulties
+\end{itemize}
 
 \begin{columns}[t]
 \column{0.5\textwidth}
@@ -675,6 +677,17 @@ Constraints
 \includegraphics[width=1\textwidth,clip]{Figures/Chess.eps}
 \column{0.5\textwidth}
 \end{columns}
+
+\end{frame}
+
+
+\begin{frame}{\normalsize Probabilistic Safety}
+\footnotesize
+
+\begin{itemize}
+\item Introduction (constrained RL)
+\item Difficulties
+\end{itemize}
 
 \end{frame}
 
@@ -687,24 +700,46 @@ Constraints
 \item \visible<3->{For state $\vect s$, take the decisions using: $\text{Action} = \text{Projection}_{\mathrm{S}(\vect s)}\vect\pi^\star\left(\vect s\right)$}
 \end{itemize}
 
-
-%Note: can be very hard to define... e.g. chessgame, safety is to ``not loose the king"...\\
-\visible<13-14>{\textbf{Remarks}: the ``oracle" can be very hard to build, or not...}
 \begin{columns}[t]
 \column{0.6\textwidth}
-\visible<13->{
-\begin{columns}
+
+\begin{overlayarea}{\textwidth}{0.3\textheight}
+\only<13-14>{
+\textbf{Remark}: ``oracle" can be very hard to build, or not...
+\begin{columns}[t]
 \column{0.5\textwidth}
+\visible<13->{
 \vspace{-.35cm}
-\includegraphics[width=1.05\textwidth,clip]{Figures/Chess.eps}
+\includegraphics[width=1.025\textwidth,clip]{Figures/Chess.eps}
 \center
-Not losing the king
+Not losing the king}
 \column{0.5\textwidth}
 \visible<14->{
 \includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.eps}
 \center
+\vspace{-.25cm}
 Able to stop within the visible distance}
-\end{columns}}
+\end{columns}
+}
+\end{overlayarea}
+
+
+%\visible<13-14>{\textbf{Remarks}: the ``oracle" can be very hard to build, or not...}
+%\begin{columns}[t]
+%\column{0.6\textwidth}
+%\visible<13->{
+%\begin{columns}
+%\column{0.5\textwidth}
+%\vspace{-.35cm}
+%\includegraphics[width=1.05\textwidth,clip]{Figures/Chess.eps}
+%\center
+%Not losing the king
+%\column{0.5\textwidth}
+%\visible<14->{
+%\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.eps}
+%\center
+%Able to stop within the visible distance}
+%\end{columns}}
 
 \column{0.3\textwidth}
 
