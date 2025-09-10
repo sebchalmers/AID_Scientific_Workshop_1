@@ -5,19 +5,28 @@ import matplotlib.pyplot as plt
 plt.rcParams['text.usetex'] = True
 FS = 40
 
-Nsamples = np.logspace(np.log10(40),6,5)
-Nsamples = [ int(Nsamples[k]) for k in range(0,Nsamples.shape[0]) ]
-#Nsamples = [40]
-#Nsamples = [int(1e6)]
+#Nsamples = np.logspace(np.log10(40),6,5)
+#Nsamples = [ int(Nsamples[k]) for k in range(0,Nsamples.shape[0]) ]
+
+Nsamples = [100,1000,100000]
+
 for i, Ns in enumerate(Nsamples):
 
-    Nbins = 1000#int(Ns/10)
+    Nbins = 1000
 
     S  = []
+    
+    Mu  = [np.random.uniform(-.3,0),np.random.uniform(0,0.3) ]
+    Std = list(np.random.uniform(.1,.3,2))
+    Wei = np.random.uniform(.3,.7,2)
+    Wei *= 1/np.sum(Wei)
+    
+    """
     Mu  = [-.3,.2]
     Std = [.1,.2]
     Wei = [.2,.8]
-
+    """
+    
     s = np.linspace(-1,1,Nbins)
 
     for k in range(0,Ns):
@@ -46,7 +55,7 @@ for i, Ns in enumerate(Nsamples):
     ax1.plot(x,Model,color='r',linewidth=3)
     #ax1.plot(S,np.zeros(Ns),marker='.',markersize=3,color='k',linestyle='none')
 
-    ax1.set_ylim([0,2.1])
+    ax1.set_ylim([0,1.5*np.max(Model)])
     ax1.set_xticks([])
     ax1.set_yticks([])
     ax1.set_xlabel(r'$\bf{s}_{+}$',fontsize=FS)
@@ -57,5 +66,5 @@ for i, Ns in enumerate(Nsamples):
     plt.pause(1)
     #sys.exit()
     
-    figID.savefig('DataVsDist'+str(i)+'.eps', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+    figID.savefig('Dist_s_a_'+str(i)+'.eps', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
 
