@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  10 SEP 2025 13:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  10 SEP 2025 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -846,7 +846,8 @@ Package caption Info: Hyperref support is turned off
 File: l3backend-pdftex.def 2024-04-11 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count374
 \l__pdf_internal_box=\box116
-) (./Presentation.aux)
+)
+No file Presentation.aux.
 \openout1 = `Presentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 259.
@@ -867,7 +868,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 259.
 LaTeX Font Info:    ... okay on input line 259.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 259.
 LaTeX Font Info:    ... okay on input line 259.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -922,7 +922,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package hyperref Info: Link coloring OFF on input line 259.
- (./Presentation.out) (./Presentation.out)
 \@outlinefile=\write7
 \openout7 = `Presentation.out'.
 
@@ -1020,7 +1019,7 @@ Package epstopdf Info: Source file: <Figures/Track.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figures/Track-eps-converted-to.pdf Figures/Track.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Track-eps-converted-to.pdf, id=28, 533.995pt x 803.0pt>
+<Figures/Track-eps-converted-to.pdf, id=16, 533.995pt x 803.0pt>
 File: Figures/Track-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Track-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Track-eps-converted-to.pdf  used on input line 272.
@@ -1039,14 +1038,15 @@ Package epstopdf Info: Source file: <Figures/SmartGridLab.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figures/SmartGridLab-eps-converted-to.pdf Figures/SmartGridLab.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/SmartGridLab-eps-converted-to.pdf, id=68, 1405.25pt x 281.05pt>
+<Figures/SmartGridLab-eps-converted-to.pdf, id=56, 1405.25pt x 281.05pt>
 File: Figures/SmartGridLab-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/SmartGridLab-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SmartGridLab-eps-converted-to.pdf  used on input line 293.
 (pdftex.def)             Requested size: 342.2953pt x 68.45686pt.
  [2
 
- <./Figures/SmartGridLab-eps-converted-to.pdf>] (./Presentation.toc)
+ <./Figures/SmartGridLab-eps-converted-to.pdf>]
+No file Presentation.toc.
 Package epstopdf Info: Source file: <Figures/Track.eps>
 (epstopdf)                    date: 2025-09-09 16:11:55
 (epstopdf)                    size: 868887 bytes
@@ -1060,7 +1060,7 @@ File: Figures/Track-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Track-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Track-eps-converted-to.pdf  used on input line 295.
 (pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [3
+[3
 
 ]
 Package epstopdf Info: Source file: <Figures/SmartHouse.eps>
@@ -1072,7 +1072,7 @@ Package epstopdf Info: Source file: <Figures/SmartHouse.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figures/SmartHouse-eps-converted-to.pdf Figures/SmartHouse.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/SmartHouse-eps-converted-to.pdf, id=138, 385.44pt x 230.8625pt>
+<Figures/SmartHouse-eps-converted-to.pdf, id=119, 385.44pt x 230.8625pt>
 File: Figures/SmartHouse-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/SmartHouse-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SmartHouse-eps-converted-to.pdf  used on input line 402.
@@ -1105,7 +1105,7 @@ Package epstopdf Info: Source file: <Figures/OSHA.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figures/OSHA-eps-converted-to.pdf Figures/OSHA.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/OSHA-eps-converted-to.pdf, id=140, 1027.84pt x 578.16pt>
+<Figures/OSHA-eps-converted-to.pdf, id=121, 1027.84pt x 578.16pt>
 File: Figures/OSHA-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/OSHA-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/OSHA-eps-converted-to.pdf  used on input line 402.
@@ -1119,7 +1119,7 @@ Package epstopdf Info: Source file: <Figures/Arrow.eps>
 (epstopdf)             Command: <repstopdf --outfile=Figures/Arrow-eps-converted-to.pdf Figures/Arrow.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Arrow-eps-converted-to.pdf, id=142, 475.7775pt x 356.33125pt>
+<Figures/Arrow-eps-converted-to.pdf, id=123, 475.7775pt x 356.33125pt>
 File: Figures/Arrow-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Arrow-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Arrow-eps-converted-to.pdf  used on input line 402.
@@ -1138,7 +1138,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe0.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe0-eps-converted-to.pdf Codes/BasicsSafety/Safe0.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe0-eps-converted-to.pdf, id=144, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe0-eps-converted-to.pdf, id=125, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe0-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe0-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe0-eps-converted-to.pdf  used on input line 402.
@@ -1331,7 +1331,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe1.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe1-eps-converted-to.pdf Codes/BasicsSafety/Safe1.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe1-eps-converted-to.pdf, id=258, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe1-eps-converted-to.pdf, id=239, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe1-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe1-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe1-eps-converted-to.pdf  used on input line 402.
@@ -1396,7 +1396,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe2.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe2-eps-converted-to.pdf Codes/BasicsSafety/Safe2.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe2-eps-converted-to.pdf, id=298, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe2-eps-converted-to.pdf, id=279, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe2-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe2-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe2-eps-converted-to.pdf  used on input line 402.
@@ -1461,7 +1461,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe3.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe3-eps-converted-to.pdf Codes/BasicsSafety/Safe3.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe3-eps-converted-to.pdf, id=336, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe3-eps-converted-to.pdf, id=317, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe3-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe3-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe3-eps-converted-to.pdf  used on input line 402.
@@ -1526,7 +1526,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe4.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe4-eps-converted-to.pdf Codes/BasicsSafety/Safe4.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe4-eps-converted-to.pdf, id=374, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe4-eps-converted-to.pdf, id=355, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe4-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe4-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe4-eps-converted-to.pdf  used on input line 402.
@@ -1591,7 +1591,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe5.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe5-eps-converted-to.pdf Codes/BasicsSafety/Safe5.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe5-eps-converted-to.pdf, id=413, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe5-eps-converted-to.pdf, id=394, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe5-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe5-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe5-eps-converted-to.pdf  used on input line 402.
@@ -1656,7 +1656,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe6.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe6-eps-converted-to.pdf Codes/BasicsSafety/Safe6.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe6-eps-converted-to.pdf, id=451, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe6-eps-converted-to.pdf, id=432, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe6-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe6-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe6-eps-converted-to.pdf  used on input line 402.
@@ -1721,7 +1721,7 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/Safe7.eps>
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/Safe7-eps-converted-to.pdf Codes/BasicsSafety/Safe7.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/Safe7-eps-converted-to.pdf, id=488, 480.79625pt x 366.36874pt>
+<Codes/BasicsSafety/Safe7-eps-converted-to.pdf, id=469, 480.79625pt x 366.36874pt>
 File: Codes/BasicsSafety/Safe7-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe7-eps-converted-to.pdf>
 Package pdftex.def Info: Codes/BasicsSafety/Safe7-eps-converted-to.pdf  used on input line 402.
@@ -1788,15 +1788,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticOneStep0.eps>
 (epstopdf)                    date: 2025-09-09 16:13:28
 (epstopdf)                    size: 683823 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf Codes/BasicsSafety/PessimisticOneStep0.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf, id=611, 337.26pt x 351.3125pt>
+<Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf, id=592, 337.26pt x 351.3125pt>
 File: Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep0-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 142.62386pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [17
@@ -1809,15 +1809,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticOneStep1.eps>
 (epstopdf)                    date: 2025-09-09 16:13:29
 (epstopdf)                    size: 683879 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf Codes/BasicsSafety/PessimisticOneStep1.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf, id=660, 337.26pt x 351.3125pt>
+<Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf, id=641, 337.26pt x 351.3125pt>
 File: Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep1-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 142.62386pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [18
@@ -1830,15 +1830,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel0.eps>
 (epstopdf)                    date: 2025-09-09 16:13:29
 (epstopdf)                    size: 186679 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel0.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf, id=700, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf, id=681, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel0-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [19
@@ -1851,15 +1851,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel1.eps>
 (epstopdf)                    date: 2025-09-09 16:13:30
 (epstopdf)                    size: 186721 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel1.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf, id=730, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf, id=711, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel1-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [20
@@ -1872,15 +1872,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel2.eps>
 (epstopdf)                    date: 2025-09-09 16:13:30
 (epstopdf)                    size: 186762 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel2.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf, id=760, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf, id=740, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel2-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [21
@@ -1893,15 +1893,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel3.eps>
 (epstopdf)                    date: 2025-09-09 16:13:31
 (epstopdf)                    size: 186804 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel3.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf, id=789, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf, id=770, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel3-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [22
@@ -1914,15 +1914,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel4.eps>
 (epstopdf)                    date: 2025-09-09 16:13:31
 (epstopdf)                    size: 186846 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel4.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf, id=818, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf, id=799, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel4-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [23
@@ -1935,15 +1935,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel5.eps>
 (epstopdf)                    date: 2025-09-09 16:13:32
 (epstopdf)                    size: 186885 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel5.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf, id=847, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf, id=828, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel5-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [24
@@ -1956,15 +1956,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel6.eps>
 (epstopdf)                    date: 2025-09-09 16:13:32
 (epstopdf)                    size: 186925 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel6.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf, id=877, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf, id=858, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel6-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [25
@@ -1977,15 +1977,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel7.eps>
 (epstopdf)                    date: 2025-09-09 16:13:33
 (epstopdf)                    size: 186964 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel7.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf, id=907, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf, id=888, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel7-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [26
@@ -1998,15 +1998,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel40.eps>
 (epstopdf)                    date: 2025-09-09 16:13:33
 (epstopdf)                    size: 188168 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel40.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf, id=936, 359.3425pt x 349.305pt>
+<Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf, id=917, 359.3425pt x 349.305pt>
 File: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [27
@@ -2019,14 +2019,14 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/PessimisticModel40.eps>
 (epstopdf)                    date: 2025-09-09 16:13:33
 (epstopdf)                    size: 188168 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf Codes/BasicsSafety/PessimisticModel40.eps>
-(epstopdf)             \includegraphics on input line 614.
+(epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf  used on input line 614.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40-eps-converted-to.pdf  used on input line 615.
 (pdftex.def)             Requested size: 136.91603pt x 133.09438pt.
 
-Overfull \vbox (34.8735pt too high) detected at line 614
+Overfull \vbox (34.8735pt too high) detected at line 615
  []
 
 [28
@@ -2039,15 +2039,15 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/ProbabilisticModel.eps>
 (epstopdf)                    date: 2025-09-09 16:13:34
 (epstopdf)                    size: 314840 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Codes/BasicsSafety/ProbabilisticModel.eps>
-(epstopdf)             \includegraphics on input line 666.
+(epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf, id=991, 353.32pt x 349.305pt>
+<Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf, id=972, 353.32pt x 349.305pt>
 File: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 666.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 667.
 (pdftex.def)             Requested size: 167.72395pt x 165.82033pt.
 
-Overfull \vbox (2.79951pt too high) detected at line 666
+Overfull \vbox (2.79951pt too high) detected at line 667
  []
 
 [29
@@ -2060,14 +2060,14 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/ProbabilisticModel.eps>
 (epstopdf)                    date: 2025-09-09 16:13:34
 (epstopdf)                    size: 314840 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Codes/BasicsSafety/ProbabilisticModel.eps>
-(epstopdf)             \includegraphics on input line 666.
+(epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 666.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 667.
 (pdftex.def)             Requested size: 167.72395pt x 165.82033pt.
 
-Overfull \vbox (2.79951pt too high) detected at line 666
+Overfull \vbox (2.79951pt too high) detected at line 667
  []
 
 [30
@@ -2080,19 +2080,20 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/ProbabilisticModel.eps>
 (epstopdf)                    date: 2025-09-09 16:13:34
 (epstopdf)                    size: 314840 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Codes/BasicsSafety/ProbabilisticModel.eps>
-(epstopdf)             \includegraphics on input line 666.
+(epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 666.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 667.
 (pdftex.def)             Requested size: 167.72395pt x 165.82033pt.
 
-Overfull \vbox (2.79951pt too high) detected at line 666
+Overfull \vbox (2.79951pt too high) detected at line 667
  []
 
 [31
 
-] (./Presentation.toc)
+]
+No file Presentation.toc.
 Package epstopdf Info: Source file: <Figures/Track.eps>
 (epstopdf)                    date: 2025-09-09 16:11:55
 (epstopdf)                    size: 868887 bytes
@@ -2100,13 +2101,13 @@ Package epstopdf Info: Source file: <Figures/Track.eps>
 (epstopdf)                    date: 2025-09-09 16:13:10
 (epstopdf)                    size: 43332 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Track-eps-converted-to.pdf Figures/Track.eps>
-(epstopdf)             \includegraphics on input line 669.
+(epstopdf)             \includegraphics on input line 670.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/Track-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Track-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Track-eps-converted-to.pdf  used on input line 669.
+Package pdftex.def Info: Figures/Track-eps-converted-to.pdf  used on input line 670.
 (pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [32
+[32
 
 ]
 Package epstopdf Info: Source file: <Figures/Chess.eps>
@@ -2116,12 +2117,12 @@ Package epstopdf Info: Source file: <Figures/Chess.eps>
 (epstopdf)                    date: 2025-09-10 09:01:40
 (epstopdf)                    size: 311460 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chess-eps-converted-to.pdf Figures/Chess.eps>
-(epstopdf)             \includegraphics on input line 686.
+(epstopdf)             \includegraphics on input line 687.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Chess-eps-converted-to.pdf, id=1108, 1204.5pt x 783.92876pt>
+<Figures/Chess-eps-converted-to.pdf, id=1088, 1204.5pt x 783.92876pt>
 File: Figures/Chess-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Chess-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 686.
+Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 687.
 (pdftex.def)             Requested size: 171.14764pt x 111.38803pt.
  [33
 
@@ -2133,22 +2134,22 @@ Package epstopdf Info: Source file: <Codes/BasicsSafety/ProbabilisticModel.eps>
 (epstopdf)                    date: 2025-09-09 16:13:34
 (epstopdf)                    size: 314840 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Codes/BasicsSafety/ProbabilisticModel.eps>
-(epstopdf)             \includegraphics on input line 727.
+(epstopdf)             \includegraphics on input line 728.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 727.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel-eps-converted-to.pdf  used on input line 728.
 (pdftex.def)             Requested size: 117.40881pt x 116.07582pt.
  [34
 
 ]
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [35
 
 ]
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [36
@@ -2161,15 +2162,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection0.eps>
 (epstopdf)                    date: 2025-09-10 09:01:41
 (epstopdf)                    size: 5485 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection0-eps-converted-to.pdf Codes/SafetyFilters/Projection0.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection0-eps-converted-to.pdf, id=1223, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection0-eps-converted-to.pdf, id=1203, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection0-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection0-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection0-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection0-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [37
@@ -2182,15 +2183,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection1.eps>
 (epstopdf)                    date: 2025-09-10 09:01:42
 (epstopdf)                    size: 5479 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection1-eps-converted-to.pdf Codes/SafetyFilters/Projection1.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection1-eps-converted-to.pdf, id=1263, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection1-eps-converted-to.pdf, id=1243, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection1-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection1-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection1-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection1-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [38
@@ -2203,15 +2204,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection2.eps>
 (epstopdf)                    date: 2025-09-10 09:01:43
 (epstopdf)                    size: 5365 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection2-eps-converted-to.pdf Codes/SafetyFilters/Projection2.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection2-eps-converted-to.pdf, id=1300, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection2-eps-converted-to.pdf, id=1280, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection2-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection2-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection2-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection2-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [39
@@ -2224,15 +2225,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection3.eps>
 (epstopdf)                    date: 2025-09-10 09:01:44
 (epstopdf)                    size: 5371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection3-eps-converted-to.pdf Codes/SafetyFilters/Projection3.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection3-eps-converted-to.pdf, id=1338, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection3-eps-converted-to.pdf, id=1318, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection3-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection3-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection3-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection3-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [40
@@ -2245,15 +2246,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection4.eps>
 (epstopdf)                    date: 2025-09-10 09:01:44
 (epstopdf)                    size: 5351 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection4-eps-converted-to.pdf Codes/SafetyFilters/Projection4.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection4-eps-converted-to.pdf, id=1375, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection4-eps-converted-to.pdf, id=1355, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection4-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection4-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection4-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection4-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [41
@@ -2266,15 +2267,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection5.eps>
 (epstopdf)                    date: 2025-09-10 09:01:45
 (epstopdf)                    size: 5363 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection5-eps-converted-to.pdf Codes/SafetyFilters/Projection5.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection5-eps-converted-to.pdf, id=1412, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection5-eps-converted-to.pdf, id=1392, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection5-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection5-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection5-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection5-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [42
@@ -2287,15 +2288,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection6.eps>
 (epstopdf)                    date: 2025-09-10 09:01:46
 (epstopdf)                    size: 5372 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection6-eps-converted-to.pdf Codes/SafetyFilters/Projection6.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection6-eps-converted-to.pdf, id=1450, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection6-eps-converted-to.pdf, id=1430, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection6-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection6-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection6-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection6-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [43
@@ -2308,15 +2309,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection7.eps>
 (epstopdf)                    date: 2025-09-10 09:01:47
 (epstopdf)                    size: 5475 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection7-eps-converted-to.pdf Codes/SafetyFilters/Projection7.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection7-eps-converted-to.pdf, id=1488, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection7-eps-converted-to.pdf, id=1468, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection7-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection7-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection7-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection7-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [44
@@ -2329,15 +2330,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection8.eps>
 (epstopdf)                    date: 2025-09-10 09:01:48
 (epstopdf)                    size: 5495 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection8-eps-converted-to.pdf Codes/SafetyFilters/Projection8.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection8-eps-converted-to.pdf, id=1525, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection8-eps-converted-to.pdf, id=1505, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection8-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection8-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection8-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection8-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [45
@@ -2350,15 +2351,15 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
 (epstopdf)                    date: 2025-09-10 09:01:49
 (epstopdf)                    size: 5491 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection9-eps-converted-to.pdf Codes/SafetyFilters/Projection9.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/SafetyFilters/Projection9-eps-converted-to.pdf, id=1563, 462.72874pt x 459.7175pt>
+<Codes/SafetyFilters/Projection9-eps-converted-to.pdf, id=1543, 462.72874pt x 459.7175pt>
 File: Codes/SafetyFilters/Projection9-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [46
@@ -2371,14 +2372,14 @@ Package epstopdf Info: Source file: <Figures/Chess.eps>
 (epstopdf)                    date: 2025-09-10 09:01:40
 (epstopdf)                    size: 311460 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chess-eps-converted-to.pdf Figures/Chess.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/Chess-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Chess-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 105.25623pt x 68.49312pt.
 
-Overfull \hbox (2.5666pt too wide) in paragraph at lines 844--844
+Overfull \hbox (2.5666pt too wide) in paragraph at lines 853--853
 []  
  []
 
@@ -2389,15 +2390,15 @@ Package epstopdf Info: Source file: <Figures/BlindCurve.eps>
 (epstopdf)                    date: 2025-09-10 09:01:49
 (epstopdf)                    size: 219614 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BlindCurve-eps-converted-to.pdf Figures/BlindCurve.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/BlindCurve-eps-converted-to.pdf, id=1601, 217.81375pt x 145.54375pt>
+<Figures/BlindCurve-eps-converted-to.pdf, id=1581, 217.81375pt x 145.54375pt>
 File: Figures/BlindCurve-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/BlindCurve-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BlindCurve-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Figures/BlindCurve-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 68.61653pt.
 
-Overfull \vbox (34.05853pt too high) detected at line 844
+Overfull \vbox (34.05853pt too high) detected at line 853
  []
 
 Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
@@ -2407,14 +2408,14 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
 (epstopdf)                    date: 2025-09-10 09:01:49
 (epstopdf)                    size: 5491 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection9-eps-converted-to.pdf Codes/SafetyFilters/Projection9.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/SafetyFilters/Projection9-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [47
@@ -2427,14 +2428,14 @@ Package epstopdf Info: Source file: <Figures/Chess.eps>
 (epstopdf)                    date: 2025-09-10 09:01:40
 (epstopdf)                    size: 311460 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Chess-eps-converted-to.pdf Figures/Chess.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/Chess-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Chess-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Figures/Chess-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 105.25623pt x 68.49312pt.
 
-Overfull \hbox (2.5666pt too wide) in paragraph at lines 844--844
+Overfull \hbox (2.5666pt too wide) in paragraph at lines 853--853
 []  
  []
 
@@ -2445,14 +2446,14 @@ Package epstopdf Info: Source file: <Figures/BlindCurve.eps>
 (epstopdf)                    date: 2025-09-10 09:01:49
 (epstopdf)                    size: 219614 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/BlindCurve-eps-converted-to.pdf Figures/BlindCurve.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/BlindCurve-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/BlindCurve-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/BlindCurve-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Figures/BlindCurve-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 68.61653pt.
 
-Overfull \vbox (34.05853pt too high) detected at line 844
+Overfull \vbox (34.05853pt too high) detected at line 853
  []
 
 Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
@@ -2462,17 +2463,37 @@ Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
 (epstopdf)                    date: 2025-09-10 09:01:49
 (epstopdf)                    size: 5491 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection9-eps-converted-to.pdf Codes/SafetyFilters/Projection9.eps>
-(epstopdf)             \includegraphics on input line 844.
+(epstopdf)             \includegraphics on input line 853.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/SafetyFilters/Projection9-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 844.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 853.
 (pdftex.def)             Requested size: 102.68962pt x 102.015pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 844
+Overfull \vbox (2.94528pt too high) detected at line 853
  []
 
 [48
+
+]
+Package epstopdf Info: Source file: <Codes/SafetyFilters/Projection9.eps>
+(epstopdf)                    date: 2025-09-10 08:59:04
+(epstopdf)                    size: 176544 bytes
+(epstopdf)             Output file: <Codes/SafetyFilters/Projection9-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-10 09:01:49
+(epstopdf)                    size: 5491 bytes
+(epstopdf)             Command: <repstopdf --outfile=Codes/SafetyFilters/Projection9-eps-converted-to.pdf Codes/SafetyFilters/Projection9.eps>
+(epstopdf)             \includegraphics on input line 853.
+Package epstopdf Info: Output file is already uptodate.
+File: Codes/SafetyFilters/Projection9-eps-converted-to.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection9-eps-converted-to.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection9-eps-converted-to.pdf  used on input line 853.
+(pdftex.def)             Requested size: 102.68962pt x 102.015pt.
+
+Overfull \vbox (2.94528pt too high) detected at line 853
+ []
+
+[49
 
 ]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2482,14 +2503,14 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf, id=1669, 216.81pt x 216.81pt>
+<Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf, id=1678, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
- [49
+ [50
 
  <./Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2499,13 +2520,13 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
- [50
+ [51
 
 ]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2515,11 +2536,11 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2528,14 +2549,14 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_QP_projection-eps-converted-to.pdf, id=1738, 289.08pt x 216.81pt>
+<Codes/CBF/CBF_QP_projection-eps-converted-to.pdf, id=1746, 289.08pt x 216.81pt>
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
- [51
+ [52
 
  <./Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_safe.eps>
@@ -2545,12 +2566,12 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_safe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:47
 (epstopdf)                    size: 35877 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Codes/CBF/CBF_Traj_safe.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=1785, 216.81pt x 216.81pt>
+<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=1794, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2559,69 +2580,111 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 950.
+(epstopdf)             \includegraphics on input line 959.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 950.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 959.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
 
-Overfull \vbox (0.22182pt too high) detected at line 950
+Overfull \vbox (0.22182pt too high) detected at line 959
  []
 
-[52
+[53
 
- <./Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>] (./Presentation.toc)
-Package epstopdf Info: Source file: <Figures/Track.eps>
-(epstopdf)                    date: 2025-09-09 16:11:55
-(epstopdf)                    size: 868887 bytes
-(epstopdf)             Output file: <Figures/Track-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-09-09 16:13:10
-(epstopdf)                    size: 43332 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/Track-eps-converted-to.pdf Figures/Track.eps>
-(epstopdf)             \includegraphics on input line 952.
-Package epstopdf Info: Output file is already uptodate.
-File: Figures/Track-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/Track-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Track-eps-converted-to.pdf  used on input line 952.
-(pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [53
+ <./Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>]
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:961: Argument of \frame has an extra }.
+<inserted text> 
+                \par 
+l.961 ...{frame}{\normalsize Risk-sensitive MDPs}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-] [54
+Runaway argument?
+{\normalsize Risk-sensitive MDPs}
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:961: Paragraph ended before \frame was complete.
+<to be read again> 
+                   \par 
+l.961 ...{frame}{\normalsize Risk-sensitive MDPs}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-] [55
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:961: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.961 ...{frame}{\normalsize Risk-sensitive MDPs}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-]
-\tf@nav=\write8
-\openout8 = `Presentation.nav'.
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:967: Extra }, or forgotten \endgroup.
+\endframe ->\egroup 
+                    \begingroup \def \@currenvir {frame}
+l.967 \end{frame}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-\tf@toc=\write9
-\openout9 = `Presentation.toc'.
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:969: Argument of \frame has an extra }.
+<inserted text> 
+                \par 
+l.969 \section{Safe Decisions from Data \& AI}
+                                              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
 
-\tf@snm=\write10
-\openout10 = `Presentation.snm'.
+Runaway argument?
+/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex:969: Paragraph ended before \frame was complete.
+<to be read again> 
+                   \par 
+l.969 \section{Safe Decisions from Data \& AI}
+                                              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
- (./Presentation.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-04-11>
- ***********
-Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 1CB2462C6DA3F17937D56B796E12328B;517.
- ) 
+)
+Runaway argument?
+\@kernel@before@enddocument \UseOneTimeHook {enddocument}\@kernel@after@enddocument \ETC.
+! File ended while scanning use of \beamer@collect@@body.
+<inserted text> 
+                \par 
+<*> ...ientific_Workshop_1/Safety/Presentation.tex
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> ...ientific_Workshop_1/Safety/Presentation.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 32906 strings out of 474050
- 681163 string characters out of 5742264
+ 32817 strings out of 474050
+ 678877 string characters out of 5742264
  1946751 words of memory out of 5000000
- 54532 multiletter control sequences out of 15000+600000
+ 54462 multiletter control sequences out of 15000+600000
  578666 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,24n,123p,487b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (55 pages, 5051806 bytes).
-PDF statistics:
- 2031 PDF objects out of 2073 (max. 8388607)
- 1727 compressed objects within 18 object streams
- 114 named destinations out of 1000 (max. 500000)
- 595 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 128i,24n,123p,487b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

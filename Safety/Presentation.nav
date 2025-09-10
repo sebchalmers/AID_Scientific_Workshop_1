@@ -24,21 +24,26 @@
 \headcommand {\beamer@framepages {33}{33}}
 \headcommand {\slideentry {2}{0}{3}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {2}{0}{4}{35/48}{}{0}}
-\headcommand {\beamer@framepages {35}{48}}
-\headcommand {\slideentry {2}{0}{5}{49/52}{}{0}}
-\headcommand {\beamer@framepages {49}{52}}
-\headcommand {\beamer@sectionpages {32}{52}}
-\headcommand {\beamer@subsectionpages {32}{52}}
-\headcommand {\sectionentry {3}{Safe Decisions from Data \& AI}{53}{Safe Decisions from Data \& AI}{0}}
-\headcommand {\slideentry {3}{0}{1}{53/53}{}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {3}{0}{2}{54/54}{}{0}}
+\headcommand {\slideentry {2}{0}{4}{35/49}{}{0}}
+\headcommand {\beamer@framepages {35}{49}}
+\headcommand {\slideentry {2}{0}{5}{50/53}{}{0}}
+\headcommand {\beamer@framepages {50}{53}}
+\headcommand {\beamer@sectionpages {32}{53}}
+\headcommand {\beamer@subsectionpages {32}{53}}
+\headcommand {\sectionentry {3}{Safe Decisions from Data \& AI}{54}{Safe Decisions from Data \& AI}{0}}
+\headcommand {\slideentry {3}{0}{1}{54/54}{}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {3}{0}{3}{55/55}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{55/55}{}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {1}{55}}
-\headcommand {\beamer@subsectionpages {53}{55}}
-\headcommand {\beamer@sectionpages {53}{55}}
-\headcommand {\beamer@documentpages {55}}
-\headcommand {\gdef \inserttotalframenumber {15}}
+\headcommand {\beamer@sectionpages {54}{55}}
+\headcommand {\beamer@subsectionpages {54}{55}}
+\headcommand {\sectionentry {4}{Epistemic Uncertainty and Safe Decisions}{56}{Epistemic Uncertainty and Safe Decisions}{0}}
+\headcommand {\slideentry {4}{0}{1}{56/56}{}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {4}{0}{2}{57/61}{}{0}}
+\headcommand {\beamer@framepages {57}{61}}
+\headcommand {\beamer@partpages {1}{61}}
+\headcommand {\beamer@subsectionpages {56}{61}}
+\headcommand {\beamer@sectionpages {56}{61}}
+\headcommand {\beamer@documentpages {61}}
+\headcommand {\gdef \inserttotalframenumber {16}}
