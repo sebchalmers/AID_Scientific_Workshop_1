@@ -258,6 +258,47 @@
 
 \begin{document}
 
+\begin{frame}{\normalsize Dynamic Programming \& RL with Probabilistic Safety}
+\footnotesize
+\begin{columns}[t]
+\column{0.65\textwidth}
+\begin{columns}[t]
+\column{0.1\textwidth}
+
+\column{0.8\textwidth}
+
+\begin{alertblock}{}
+\vspace{-.2cm}
+\begin{align*}
+\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
+\mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
+\end{align*}
+\end{alertblock}
+\column{0.1\textwidth}
+\end{columns}
+\begin{block}{}
+\textbf{Expected value form} \textcolor{red}{Illustrate??}
+\vspace{-.2cm}
+\begin{align*}
+\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
+\mathrm{s.t.}&\quad \mathrm{E}\left[ \begin{array}{cc}\textcolor{blue}{1}&\text{if no violation occurred}\\\textcolor{myRed}{0}&\text{otherwise}\end{array} \right] \geq c
+\end{align*}
+\end{block}
+
+\column{0.35\textwidth}
+ \begin{figure}
+   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.eps}%
+  \end{figure}
+\end{columns}
+\begin{itemize}
+\item Expected value form enables classical techniques (ref. 1st lecture), i.e. DP and RL
+\item Difficulties: estimate expected values (sample based) when $\mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right]$ is close to 1. \textcolor{red}{Illustrate??}
+\end{itemize}
+
+
+\end{frame}
+
+\end{document}
 
 
 
@@ -650,6 +691,7 @@ Constraints
 %\item Matches the ``worst-case" (robust) version for $c=0$
 \item If we can tolerate $c>0$ (small) it can make a big gain in performance
 \item Aligned with industrial / practical standards on ``large series"
+\item Problem needs a ``termination" (time or goal reached)
 \item Building decisions can be difficult from a computational point of view
 \end{itemize}}
 \column{0.5\textwidth}
@@ -667,8 +709,8 @@ Constraints
 \begin{frame}{\normalsize Robust Repeated Planning}
 \footnotesize
 \begin{itemize}
-\item Introduction
-\item Difficulties
+\item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
+\item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
 \end{itemize}
 
 \begin{columns}[t]
@@ -682,15 +724,7 @@ Constraints
 \end{frame}
 
 
-\begin{frame}{\normalsize Probabilistic Safety}
-\footnotesize
-
-\begin{itemize}
-\item Introduction (constrained RL)
-\item Difficulties
-\end{itemize}
-
-\end{frame}
+INSERT HERE
 
 \begin{frame}{\normalsize Safety Filters \& Reinforcement Learning}
 \footnotesize
