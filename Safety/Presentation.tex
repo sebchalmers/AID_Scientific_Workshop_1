@@ -963,7 +963,7 @@ Able to stop within the visible distance}
 
 \section{Safe Decisions from Data \& AI}
 
-\begin{frame}{\normalsize Reinforcement Learning with Safety}
+\begin{frame}{\normalsize Epistemic Uncertainty in Decision Making}
 \footnotesize
 
 \textcolor{red}{SG can do}
@@ -991,51 +991,70 @@ Able to stop within the visible distance}
 
 \node [SA_block] (SA0) {
  \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Explored_SA.jpeg}
-\textbf{State \& actions}
+%\textbf{State \& actions}
 };
 
-  
- \node[  below right = 18mm and 4mm of SA0.north west] (SA1) {\textcolor{red}{$\vect s,\vect a$}};
- \node[  below right =  -3mm and 20mm of SA0.north west] (SA2) {\textcolor{red}{$\vect s,\vect a$}};
-  \node[  below right =  26mm and 30mm of SA0.north west] (SA3) {\textcolor{red}{$\vect s,\vect a$}};
+\visible<2->{
+% High density
+\node[  below right = 16mm and 9mm of SA0.north west] (SA1) {\textcolor{red}{$\vect s,\vect a$}};  
+}
 
-  
+\visible<4->{
+% Medium density
+\node[  below right =  -3mm and 20mm of SA0.north west] (SA2) {\textcolor{red}{$\vect s,\vect a$}};}
+
+\visible<5->{
+% Low density
+\node[  below right =  22mm and 32mm of SA0.north west] (SA3) {\textcolor{red}{$\vect s,\vect a$}};   
+}
+
+   \visible<3->{
+  % High density
    \node [Dist_block, right of=SA0, node distance = 5cm] (Dist0) {
  \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_2.pdf}
- };
+ };}
  
- 
+    \visible<4->{
+% Medium density
    \node [Dist_block, above of=Dist0, node distance = 2.7cm] (Dist1) {
  \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_1.pdf}
- };
+ };}
  
-
+ \visible<5->{
+% Low density
   \node [Dist_block, below of=Dist0, node distance = 2.7cm] (Dist2) {
  \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_0.pdf}
- };
+ };}
  
- 
+ \visible<3->{
+   % High density
  \path  (SA1)  edge[bend left=10] [
    postaction={decorate},
      decoration={
        markings,
        mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
   }
-] (Dist0);
+] (Dist0);}
+
+   \visible<4->{
+ % Medium density
  \path  (SA2) edge[bend left=20]  [
    postaction={decorate},
      decoration={
        markings,
        mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
   }
-] (Dist1);
+] (Dist1);}
+
+\visible<5->{
+% Low density
   \path  (SA3) edge[bend left=20]  [
    postaction={decorate},
      decoration={
        markings,
        mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
   }
-] (Dist2);
+] (Dist2);}
   
  
 \end{tikzpicture}
