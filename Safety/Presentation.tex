@@ -88,6 +88,8 @@
 \definecolor{myRed}{rgb}{0.8,0,0}
 \definecolor{myRed2}{rgb}{0.65,0,0}
 \definecolor{deepBlue}{rgb}{0.0,0,1}
+\definecolor{myMagenta}{rgb}{0.7,0,0.8}
+
 
 \definecolor{myLightBlue}{rgb}{0.9,0.9,1}
 \definecolor{myLightRed}{rgb}{1,0.9,0.9}
@@ -1254,22 +1256,30 @@ Able to stop within the visible distance}
 
 \begin{frame}{\normalsize Out-Of-Distribution (OOD) ``Guarding" Methods}
 \footnotesize
-
-\textbf{Key concepts}:
-\begin{itemize}
-\item Utility + model may ``push" a problem to get ``Out-Of-Distribution"
+\textbf{Utility + model may ``push" a problem to get ``Out-Of-Distribution"}
 \begin{itemize}
 \scriptsize
 \item Unwarranted extrapolation / generalization
 \item Optimization often exploits the model ``weaknesses" 
 \end{itemize}
-\end{itemize}
-
 \begin{columns}[t]
-\column{0.5\textwidth}
+\column{0.6\textwidth}
+\begin{block}{}
+\vspace{-.25cm}
+\begin{align*}
+\textcolor{myGreen3}{\vect\pi^\star} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2\right)\right]
+\end{align*}
+\end{block}
+\textbf{Key idea}
+\begin{alertblock}{}
+\vspace{-.25cm}
+\begin{align*}
+\textcolor{myMagenta}{\vect\pi^\text{OOD}} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2-\varphi\left(\vect s_k,\vect a_k\right)\right)\right]
+\end{align*}
+\end{alertblock}
+\flushright where $\varphi$ is the data distribution (e.g. kernel)
 
-
-\column{0.5\textwidth}
+\column{0.4\textwidth}
 
   \begin{overlayarea}{\textwidth}{0.5\textheight}
     \begin{figure}

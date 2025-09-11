@@ -129,8 +129,8 @@ for case in ['Map','Star','OOD']:
         ax1.set_aspect('equal', 'box')
         ax1.set_xticks([])
         ax1.set_yticks([])
-        ax1.set_xlabel('State',fontsize=FS)
-        ax1.set_ylabel('Action',fontsize=FS)
+        ax1.set_xlabel('State',fontsize=20)
+        ax1.set_ylabel('Action',fontsize=20)
 
         ax1.plot(sref,aref,marker='o',color='b')
         ax1.contour(sv,av,Lplot[case],colors='k',linestyles='solid')
