@@ -710,7 +710,7 @@ Constraints
   \begin{alertblock}{}
   \textbf{In words}
   \begin{itemize}
- \item  Instead of the expectation of cumulative return, constrain a risk measure of the return. 
+ \item  Instead of constraints, the utility function itself is altered to contain a risk measure of the return. 
   \item Intuition: a “tail-risk filter”  even if outcomes are good most of the time, severe tails influence decisions.
   \end{itemize}
   \end{alertblock}
@@ -1203,9 +1203,52 @@ Able to stop within the visible distance}
 
 \end{frame}
 
-\begin{frame}{\normalsize Distributionally Robust Methods}
+\begin{frame}{\normalsize Distributional View on MDPs}
 \footnotesize
-\textcolor{red}{AKHIL?}
+\setlength{\columnsep}{1.1cm}
+
+\begin{columns}[T,onlytextwidth]
+
+  % -------- LEFT column
+  \column{0.55\textwidth}
+  \only<1->{
+  \begin{itemize}
+    \item True dynamics are unknown; only samples or estimates available.}
+    \only<5-> {
+    \item Instead of a single density, use a distribution of densities.  }
+  \end{itemize}
+  
+
+
+  % -------- RIGHT column
+  \column{0.42\textwidth}
+
+  % Figure left (progressive few-data ambiguity visuals)
+  \begin{overlayarea}{0.9\linewidth}{0.45\textheight}
+    \only<2>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_0.pdf}}
+    \only<3>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_1.pdf}}
+    \only<4>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_2.pdf}}
+    \only<5>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_3.pdf}}
+    \only<6>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_4.pdf}}
+    \only<7>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_5.pdf}}
+    \only<8>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_6.pdf}}
+    \only<9->{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_7.pdf}}
+  \end{overlayarea}
+
+
+\end{columns}
+
+\only<11->{
+\vspace{-1cm}
+\scriptsize\textbf{Remarks:}
+\begin{itemize}
+  \item Accounts for \textbf{epistemic uncertainty} from limited data.  
+  \item Distributional robust MDP: less pessimistic than robust MDP. 
+  \item Probabilistic Safety: confidence level based on model undertainty??
+  \item Distributional view is applied to risk-sensitive MDP via a distribution of returns (e.g distributional RL).
+  \item \textcolor{red}{connection to bayesian vs freequentist view??}
+\end{itemize}
+}
 
 \end{frame}
 
