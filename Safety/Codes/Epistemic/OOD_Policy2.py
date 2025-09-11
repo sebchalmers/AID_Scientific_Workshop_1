@@ -142,11 +142,11 @@ for case in ['Map','Star','OOD']:
         
         if case == 'OOD':
             ax1.plot(spolplot,apolplot['OOD'],color='m',linewidth=3)
-            ax1.text(-.5,Policy(-.5,Pi['OOD']),r'$\bf\pi^{\tiny OOD}(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='m')
+            ax1.text(-.5,Policy(-.5,Pi['OOD']),r'$\bf\pi^{\tiny OOD}$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='m')
        
         ax1.plot(SA[0,:],SA[1,:],marker='o',color='r',linestyle='none')
         
-        ax1.text(.5,Policy(.5,Pi['Star']),r'$\bf\pi^\star(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='g')
+        ax1.text(.5,Policy(.5,Pi['Star']),r'$\bf\pi^\star$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='g')
 
         plt.show(block=False)
         
