@@ -89,50 +89,69 @@ for key in Pi:
 Lplot = {'Star' : 0.5*(sv-sref)**2 + 0.5*(av-aref)**2,
          'OOD'  : 0.5*(sv-sref)**2 + 0.5*(av-aref)**2 - weight*ModelDP}
 
-for case in Pi:
+for case in ['Map','Star','OOD']:
 
     print(case)
-    x0 = .75
-
-    SA = np.array([[x0, Policy(x0,Pi[case])]]).reshape(2,1)
-
-    for k in range(0,N):
-        splus   = A*SA[0,-1] + B*SA[1,-1] #+ np.random.normal(0,0.1)
-        aplus   = Policy(splus,Pi[case])
+    
+    if case == 'Map':
+        plt.close('all')
+        figID = plt.figure(1,figsize=(12,6))
+        ax1 = figID.add_subplot(111)
         
-        SA = np.concatenate((SA,np.array([splus,aplus]).reshape(2,1)),axis=1)
+        ax1.pcolormesh(xv, yv, ModelPlot, cmap='Blues')
+        ax1.set_aspect('equal', 'box')
+        ax1.set_xticks([])
+        ax1.set_yticks([])
+        ax1.set_xlabel('State',fontsize=FS)
+        ax1.set_ylabel('Action',fontsize=FS)
+        ax1.contour(sv,av,Lplot['Star'],colors='k',linestyles='solid')
+        ax1.plot(sref,aref,marker='o',color='b')
+        
+        figID.savefig('OOD_Map.jpeg', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
 
-
-    plt.close('all')
-    figID = plt.figure(1,figsize=(12,6))
-    ax1 = figID.add_subplot(111)
-
-    ax1.pcolormesh(xv, yv, ModelPlot, cmap='Blues')
-    ax1.set_aspect('equal', 'box')
-    ax1.set_xticks([])
-    ax1.set_yticks([])
-    ax1.set_xlabel('State',fontsize=FS)
-    ax1.set_ylabel('Action',fontsize=FS)
-
-    ax1.plot(sref,aref,marker='o',color='b')
-    ax1.plot(SA[0,:],SA[1,:],marker='o',color='r')
-    ax1.plot(spolplot,apolplot['Star'],color='k')
-    
-    
-    
-    if case == 'OOD':
-        ax1.contour(sv,av,Lplot['OOD'])
-        ax1.plot(spolplot,apolplot['OOD'],color='k')
-        ax1.text(.5,Policy(.5,Pi['OOD']),r'$\bf\pi_{OOD}(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left')
     else:
-        ax1.contour(sv,av,Lplot['Star'])
-    
-    ax1.text(.5,Policy(.5,Pi['Star']),r'$\bf\pi(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left')
+        x0 = .75
 
-    plt.show(block=False)
-    
-    
-    
+        SA = np.array([[x0, Policy(x0,Pi[case])]]).reshape(2,1)
 
-    figID.savefig('OOD_'+case+'.jpeg', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
+        for k in range(0,N):
+            splus   = A*SA[0,-1] + B*SA[1,-1] + np.random.normal(0,0.05)
+            aplus   = Policy(splus,Pi[case])
+            
+            SA = np.concatenate((SA,np.array([splus,aplus]).reshape(2,1)),axis=1)
+
+
+        plt.close('all')
+        figID = plt.figure(1,figsize=(12,6))
+        ax1 = figID.add_subplot(111)
+
+        ax1.pcolormesh(xv, yv, ModelPlot, cmap='Blues')
+        ax1.set_aspect('equal', 'box')
+        ax1.set_xticks([])
+        ax1.set_yticks([])
+        ax1.set_xlabel('State',fontsize=FS)
+        ax1.set_ylabel('Action',fontsize=FS)
+
+        ax1.plot(sref,aref,marker='o',color='b')
+        ax1.contour(sv,av,Lplot[case],colors='k',linestyles='solid')
+                
+        
+        ax1.plot(spolplot,apolplot['Star'],color='g',linewidth=3)
+        
+       
+        
+        if case == 'OOD':
+            ax1.plot(spolplot,apolplot['OOD'],color='m',linewidth=3)
+            ax1.text(.5,Policy(.5,Pi['OOD']),r'$\bf\pi_{OOD}(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='m')
+       
+        ax1.plot(SA[0,:],SA[1,:],marker='o',color='r')
+        
+        ax1.text(.5,Policy(.5,Pi['Star']),r'$\bf\pi(s)$',fontsize=30,verticalalignment='bottom',horizontalalignment='left',color='g')
+
+        plt.show(block=False)
+        
+        
+        
+
+        figID.savefig('OOD_'+case+'.jpeg', transparent=None, dpi='figure', format=None,metadata=None, bbox_inches='tight', pad_inches=0.1,facecolor='auto', edgecolor='auto', backend=None) #, bbox_inches='tight'
 
