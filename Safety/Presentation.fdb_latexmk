@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1757519375.58492 "/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex" "Presentation.pdf" "Presentation" 1757519382.91378 0
-  "/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex" 1757519367.97223 40484 ae3533ec7ed053f91a8d31471237a552 ""
+["pdflatex"] 1757533823.94296 "/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex" "Presentation.pdf" "Presentation" 1757533830.61484 0
+  "/Users/akhil/Library/CloudStorage/OneDrive-NTNU/PostDoC/AID_slides/AID_Scientific_Workshop_1/Safety/Presentation.tex" 1757533816.70886 38620 28e00f4cf41b7d4a96c5d572a04fd2b7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -337,11 +337,8 @@
   "Codes/CBF/CBF_QP_projection.eps" 1757500540.17379 75363 b89d8bd5771db390a1b255b396828886 ""
   "Codes/CBF/CBF_Traj_safe.eps" 1757500540.21703 98788 065a87b4fa52ade6fbd7ada23ab21ad1 ""
   "Codes/CBF/CBF_Traj_unsafe.eps" 1757500540.11464 93079 3ce91dd10c8a484e8c9146925b9cfe2a ""
-  "Codes/Epistemic/Dist_s_a_0.eps" 1757508693.43572 324559 fdf1ae7bc7fbb0a858a73302d08781f8 ""
   "Codes/Epistemic/Dist_s_a_0.pdf" 1757518655.87484 139699 112b14f0feb2a70e9b8cd614a7d9ed98 ""
-  "Codes/Epistemic/Dist_s_a_1.eps" 1757508693.43764 324576 a804a644dee54147b1ee6418e05a1f80 ""
   "Codes/Epistemic/Dist_s_a_1.pdf" 1757518655.87519 140795 db2e2ecd9386d8682dd2e2a39f730e77 ""
-  "Codes/Epistemic/Dist_s_a_2.eps" 1757508693.43911 324306 60c4944d179aa45be0fa379a7aa1184f ""
   "Codes/Epistemic/Dist_s_a_2.pdf" 1757518655.87546 142405 4a36689681b247c3042ff02935cb5d49 ""
   "Codes/Epistemic/Explored_SA.jpeg" 1757518655.87587 19075 a593422e735a99d09938fc92e239ac3f ""
   "Codes/Risk/HeavyTail_vs_Mean.pdf" 1757518656.02543 22010 c63202743cac01a4c6229cadf2ad0710 ""
@@ -362,11 +359,11 @@
   "Figures/SmartGridLab.pdf" 1757518655.92244 1183395 cb858514abef024623acdd2e0b7911ac ""
   "Figures/SmartHouse.pdf" 1757518655.92495 257126 cb54290538e493e7ce9f755d9cef2a0c ""
   "Figures/Track.pdf" 1757518655.92639 143267 fd8f435b41e1e058e3e2dfa97dde3956 ""
-  "Presentation.aux" 1757519382.53894 5002 85d83ff00d2b87a294ab4479f8fb7590 "pdflatex"
-  "Presentation.nav" 1757519382.54192 2629 5bf10556f52dbaecc9ba916ffb2758ff "pdflatex"
-  "Presentation.out" 1757519382.54143 772 d56ceb7b33b4457f599b0324667e30ad "pdflatex"
-  "Presentation.tex" 1757519367.97223 40484 ae3533ec7ed053f91a8d31471237a552 ""
-  "Presentation.toc" 1757519382.54208 259 ed28af650a14b280feeacd30e138061a "pdflatex"
+  "Presentation.aux" 1757533830.33277 4964 7f92842c1b9163fbb7618ac73858e031 "pdflatex"
+  "Presentation.nav" 1757533830.33461 2633 da4c0a05c26327aa08a1e3bc352a656a "pdflatex"
+  "Presentation.out" 1757533830.33415 772 d56ceb7b33b4457f599b0324667e30ad "pdflatex"
+  "Presentation.tex" 1757533816.70886 38620 28e00f4cf41b7d4a96c5d572a04fd2b7 ""
+  "Presentation.toc" 1757533830.33467 259 c40332538f65cab65ac19847473fceab "pdflatex"
   (generated)
   "Presentation.aux"
   "Presentation.log"
