@@ -10,7 +10,7 @@ Std = [.02,.04]
 Wei = [.2,.8]
 
     
-Ns    = int(1e7)
+Ns    = int(1e6)
 Nbins = 1000
 
 s = np.linspace(-1,1,Nbins)
@@ -63,10 +63,13 @@ ax1 = figID.add_subplot(111)
 
 ax1.fill_between(s,H,np.zeros(len(s)),color='b',step='mid')
 
+ax1.plot([-1.2,1.2],[0,0],color='k',linewidth=1)
+
 
 ax1.set_xlim([-1.2,1.2])
 ax1.set_xticks([])
 ax1.set_yticks([])
+ax1.set_axis_off()
 
 Support(np.min(S),top,'low',  'b')
 Support(np.max(S),top,'high', 'b')
