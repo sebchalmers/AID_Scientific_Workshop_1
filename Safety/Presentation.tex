@@ -1264,20 +1264,22 @@ Able to stop within the visible distance}
 \end{itemize}
 \begin{columns}[t]
 \column{0.6\textwidth}
+\visible<2->{
 \begin{block}{}
 \vspace{-.25cm}
 \begin{align*}
 \textcolor{myGreen3}{\vect\pi^\star} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2\right)\right]
 \end{align*}
-\end{block}
-\textbf{Key idea}
+\end{block}}
+\visible<3->{
+\textbf{Key idea} e.g.
 \begin{alertblock}{}
 \vspace{-.25cm}
 \begin{align*}
-\textcolor{myMagenta}{\vect\pi^\text{OOD}} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2-\varphi\left(\vect s_k,\vect a_k\right)\right)\right]
+\textcolor{myMagenta}{\vect\pi^\text{OOD}} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2-\omega\cdot\varphi\left(\vect s_k,\vect a_k\right)\right)\right]
 \end{align*}
 \end{alertblock}
-\flushright where $\varphi$ is the data distribution (e.g. kernel)
+\flushright where $\varphi$ is the data distribution density (e.g. kernel)}
 
 \column{0.4\textwidth}
 
