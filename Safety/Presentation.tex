@@ -261,39 +261,6 @@
 \begin{document}
 
 
-\begin{frame}{\normalsize Out-Of-Distribution (OOD) ``Guard" Methods}
-\footnotesize
-
-\begin{columns}[t]
-\column{0.5\textwidth}
-
-\column{0.5\textwidth}
-
-  \begin{overlayarea}{\textwidth}{0.5\textheight}
-    \begin{figure}
-     \newcommand{\FS}{0.9}
-
-      \only<1>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Map.jpeg}
-        }
-      \only<2>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Star.jpeg}
-        }
-        \only<3->
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_OOD.jpeg}
-        }
-        \end{figure}
-        \end{overlayarea}
-\end{columns}
-
-     
-       \end{frame}
-
-
-\end{document}
 
 
 {\usebackgroundtemplate{
@@ -1285,7 +1252,51 @@ Able to stop within the visible distance}
 
 \end{frame}
 
-INSERT
+\begin{frame}{\normalsize Out-Of-Distribution (OOD) ``Guarding" Methods}
+\footnotesize
+
+\textbf{Key concepts}:
+\begin{itemize}
+\item Utility + model may ``push" a problem to get ``Out-Of-Distribution"
+\begin{itemize}
+\scriptsize
+\item Unwarranted extrapolation / generalization
+\item Optimizing over a model often exploits the ``weaknesses" of that model
+\end{itemize}
+\end{itemize}
+
+\begin{columns}[t]
+\column{0.5\textwidth}
+
+
+\column{0.5\textwidth}
+
+  \begin{overlayarea}{\textwidth}{0.5\textheight}
+    \begin{figure}
+     \newcommand{\FS}{0.9}
+
+      \only<1>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Map.jpeg}
+        }
+      \only<2>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Star.jpeg}
+        }
+        \only<3->
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_OOD.jpeg}
+        }
+        \end{figure}
+        \end{overlayarea}
+\end{columns}
+
+     
+       \end{frame}
+
+
+\end{document}
+
 
 \begin{frame}{\normalsize RL over Decision Making}
 \footnotesize
