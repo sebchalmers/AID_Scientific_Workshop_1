@@ -694,53 +694,71 @@ Constraints
 
 \end{frame}
 
+
+% ===============================
 \begin{frame}{\normalsize Risk-sensitive MDPs}
 \footnotesize
+\setlength{\columnsep}{1.1cm}
 
-\begin{columns}
-\column{0.48\textwidth}
-\begin{alertblock}{}
-\textbf{In words}
-% \vspace{-.2cm}
-\begin{itemize}
-  \item Risk-sensitive MDPs optimizes a \textbf{risk measure} to account for the severity of rare outcomes.
+\begin{columns}[T,onlytextwidth]
+
+  % -------- LEFT column
+  \column{0.58\textwidth}
+
+  % In words block
+  \only<1->{
+  \begin{alertblock}{}
+  \textbf{In words}
+  \begin{itemize}
+ \item  Instead of the expectation of cumulative return, constrain a risk measure of the return. 
   \item Intuition: a “tail-risk filter”  even if outcomes are good most of the time, severe tails influence decisions.
-\end{itemize}
-\end{alertblock}
+  \end{itemize}
+  \end{alertblock}
+  }
 
-\column{0.44\textwidth}
-\visible<2->{
-\begin{block}{}
-\textbf{Formally}
-\vspace{-.2cm}
-\[
-\pi^* = \arg\max_{\pi}\; \rho\!\Big(\sum_{t=0}^{\infty} \gamma^t r_t\Big)
-\]
-%\vspace{-0.35em}
- $\rho$ is a risk measure (e.g., VaR, Entropic, CVaR). 
-\end{block}}
+  % Heavy-tail figure
+  \only<2->{
+  \begin{figure}
+    \centering
+    \includegraphics[width=0.95\linewidth]{Codes/Risk/HeavyTail_vs_Mean.pdf}
+  \end{figure}
+  }
+
+  % -------- RIGHT column
+  \column{0.38\textwidth}
+
+  % Formal block
+  \only<3->{
+  \begin{block}{}
+  \textbf{Formally}
+  \[
+    \pi^* = \arg\max_{\pi}\; \rho\!\Big(\sum_{t=0}^{\infty} \gamma^t r_t\Big)
+  \]
+  \scriptsize $\rho$: VaR, CVaR, Entropic Risk.
+  \end{block}
+  }
+
+  % Rho figure
+  \only<4->{
+    \vspace{-0.1cm}
+  \begin{figure}
+    \centering
+    \includegraphics[width=1.05\linewidth]{Codes/Risk/RiskFunctional_Rho.pdf}
+  \end{figure}
+  }
+
 \end{columns}
 
-\vspace{0.2cm}
-\begin{columns}[t]
-\column{0.5\textwidth}
-\vspace{-.1cm}
-\begin{figure}
-  \centering
-  \includegraphics[width=0.95\linewidth]{Codes/Risk/HeavyTail_vs_Mean.pdf}
-  \centering\caption*{\scriptsize Mean-optimal can ignore tails; risk-sensitive downweights heavy losses.}
-\end{figure}
-
-\column{0.5\textwidth}
-\textcolor{red}{SG: nice slide. Good to stress that risk-measures are looking at risks through the utility function, as opposed to through undesirable events (not necessarily related to utility). This is an important difference not obvious in the slide. In addition, can we plot an example of $\rho$ and comment on what it does? Also relate $\rho$ to expected value?}
-\visible<3->{
+% -------- Bottom full-width remarks
+\only<5->{
+\vspace{-0.3cm}
 \scriptsize\textbf{Remarks:}
 \begin{itemize}
-  \item Often possile to solve using classical methods such as DP.
+ \item Views risk from through the lense of utility (not undesirable events).
   \item Risk-sensitive criteria do \emph{not} guarantee a bound on violation.
   \item  Cares only about the average severity of bad outcomes in the tail and not about the rest.
- \end{itemize}}
-\end{columns}
+\end{itemize}
+}
 
 \end{frame}
 
@@ -956,7 +974,7 @@ Able to stop within the visible distance}
   \begin{itemize}
     \item CBFs provide a formal, model-based way to build the ``oracle'' safe set.
     \item Use a barrier function $h(x)$ so that staying safe means $h(x)\ge 0$.
-    \item At each step, if the proposed action would leave the safe set, a small QP minimally adjusts it be safe.
+    \item At each step, if the proposed action would leave the safe set, a small QP minimally adjusts it to be safe.
   \end{itemize}
   \vspace{-0.35em}
   \end{alertblock}
@@ -1170,9 +1188,6 @@ Able to stop within the visible distance}
 \end{frame}
 
 
-\end{document}
-
-
 \begin{frame}{\normalsize RL over Decision Making}
 \footnotesize
 \newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
@@ -1301,8 +1316,8 @@ L\left(\vect s,\vect a\right)
 
 
 
+ 
 \end{frame}
 
 
 \end{document}
-
