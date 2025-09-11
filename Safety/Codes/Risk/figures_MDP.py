@@ -37,7 +37,7 @@ y_heavy = kde_heavy(x_vals)
 mask_tail_H = x_vals <= var_H
 
 # ---------------- Plot ----------------
-fig, ax = plt.subplots(figsize=(5.2, 3.0))
+fig, ax = plt.subplots(figsize=(4, 2.0))
 
 # Densities
 ax.plot(x_vals, y_light, color='tab:blue', linewidth=1.8, label='Light-tailed')
