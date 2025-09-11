@@ -41,7 +41,7 @@ s = s[Ipos]
 
 top = np.max(H)
 
-def Support(b,top,type, CO):
+def Support(b,top,type, CO, Text = []):
     
     if type == 'low':
         sign = +1
@@ -51,6 +51,8 @@ def Support(b,top,type, CO):
     ax1.plot([b,b],[-top/10,top/10],color=CO,linewidth=3)
     ax1.plot([b,b+sign*0.05],[-top/10,-top/10],color=CO,linewidth=3)
     ax1.plot([b,b+sign*0.05],[+top/10,+top/10],color=CO,linewidth=3)
+    
+        
     
     return
 
@@ -73,7 +75,9 @@ ax1.set_axis_off()
 
 Support(np.min(S),top,'low',  'b')
 Support(np.max(S),top,'high', 'b')
-
+ax1.text(np.max(S)+0.01,top/10+0.01,'Empirical',fontsize=20,color='b',horizontalalignment='left',verticalalignment='bottom')
+        
+        
 ax1.set_xlabel(r'$\bf s_{+}$',fontsize=25)
 ax1.text(0.5,0.7*top,r'$10^{'+str(int(np.log10(Ns)))+'}$ samples',fontsize=25)
 
@@ -87,7 +91,7 @@ ax1.plot(x,Model,color='r',linewidth=3)
 
 Support(-1,top,'low',  'r')
 Support(+1,top,'high', 'r')
-
+ax1.text(1-0.05,-top/10-0.25,'Theoretical',fontsize=20,color='r',horizontalalignment='right',verticalalignment='top')
 
 plt.show(block=False)
 
