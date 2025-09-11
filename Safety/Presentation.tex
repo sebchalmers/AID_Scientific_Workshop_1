@@ -1154,12 +1154,12 @@ Able to stop within the visible distance}
  };}
  
   \visible<6->{
-    \node [Text_block,  below left =  -4mm and 0mm of SA0.south east] (Text0) {
+    \node [Text_block,  below left =  -7mm and 0mm of SA0.south east] (Text0) {
     \textbf{Remarks}
     \begin{itemize}
     \scriptsize
-    \item State-action not much visited $\rightarrow$ Low data about $\vect s_+$
-    \item \visible<7->{Low data about $\vect s_+$ $\rightarrow$ uncertainty about the distribution \textit{itself}. Epistemic uncertainty.}
+    \item \textcolor{red}{$\vect s,\vect a$} not much visited $\rightarrow$ Low \textcolor{blue}{data} about $\vect s_+$
+    \item \visible<7->{Low data about $\vect s_+$ $\rightarrow$ uncertainty about the distribution \textit{itself}: epistemic uncertainty (unknown unknown)}
     \item  \visible<8->{Continuous state-action problems $\rightarrow$ single data point per $\vect s,\vect a$}
     \item  \visible<9->{Rely on regularity across $\vect s,\vect a$!!}
     \end{itemize}
@@ -1215,6 +1215,7 @@ Able to stop within the visible distance}
 
 \end{frame}
 
+\end{document}
 
 \begin{frame}{\normalsize RL over Decision Making}
 \footnotesize
