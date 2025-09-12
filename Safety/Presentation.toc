@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Some Basics of Safe Decision Making}{3}{0}{1}
-\beamer@sectionintoc {2}{Methods}{39}{0}{2}
-\beamer@sectionintoc {3}{Safe Decisions from Data \& AI}{44}{0}{3}
-\beamer@sectionintoc {4}{Epistemic Uncertainty and Safe Decisions}{65}{0}{4}
+\beamer@sectionintoc {2}{Methods}{43}{0}{2}
+\beamer@sectionintoc {3}{Safe Decisions from Data \& AI}{48}{0}{3}
+\beamer@sectionintoc {4}{Epistemic Uncertainty and Safe Decisions}{70}{0}{4}
