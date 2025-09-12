@@ -881,13 +881,13 @@ $ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}
 \column{0.5\textwidth}
 \uncover<2->{
 \centering
-\includegraphics[width=0.85\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}\\
+%\includegraphics[width=0.85\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}\\
 \scriptsize CVaR tail beyond $\eta$ shapes the policy.}
 
 \column{0.5\textwidth}
 \uncover<4->{
 \centering
-\includegraphics[width=0.85\linewidth]{Codes/Risk/DistributionalRL.pdf}\\
+%\includegraphics[width=0.85\linewidth]{Codes/Risk/DistributionalRL.pdf}\\
 \scriptsize Distributional RL: decisions from full return distribution.}
 \end{columns}
 
@@ -1323,7 +1323,7 @@ Able to stop within the visible distance}
 \end{align*}
 \end{alertblock}
 \begin{flushright} where $\varphi$ is the data density (e.g. kernel)\end{flushright}}
-\item As we get more data, $\vect\pi^\text{OOD}\rightarrow\vect\pi^\star$ 
+\item As we get more data, $\vect\pi^\text{OOD}\rightarrow\vect\pi^\star$ (where it is useful)
 \end{itemize}
 
 \column{0.4\textwidth}
@@ -1354,7 +1354,47 @@ Able to stop within the visible distance}
 \begin{frame}{\normalsize Out-Of-Distribution (OOD) Hybrid Model Methods}
 \footnotesize
 
-\textcolor{red}{SG can do on 12.9}
+
+
+\begin{columns}
+\column{0.5\textwidth}
+\begin{center}
+\textbf{Key idea}: use AI when we are ``within data", and knowledge when OOD
+\end{center}
+\begin{itemize}
+\item Transition AI $\leftrightarrow$ Knowledge should be smooth
+\item Knowledge-driven model can still be data-driven, but with simpler structure that AI (e.g. linear)
+\item Tends to outperform AI or Knowledge alone in decision making
+\item Approach is heuristic, lack of theoretical foundations
+\end{itemize}
+\column{0.5\textwidth}
+  \begin{overlayarea}{\textwidth}{0.5\textheight}
+    \begin{figure}
+     \newcommand{\FS}{0.9}
+        
+              \only<1>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid4.jpeg}
+        }
+      \only<2>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid3.jpeg}
+        }
+              \only<3>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid2.jpeg}
+        }
+      \only<4>
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid1.jpeg}
+        }
+        \only<5->
+        {%
+         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid0.jpeg}
+        }
+        \end{figure}
+        \end{overlayarea}
+\end{columns}
 
        \end{frame}
        
