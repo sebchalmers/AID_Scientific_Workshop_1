@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  12 SEP 2025 14:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  12 SEP 2025 14:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1597,29 +1597,13 @@ Overfull \vbox (0.61993pt too high) detected at line 697
 
 [33
 
-] [34
-
 ]
-<Codes/Risk/HeavyTail_vs_Mean.pdf, id=1622, 289.08pt x 144.54pt>
+<Codes/Risk/HeavyTail_vs_Mean.pdf, id=1593, 289.08pt x 144.54pt>
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
 Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
 (pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
- [35
-
- <./Codes/Risk/HeavyTail_vs_Mean.pdf>]
-File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
-<use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
-(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
- [36
-
-]
-File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
-<use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
-(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
-<Codes/Risk/RiskFunctional_Rho.pdf, id=1717, 289.08pt x 180.675pt>
+<Codes/Risk/RiskFunctional_Rho.pdf, id=1594, 289.08pt x 180.675pt>
 File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
 <use Codes/Risk/RiskFunctional_Rho.pdf>
 Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 765.
@@ -1629,9 +1613,73 @@ Overfull \hbox (6.50409pt too wide) in paragraph at lines 765--765
  [] 
  []
 
+
+Overfull \vbox (8.04175pt too high) detected at line 765
+ []
+
+[34
+
+ <./Codes/Risk/HeavyTail_vs_Mean.pdf> <./Codes/Risk/RiskFunctional_Rho.pdf>]
+File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
+<use Codes/Risk/HeavyTail_vs_Mean.pdf>
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
+(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
+File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
+<use Codes/Risk/RiskFunctional_Rho.pdf>
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 765.
+(pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
+
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 765--765
+ [] 
+ []
+
+
+Overfull \vbox (8.04175pt too high) detected at line 765
+ []
+
+[35
+
+]
+File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
+<use Codes/Risk/HeavyTail_vs_Mean.pdf>
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
+(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
+File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
+<use Codes/Risk/RiskFunctional_Rho.pdf>
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 765.
+(pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
+
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 765--765
+ [] 
+ []
+
+
+Overfull \vbox (8.04175pt too high) detected at line 765
+ []
+
+[36
+
+]
+File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
+<use Codes/Risk/HeavyTail_vs_Mean.pdf>
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
+(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
+File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
+<use Codes/Risk/RiskFunctional_Rho.pdf>
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 765.
+(pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
+
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 765--765
+ [] 
+ []
+
+
+Overfull \vbox (8.04175pt too high) detected at line 765
+ []
+
 [37
 
- <./Codes/Risk/RiskFunctional_Rho.pdf>]
+]
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
 Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 765.
@@ -2462,7 +2510,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,24n,123p,487b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Presentation.pdf (94 pages, 8506810 bytes).
+Output written on Presentation.pdf (94 pages, 8510202 bytes).
 PDF statistics:
  3988 PDF objects out of 4296 (max. 8388607)
  3065 compressed objects within 31 object streams
