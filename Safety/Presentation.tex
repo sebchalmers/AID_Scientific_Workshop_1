@@ -636,10 +636,24 @@ Constraints
 \end{columns}
 
 %\vspace{-1cm}
-  
+\end{frame}
 
 
+\begin{frame}{\normalsize Robust Repeated Planning}
+\footnotesize
+\begin{itemize}
+\item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
+\item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
+\end{itemize}
 
+\begin{columns}[t]
+\column{0.5\textwidth}
+
+
+\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
+\column{0.5\textwidth}
+\textcolor{red}{TODOTODOTODO}
+\end{columns}
 
 \end{frame}
 
@@ -693,8 +707,77 @@ Constraints
    \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
   \end{figure}
 \end{columns}
+\end{frame}
+
+
+\begin{frame}{\normalsize Dynamic Programming \& RL with Probabilistic Safety}
+\footnotesize
+\vspace{-.7cm}
+\begin{columns}[t]
+\column{0.65\textwidth}
+\begin{columns}[t]
+\column{0.1\textwidth}
+
+\column{0.8\textwidth}
+
+\begin{alertblock}{}
+\vspace{-.2cm}
+\begin{align*}
+\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
+\mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
+\end{align*}
+\end{alertblock}
+\column{0.1\textwidth}
+\end{columns}
+%\begin{block}{}
+%\textbf{Expected value form} 
+%\vspace{-.2cm}
+%\begin{align*}
+%\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
+%\mathrm{s.t.}&\quad \mathrm{E}\left[ \begin{array}{cc}\textcolor{blue}{1}&\text{if no violation occurred}\\\textcolor{myRed}{0}&\text{otherwise}\end{array} \right] \geq c
+%\end{align*}
+%\end{block}
+
+\column{0.35\textwidth}
+ \begin{figure}
+   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
+  \end{figure}
+\end{columns}
+
+\begin{columns}[t]
+\column{0.5\textwidth}
+\begin{itemize}
+\item Classical techniques (e.g. DP and RL) apply but they become very data intensive
+\item Difficulties: estimate expected values from data (real or not) when $\mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right]$ is close to 1. 
+\end{itemize}
+
+\column{0.5\textwidth}
+
+\begin{overlayarea}{\textwidth}{0.6\textheight}
+    \begin{figure}
+     \newcommand{\FS}{1}
+      \only<1>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_1.pdf}
+	}
+	      \only<2>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_2.pdf}
+	}
+	      \only<3->
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_3.pdf}
+	}
+	\end{figure}
+\end{overlayarea}
+
+\end{columns}
 
 \end{frame}
+
 
 
 % ===============================
@@ -811,94 +894,6 @@ $ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}
 \end{frame}
 
 
-\section{Methods}
-
-\begin{frame}{\normalsize Robust Repeated Planning}
-\footnotesize
-\begin{itemize}
-\item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
-\item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
-\end{itemize}
-
-\begin{columns}[t]
-\column{0.5\textwidth}
-
-
-\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
-\column{0.5\textwidth}
-\textcolor{red}{TODOTODOTODO}
-\end{columns}
-
-\end{frame}
-
-
-\begin{frame}{\normalsize Dynamic Programming \& RL with Probabilistic Safety}
-\footnotesize
-\vspace{-.7cm}
-\begin{columns}[t]
-\column{0.65\textwidth}
-\begin{columns}[t]
-\column{0.1\textwidth}
-
-\column{0.8\textwidth}
-
-\begin{alertblock}{}
-\vspace{-.2cm}
-\begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
-\mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
-\end{align*}
-\end{alertblock}
-\column{0.1\textwidth}
-\end{columns}
-%\begin{block}{}
-%\textbf{Expected value form} 
-%\vspace{-.2cm}
-%\begin{align*}
-%\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
-%\mathrm{s.t.}&\quad \mathrm{E}\left[ \begin{array}{cc}\textcolor{blue}{1}&\text{if no violation occurred}\\\textcolor{myRed}{0}&\text{otherwise}\end{array} \right] \geq c
-%\end{align*}
-%\end{block}
-
-\column{0.35\textwidth}
- \begin{figure}
-   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
-  \end{figure}
-\end{columns}
-
-\begin{columns}[t]
-\column{0.5\textwidth}
-\begin{itemize}
-\item Classical techniques (e.g. DP and RL) apply but they become very data intensive
-\item Difficulties: estimate expected values from data (real or not) when $\mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right]$ is close to 1. 
-\end{itemize}
-
-\column{0.5\textwidth}
-
-\begin{overlayarea}{\textwidth}{0.6\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<1>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_1.pdf}
-	}
-	      \only<2>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_2.pdf}
-	}
-	      \only<3->
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_3.pdf}
-	}
-	\end{figure}
-\end{overlayarea}
-
-\end{columns}
-
-\end{frame}
 
 \section{Safe Decisions from Data \& AI}
 
