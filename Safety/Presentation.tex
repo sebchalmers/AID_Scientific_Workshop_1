@@ -856,6 +856,12 @@ Constraints
 \section{Safe Decisions from Data \& AI}
 
 
+\begin{frame}{\normalsize Reinforcement Learning \& Safety}
+\footnotesize
+
+\textcolor{red}{SG can do on 12.9}
+\end{frame}
+
 \begin{frame}{\normalsize Safety Filters \& Reinforcement Learning}
 \footnotesize
 \begin{itemize}
@@ -1313,142 +1319,10 @@ Able to stop within the visible distance}
 \begin{frame}{\normalsize Out-Of-Distribution (OOD) Hybrid Model Methods}
 \footnotesize
 
+\textcolor{red}{SG can do on 12.9}
+
        \end{frame}
        
        
 \end{document}
 
-
-\begin{frame}{\normalsize RL over Decision Making}
-\footnotesize
-\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
-
-%\vspace{-1cm}
-\tikzstyle{Sys_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
-\tikzstyle{Obj_block} = [rectangle, draw, fill=myLightRed,  text width=3.2cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
-\tikzstyle{Opt_block} = [rectangle, draw, fill=myLightGreen,  text width=3cm,  text centered, rounded corners]
-\tikzstyle{ID_block} = [rectangle, draw, fill=myLightBlue,  text width=3cm, text centered, rounded corners]    
-
-\tikzstyle{RL_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
-
-\tikzstyle{line} = [draw, -latex']
-
-\begin{tikzpicture}[->,>=stealth']
-
-\node [Sys_block] (sys0) {\Sys};
-
-\node [ID_block, left of=sys0, node distance = 5cm] (ID0) {
- \begin{minipage}[c]{3cm}
-% \vspace{-0.2cm}
-\textbf{AI model} e.g.
-\begin{align*}
-\hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
-\end{align*}
-\end{minipage}
- };
-
-\visible<3->{
-\node [RL_block, above of=ID0, node distance = 2.0cm] (RL0) {
- \begin{minipage}[c]{3cm}
-\textbf{RL} 
-\vspace{-.25cm} 
-\begin{align*}
-\Delta\vect\theta = \alpha\nabla_{\vect\theta} J\left(\vect\pi_{\vect \theta}\right)
-\end{align*}
-\vspace{-.85cm}
-\flushright from real data
-\end{minipage}
- };}
-
- 
- \node [Opt_block, below of=ID0, node distance = 2.5cm] (opt0) {
- \begin{minipage}[c]{3cm}
- \center
- \center
-\textbf{Build Decisions}
-\begin{itemize}
-\scriptsize
-\item Policy
-\item Rep. planning
-\end{itemize}
-\end{minipage}
- };
- 
- \node [Obj_block, left of=opt0, node distance = 4cm] (Obj0) {
- \begin{minipage}[c]{3.2cm}
- \center
-\textbf{Utility \& Constraints}
-\vspace{-.5cm}
-\begin{overlayarea}{\textwidth}{0.1\textheight}
-\only<1-3>{
-\vspace{-.5cm}
-\begin{align*}
-L\left(\vect s,\vect a\right)
-\end{align*}
-}
-\only<4->{
-\vspace{-.5cm}
-\begin{align*}
-L_{\vect \theta}\left(\vect s,\vect a\right)
-\end{align*}
-}
-\end{overlayarea}
-
-\end{minipage}
- };
-
-\visible<5->{
- \node [Obj_block, left of=RL0, node distance = 4cm] (Obj1) {
- \begin{minipage}[c]{3.2cm}
- \center
-\textbf{Utility \& Constraints}
-\vspace{-.25cm}
-\begin{align*}
-L\left(\vect s,\vect a\right)
-\end{align*}
-\end{minipage}
- };
-}
-
- 
- \path 
- (sys0) edge  node[anchor=center,xshift=-.5em] {
-  \begin{minipage}[c]{1cm}
-  \center
- Data\\ knowledge
- \end{minipage}} (ID0)
- (ID0) edge[bend left=20]  node[anchor=west] {Predictions} (opt0)
- (opt0) edge[bend left=20]  node[anchor=east] {Actions} (ID0)
- (opt0) edge[bend right=20]  node[anchor=west,xshift=1em] {Policy or actions} (sys0)
- (Obj0) edge  node[anchor=south] {} (opt0)
- ;
- 
- \visible<3->{
- \path   (sys0) edge[bend right=20]  node[anchor=south west] {
-  \begin{minipage}[c]{1cm}
-  \center
- Data\\ knowledge
- \end{minipage}} (RL0)
-  (RL0) edge  node[anchor=west] {$\Delta\vect\theta$} (ID0);}
-
- \visible<4->{\path    (RL0) edge[bend right=20]  node[anchor=south east] {$\Delta\vect\theta$} (Obj0);}
- \visible<5->{\path    (Obj1) edge[]  node[anchor=south east] {} (RL0);}
-
-
-\visible<2->{\draw[blue,thick] ($(ID0.north east)+(+0.15,0.15)$)  rectangle ($(Obj0.south west)+(-0.15,-0.3)$);}
-\end{tikzpicture}
-\vspace{-.25cm}
-\begin{itemize}
-\item The model is not $\hat{\mathrm P}_{\vect \theta}$, it is the entire ``decision box"
-\item Utility \& Constraints to build decisions from the predictions are part of the model
-\item RL can tune the whole \textcolor{blue}{decision box}, from real data + true Utility \& Constraints 
-\end{itemize}
-
-
-
-
- 
-\end{frame}
-
-
-\end{document}
