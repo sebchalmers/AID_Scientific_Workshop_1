@@ -263,6 +263,7 @@
 \begin{document}
 
 
+%
 
 
 {\usebackgroundtemplate{
@@ -900,9 +901,158 @@ $ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}
 
 \begin{frame}{\normalsize Reinforcement Learning \& Safety}
 \footnotesize
+\begin{columns}
+\column{0.6\textwidth}
+\vspace{-0.25cm}
+\begin{center}
+\textbf{Key idea}: substract a strong penalty to the utility when a violation occurs
+\end{center}
+\vspace{-0.1cm}
+\begin{itemize}
+\item \visible<3->{May start with a ``fully unsafe" policy}
+\item \visible<4->{Following gradient $\nabla_{\vect\theta}J\left(\vect\pi_{\vect\theta}\right)$ reduces violations  }
+\item \visible<10->{But safety improvement ``stalls" as violations become more rare}
+\end{itemize}
+\visible<21->{\textbf{Difficulties:}}
+\begin{itemize}
+\item \visible<21->{Noisy gradient when violations become rare}
+\item \visible<22->{``Hard"safety is never reached (asymptotic)}
+\item \visible<23->{The higher (probabilistic) safety we want the more data we need}
+\end{itemize}
 
-\textcolor{red}{SG can do on 12.9}
+
+\column{0.4\textwidth}
+  \begin{overlayarea}{\textwidth}{.55\textheight}
+    \begin{figure}
+     \newcommand{\FS}{1}
+      \only<2-3>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety0.pdf}
+	}
+	      \only<4>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety1.pdf}
+	}
+	      \only<5>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety2.pdf}
+	}
+	      \only<6>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety3.pdf}
+	}
+	      \only<7>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety4.pdf}
+	}
+	      \only<8>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety5.pdf}
+	}
+	      \only<9>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety6.pdf}
+	}
+	      \only<10>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety7.pdf}
+	}
+	      \only<11>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety8.pdf}
+	}
+	      \only<12>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety9.pdf}
+	}
+	      \only<13>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety10.pdf}
+	}
+	      \only<14>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety11.pdf}
+	}
+	      \only<15>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety12.pdf}
+	}
+	      \only<16>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety13.pdf}
+	}
+	      \only<17>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety14.pdf}
+	}
+	      \only<18>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety15.pdf}
+	}
+	      \only<19>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety16.pdf}
+	}
+	      \only<20>
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety17.pdf}
+	}
+	      \only<21->
+        {
+        \center
+	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety18.pdf}
+	}
+\end{figure}
+\end{overlayarea}
+\end{columns}
+
+\begin{columns}[t]
+\column{0.725\textwidth}
+
+
+\visible<2->{
+\begin{block}{}
+\textbf{Train policy }$\vect\pi_{\vect\theta}$ via evaluations of $\nabla_{\vect\theta}J\left(\vect\pi_{\vect\theta}\right) $ and
+\vspace{-.1cm}
+\begin{align*}
+J\left(\vect\pi_{\vect\theta}\right) = \mathrm E\left[  \sum_{\text{time}} \left(\text{Utility} - \cmatr{ccc}{0&\text{if}&\text{Constraint ok}\\p &\text{if}&\text{Constraint not ok}}\right)\right]
+\end{align*}
+\flushright  for $p$ large
+\end{block}}
+
+\column{0.25\textwidth}
+
+\visible<24->{
+\begin{alertblock}{}
+\center
+Unrealistic in the real world, it's a simulation-based process
+\end{alertblock}
+
+}
+
+\end{columns}
+
 \end{frame}
+
+
 
 \begin{frame}{\normalsize Safety Filters \& Reinforcement Learning}
 \footnotesize
