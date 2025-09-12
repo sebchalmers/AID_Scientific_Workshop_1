@@ -1272,14 +1272,18 @@ Able to stop within the visible distance}
 \end{align*}
 \end{block}}
 \visible<3->{
-\textbf{Key idea} max utility while penalizing OOD. E.g.
+\textbf{Key idea} 
+\begin{itemize}
+\item Max utility while penalizing OOD. E.g.
 \begin{alertblock}{}
 \vspace{-.25cm}
 \begin{align*}
 \textcolor{myMagenta}{\vect\pi^\text{OOD}} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2-\omega\cdot\varphi\left(\vect s_k,\vect a_k\right)\right)\right]
 \end{align*}
 \end{alertblock}
-\flushright where $\varphi$ is the data distribution density (e.g. kernel)}
+\begin{flushright} where $\varphi$ is the data density (e.g. kernel)\end{flushright}}
+\item As we get more data, $\vect\pi^\text{OOD}\rightarrow\vect\pi^\star$ 
+\end{itemize}
 
 \column{0.4\textwidth}
 
