@@ -1403,18 +1403,21 @@ Able to stop within the visible distance}
 \begin{columns}[T,onlytextwidth]
 
   % -------- LEFT column
-  \column{0.55\textwidth}
+  \column{0.7\textwidth}
   \uncover<1->{
   \begin{itemize}
     \item True dynamics are unknown; only samples or estimates available.}
     \uncover<5-> {
-    \item Instead of a single density, use a distribution of densities.  }
+    \item Instead of a single density, distribution of densities.  }
+    \uncover<6->{\item {Knowledge embedding:} encode physics/rules as priors or constraints on models.}
+    \uncover<7->{\item \textbf{Bayesian view:} posterior $p(P\mid\mathcal D)$ over kernels}
+    \uncover<8->{\item \textbf{Building $\mathcal P$:}  ensembles, parametric, non-parametric.}
   \end{itemize}
   
 
 
   % -------- RIGHT column
-  \column{0.42\textwidth}
+  \column{0.3\textwidth}
 
   % Figure left (progressive few-data ambiguity visuals)
   \begin{overlayarea}{0.9\linewidth}{0.45\textheight}
@@ -1432,14 +1435,13 @@ Able to stop within the visible distance}
 \end{columns}
 
 \only<11->{
-\vspace{-1cm}
+\vspace{-0.1cm}
 \scriptsize\textbf{Remarks:}
 \begin{itemize}
-  \item Accounts for \textbf{epistemic uncertainty} from limited data.  
-  \item Distributional robust MDP: less pessimistic than robust MDP. 
-  \item Probabilistic Safety: confidence level based on model undertainty??
-  \item Distributional view is applied to risk-sensitive MDP via a distribution of returns (e.g distributional RL).
-  \item \textcolor{red}{connection to bayesian vs freequentist view??}
+  \item Accounts for \textbf{epistemic uncertainty} from limited data; connects to probabilistic safety via confidence levels.
+  \item Probabilistic safety with confidence levels (chance constraints)  
+  \item Distributionally Robust Optimization for worst-case robustness against model misspecification (more conservative).
+  \item Expectation over distribution of distributions: some form of discretization. Bayesian marginalization or Scenario discretization
 \end{itemize}
 }
 
