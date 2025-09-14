@@ -301,7 +301,7 @@
 \vspace{-.2cm}
 \textbf{Why focusing on operational decisions?}
 \begin{itemize}
-\item Decisions that we take repeatedly / ``continuously" (e.g. balance energy production-demand)
+\item Decisions that we take repeatedly / ``continuously"% (e.g. balance energy production-demand)
 \item Observations give us information on how good our past decisions were
 \item Gives the opportunity to improve on how we take our decisions
 \end{itemize}
@@ -386,6 +386,80 @@ Decisions are taken from current information, knowing that the future is uncerta
 \end{frame}
 
 
+\begin{frame}{\normalsize Examples of Operational Decisions?}
+\footnotesize
+
+\begin{columns}[t]
+\column{0.65\textwidth}
+
+
+\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.eps}}
+
+\tikzstyle{Sys_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
+\tikzstyle{Opt_block} = [rectangle, draw, fill=myLightGreen,  text width=3.5cm,  text centered, rounded corners]
+\tikzstyle{line} = [draw, -latex']
+
+
+\begin{tikzpicture}[->,>=stealth']
+
+\node [Sys_block] (sys0) {\Sys};
+
+
+ \node [Opt_block, left of=sys0, node distance = 4.4cm] (opt0) {
+ \begin{minipage}[c]{3.5cm}
+ \center
+Information to Decisions\\
+\textbf{Policy} $\vect\pi$
+\end{minipage}
+ };
+ 
+ \path  (sys0) edge[bend left=20]  node[anchor=north] {Information} (opt0)
+ (opt0) edge[bend left=20]  node[anchor=south] {Action} (sys0);
+\end{tikzpicture}
+
+\column{0.325\textwidth}
+\begin{alertblock}{}
+\center
+\textbf{Ubiquitous in our society, critical in many domains}
+\end{alertblock}
+\end{columns}
+
+\begin{overlayarea}{\textwidth}{0.5\textheight}
+\only<1-5>{\textbf{Energy management}:
+\begin{itemize}
+\item Houses \& buildings: modulate demand (heating, cooling ventilation) to facilitate supply-demand matching, reduce congestion
+\item \visible<2->{Commercial surfaces: same + refrigeration, cooling}
+\item\visible<3->{ Production: schedule \& adjust production, manage hydro reserve, pumped hydro, downtimes, etc.}
+\item \visible<4->{Storage \& EV charging: optimize usage, demand to facilitate supply-demand matching, reduce congestion}
+\item \visible<5->{Overall system: reduce the cost of uncertainty in supply-demand matching, coordinate all assets}
+\end{itemize}
+}
+\only<6-8>{\textbf{Healthcare}:
+\begin{itemize}
+\item Clinical pathways: how to navigate a patient through a hospital, decide where to go next and when?
+\item \visible<7-> {Personalized medicine: decide on how to adjust treatments to each patient, leverage health digitalization, wearables, schedule human intervention}
+\item\visible<8->{Optimize medical acts: automate decisions, involve doctors when and where they are needed}
+\end{itemize}
+}
+%\only<9>{\textbf{Processes}:
+%\begin{itemize}
+%\item Chemical \& Bioreactors: steer the process (concentrations, temperatures, mixing)
+%\item \visible<7-> {Personalized medicine: decide on how to adjust treatments to each patient, leverage health digitalization, wearables, schedule human intervention}
+%\item\visible<8->{Optimize medical acts: automate decisions, involve doctors when and where they are needed}
+%\end{itemize}
+%}
+\end{overlayarea}
+
+%\begin{itemize}
+%\item Energy management: house, building, businesses, production, transmission, distribution  
+%\item Healthcare: clinical pathways, personalized medicine, treatments, etc.
+%\item Processes: production quality, resource utilization, waste, regulations
+%\item Logistics:   
+%\end{itemize}
+
+
+\end{frame}
+
 
 \begin{frame}{\normalsize What is a good decision?}
 \footnotesize
@@ -452,7 +526,7 @@ Constraints
 \item (Info, Action) $\mapsto$ ``summable grade"\\ \begin{tiny}(e.g. real number)\end{tiny}
 \item Allows for comparing policies
 \item We want the highest ``average grade" possible \begin{tiny}(more on that later)\end{tiny} 
-\item Instantaneous: not accounting for long-term performance \begin{tiny}(more on that later)\end{tiny} 
+\item Utility is Instantaneous, policy looks at long-term performance 
 \end{itemize}
 \end{block}
 }
@@ -484,8 +558,8 @@ Constraints
 \item Flag ``unacceptable" situations
 \item (Info, Action) $\mapsto$ violation or not
 \item Constraints have priority over utility
-\item Violation $\rightarrow$ Utility = $-\infty$ 
-\item Instantaneous: not accounting for long-term violations \begin{tiny}(more on that later)\end{tiny} 
+\item Violation can be ``Utility = $-\infty$" 
+\item Constraints are Instantaneous, policy looks at long-term safety
 \end{itemize}
 \end{block}
 }
@@ -562,18 +636,18 @@ Constraints
 \textbf{Remarks}:
 \begin{itemize}
 \item Policy has a ``long-term" perspective, i.e. it accounts for long-term consequences
-\item Optimization does not yield an action but a ``map" info$\rightarrow$action
+\item Optimization is not an action but a ``map" \\info $\rightarrow$ action
 \item ``Optimal policy" is supposed to be ``safe" w.r.t. the constraints
 \end{itemize}}
 \column{0.4\textwidth}
 \vspace{-1cm}\\
 \visible<2->{
 \scriptsize{
-\textbf{Example}: 
+\textbf{Example}: heating cost
 \begin{itemize}
 \item action is power
 \item info is temperature
-\item utility is `` - power"
+\item utility is `` - power $\cdot$ spot price"
 \item constraint is temp $\geq$ 21 
 \end{itemize}}
 \vspace{-.4cm}
@@ -684,9 +758,14 @@ Performance of optimal policy\\
 $\geq$\\
 Performance of (optimal) planning}
 \end{block}
-\flushright ...when the future is uncertain
+\flushright ...but planning is sometimes needed for practical reasons
 }
-
+\visible<8->{
+\begin{alertblock}{}
+\center
+The distinction planning-policy is not obvious, but we won't expand today
+\end{alertblock}
+}
 }
 \end{overlayarea}
 
@@ -782,7 +861,7 @@ Performance of (optimal) planning}
         {%
          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPC6.eps}
         }%
-              \only<8>
+              \only<8->
         {%
          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPC7.eps}
         }%
@@ -822,7 +901,7 @@ Performance of (optimal) planning}
 \begin{itemize}
 \tiny
 \item It can if predictions are perfect
-\item Imperfect model: complex relationship optimal plan / optimal policy (but recently understood)
+\item Imperfect model: complex relationship optimal plan / optimal policy (recently understood, more in a bit)
 \end{itemize}
 \item Terminology: MPC, Receding-Horizon Optimization, Planning, etc.
 \end{itemize}
@@ -1818,6 +1897,17 @@ L\left(\vect s,\vect a\right)
 
 \end{frame}
 
+
+\begin{frame}{\normalsize AI for Decision Making}
+\footnotesize
+
+\huge
+
+\center
+There is a lot more to say...\\
+but we will keep that for the future
+
+\end{frame}
 
 \end{document}
 
