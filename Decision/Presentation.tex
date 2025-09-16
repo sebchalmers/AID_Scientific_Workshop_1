@@ -261,6 +261,7 @@
 
 
 
+
 {\usebackgroundtemplate{
  \parbox[c][\paperheight][b]{\paperwidth}{
     \flushright\includegraphics[width=0.55\paperwidth, height = 1\paperheight]{Figures/Track.eps}}}
@@ -949,7 +950,7 @@ The distinction planning-policy is not obvious, but we won't expand today
         {%
           \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMC6.eps}
         }%
-              \only<8>
+              \only<8->
         {%
           \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMC7.eps}
         }%
@@ -974,94 +975,100 @@ The distinction planning-policy is not obvious, but we won't expand today
 \begin{center}
 \textbf{Same principle, but carry multiple predictions}
 \end{center}
+\visible<9->{
 \textbf{Remarks}
 \begin{itemize}
 \scriptsize
 \item Representative of real problem uncertainty: e.g. Monte Carlo sampling of probabilistic AI model
-\item Can select scenarios that are most relevant for decisions (not simple but doable)
+\item \visible<10->{Can select scenarios that are most relevant for decisions (not simple but doable)}
+\visible<11->{
 \item Setup
 \begin{itemize}
 \scriptsize
 \item Max out utility: e.g. according to ``mean over predictions" (expected utility)
 \item Constraints: all predictions must respect the constraints / probability of violation is at acceptable level
-\end{itemize}
-\item Planning still ignores that the action plan will be revised $\rightarrow$ conservative!
-\end{itemize}
+\end{itemize}}
+\item \visible<12->{Planning still ignores that the action plan will be revised $\rightarrow$ conservative!}
+\item \visible<13->{More advance model: scenario trees}
+\end{itemize}}
 \end{columns}
 
 
 \end{frame}
 
-
-\begin{frame}{\normalsize Policies from Stochastic Planning}
+\begin{frame}{\normalsize Policies from Scenario Trees}
 \footnotesize
 
 \begin{columns}
-\column{0.4\textwidth}
+\column{0.5\textwidth}
 
 
-  \begin{overlayarea}{\textwidth}{0.9\textheight}
-    \begin{figure}
-    \newcommand{\FS}{1}
-      \centering
-      \only<1>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG0.eps}
-        }%
-      \only<2>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG1.eps}
-        }%
-              \only<3>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG2.eps}
-        }%
-              \only<4>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG3.eps}
-        }%
-              \only<5>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG4.eps}
-        }%
-              \only<6>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG5.eps}
-        }%
-              \only<7>
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG6.eps}
-        }%
-              \only<8->
-        {%
-          \includegraphics[width=\FS\textwidth,clip]{Codes/MPC/MPCMCWRONG7.eps}
-        }%
-        \end{figure}
-        \end{overlayarea}
-        
+\begin{tikzpicture}
+%Initial conditions
+\draw (0,0)  node[draw,circle,fill=white,minimum size=5pt, inner sep=0pt, label = below left:{$\vect s_0,\,\vect a_0$}, label = {[xshift=-1cm, yshift=0.0cm]:{}}](sa) {};
+%First branching
+\draw (1.2,1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect s_{1,1},\vect a_{1,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s11)  {};
+\draw (1.2,-1.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect s_{1,2},\vect a_{1,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s12)  {};
+%Second branching
+\visible<2->{\draw (2.4,3)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect s_{2,1},\vect a_{2,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s21)  {};}
+\visible<2->{\draw (2.4,1)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect s_{2,2},\vect a_{2,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s22)  {};}
+\visible<2->{\draw (2.4,-1)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect s_{2,3},\vect a_{2,3}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s23)  {};}
+\visible<2->{\draw (2.4,-3) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect s_{2,4},\vect a_{2,4}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s24)  {};}
+%Third branching
+\visible<3->{\draw (3.6,3.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s31)  {}; }%,\vect u_{3,1}
+\visible<3->{\draw (3.6,2.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s32)  {}; }%,\vect u_{3,2}
+\visible<3->{\draw (3.6,1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,3}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s33)  {}; }%,\vect u_{3,3}
+\visible<3->{\draw (3.6,0.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,4}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s34)  {}; }%,\vect u_{3,4}
+\visible<3->{\draw (3.6,-0.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,5}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s35)  {};} %,\vect u_{3,5}
+\visible<3->{\draw (3.6,-1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,6}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s36)  {}; }%,\vect u_{3,6}
+\visible<3->{\draw (3.6,-2.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,7}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s37)  {}; }%,\vect u_{3,7}
+\visible<3->{\draw (3.6,-3.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect s_{3,8}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s38)  {}; }%,\vect u_{3,8}
+
+\path
+(sa) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s11)
+(sa) edge node[below, xshift=0.0cm, yshift=-0.275cm]{} (s12);
+ 
+%Second branching
+ \visible<2->{\path (s11) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s21);}
+ \visible<2->{\path (s11) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s22);}
+ 
+ \visible<2->{\path (s12) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s23);}
+ \visible<2->{\path (s12) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s24);}
+ 
+ %Third branching
+ \visible<3->{\path (s21) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s31);}
+ \visible<3->{\path(s21) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s32);}
+ 
+ \visible<3->{\path(s22) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s33);}
+ \visible<3->{\path(s22) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s34);}
+ 
+ \visible<3->{\path(s23) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s35);}
+ \visible<3->{\path(s23) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s36);}
+ 
+ \visible<3->{\path(s24) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s37);}
+ \visible<3->{\path(s24) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s38);}
+\end{tikzpicture}        
 
 
-\column{0.6\textwidth}
+\column{0.5\textwidth}
 \begin{center}
-\textbf{What about having a different action plan for each scenario?} (Apart for the first action)
+\textbf{Model different outcomes and associated decisions}
 \end{center}
-\textbf{Remarks}: less conservative but ``wrong"
+\visible<4->{
+\textbf{Remarks}: 
 \begin{itemize}
 \scriptsize
-\item When building one action plan, it is ``designed" for the scenario it is attached to
-\item Implies that each action plan is informed of the future it is optimizing against
-\item In contradiction with sequential decision making  
-\item No algorithmic way to ``insulate" the planning from ``knowing the future", unless
-\begin{itemize}
-\scriptsize
-\item The plans are all formed via a shared policy 
-\item or we build a scenario tree
-\end{itemize}
-\end{itemize}
+\item Very coarse model of uncertainty: each ``branching" represents a small amount of possibilities
+\item Exploding complexity over planning horizon, keep it short
+\item See Mutli-Stage Stochastic Programming
+\end{itemize}}
+
 \end{columns}
 
 
 \end{frame}
+
+
 
 
 
@@ -1081,7 +1088,7 @@ The distinction planning-policy is not obvious, but we won't expand today
 \visible<2->{
 \textbf{Definition}: $\vect s_k$ provides a ``complete statistics" of the past sufficient to predict $\vect s_{k+1,\ldots,\infty}$.} 
 \begin{center}
-\visible<3->{More formally: $\mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k\right] = \mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k, \vect s_{k-1},\ldots, \vect s_0\right]$ for any $i>0$}\\
+\visible<3->{More formally: $\mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k\right] = \mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k, \vect s_{k-1},\ldots, \vect s_0\right]$ for any $i>0$, $\vect \pi$}\\
 \vspace{.25cm}
 \visible<4->{
 \textcolor{myBlue2}{I.e. state $\vect s_k$ collects all the information to predict the future (after $k$). \\ Past states $\vect s_{k-1,\ldots,0}$ do not add information}
