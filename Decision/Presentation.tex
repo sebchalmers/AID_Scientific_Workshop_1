@@ -1192,7 +1192,7 @@ The distinction planning-policy is not obvious, but we won't expand today
 \end{itemize}
 }}
 \only<3->{
-\textbf{Latent State}
+\textbf{Latent State} (aka embeddings or compressed representations)
 \begin{itemize}
 \item Digest data into a Markov state (ML learns / proposes a state ``on its own")
 \item TMBK, it is easier if assuming deterministic time evolution
@@ -1417,7 +1417,9 @@ BUILD THIS
 
 \begin{frame}{\normalsize Model-Free Reinforcement Learning}
 \footnotesize
-
+\begin{center}
+\textit{Learn a policy purely via interactions with the real world}
+\end{center}
 \begin{itemize}
 \item  \textbf{Policy} is parametrized, i.e. $\vect a= \vect\pi_{\vect \theta}\left(\vect s\right)$ for parameter $\vect \theta$, e.g. via a DNN
 \item  \textbf{Performance} $J\left(\vect\pi_{\vect\theta}\right)$ \textit{can be} evaluated from data\\
@@ -1540,7 +1542,7 @@ Constraints
 
 \node [ID_block, left of=sys0, node distance = 4.75cm] (ID0) {
  \begin{minipage}[c]{3cm}
-\textbf{AI model} e.g.
+\textbf{ML model} e.g.
 \begin{align*}
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
@@ -1560,7 +1562,7 @@ Constraints
 \vect\pi_{\vect \theta}^\star%(\vect{s})
 \end{align*}
  \vspace{-0.5cm}\\
-optimal for AI model
+optimal for ML model
 \end{minipage}
  };
  
@@ -1618,7 +1620,7 @@ L\left(\vect s,\vect a\right)
 
 \node [ID_block, left of=sys0, node distance = 4.75cm] (ID0) {
  \begin{minipage}[c]{3cm}
-\textbf{AI model} e.g.
+\textbf{ML model} e.g.
 \begin{align*}
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
@@ -1692,7 +1694,7 @@ L\left(\vect s,\vect a\right)
 
 \node [ID_block, left of=sys0, node distance = 4.75cm] (ID0) {
  \begin{minipage}[c]{3cm}
-\textbf{AI model} e.g.
+\textbf{ML model} e.g.
 \begin{align*}
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
@@ -1765,7 +1767,7 @@ Best $\vect\theta$ for taking decisions in the real world?
 \textbf{In general no:} equations describing best $\vect\theta$ for fitting the model to data $\neq$ equations describing $\vect\theta$ that yields the best decisions
 \end{alertblock}
 }
-\only<5->{\begin{center} In other words, the best model tuning for fitting the data is not (necessarily$^1$) the best model tuning for taking decisions.\end{center}
+\only<5->{\begin{center} In other words, the best model tuning for fitting the data is not (necessarily$^1$) the best model tuning for taking decisions. Unless the model is exact!\end{center}
 \visible<6->{\tiny $^1$ it is for a very special class of decision problems}
 }
 \end{overlayarea}
@@ -1795,7 +1797,7 @@ Best $\vect\theta$ for taking decisions in the real world?
 \node [ID_block, left of=sys0, node distance = 5cm] (ID0) {
  \begin{minipage}[c]{3cm}
 % \vspace{-0.2cm}
-\textbf{AI model} e.g.
+\textbf{ML model} e.g.
 \begin{align*}
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
