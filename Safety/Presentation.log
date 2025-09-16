@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  16 SEP 2025 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  16 SEP 2025 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1050,535 +1050,482 @@ Package pdftex.def Info: Figures/Track.pdf  used on input line 297.
 <Figures/SmartHouse.pdf, id=146, 385.44pt x 230.8625pt>
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <9> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 404.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 404.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 403.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <5> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 404.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 403.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <9> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 404.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 403.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 404.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 403.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 404.
-
-<Figures/OSHA.pdf, id=148, 1027.84pt x 578.16pt>
-File: Figures/OSHA.pdf Graphic file (type pdf)
-<use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
-(pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
-<Figures/Arrow.pdf, id=150, 475.7775pt x 356.33125pt>
-File: Figures/Arrow.pdf Graphic file (type pdf)
-<use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
-(pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
-
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
-[]  
- []
-
-<Codes/BasicsSafety/Safe0.pdf, id=152, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe0.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe0.pdf  used on input line 404.
-(pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
-
-Overfull \vbox (11.78532pt too high) detected at line 404
- []
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 403.
 
 [4
 
- <./Codes/BasicsSafety/Safe0.pdf> <./Figures/SmartHouse.pdf> <./Figures/OSHA.pdf> <./Figures/Arrow.pdf>]
+ <./Figures/SmartHouse.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
+<Figures/OSHA.pdf, id=186, 1027.84pt x 578.16pt>
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
+<Figures/Arrow.pdf, id=188, 475.7775pt x 356.33125pt>
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
+<Codes/BasicsSafety/Safe0.pdf, id=190, 481.11305pt x 366.92647pt>
 File: Codes/BasicsSafety/Safe0.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe0.pdf  used on input line 404.
+Package pdftex.def Info: Codes/BasicsSafety/Safe0.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [5
 
-]
+ <./Codes/BasicsSafety/Safe0.pdf> <./Figures/OSHA.pdf> <./Figures/Arrow.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-File: Codes/BasicsSafety/Safe0.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe0.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe1.pdf, id=250, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe1.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe1.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe1.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [6
 
-]
+ <./Codes/BasicsSafety/Safe1.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe1.pdf, id=286, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe1.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe1.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe1.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe2.pdf, id=299, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe2.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe2.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe2.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [7
 
- <./Codes/BasicsSafety/Safe1.pdf>]
+ <./Codes/BasicsSafety/Safe2.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe2.pdf, id=336, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe2.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe2.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe2.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe3.pdf, id=348, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe3.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe3.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe3.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [8
 
- <./Codes/BasicsSafety/Safe2.pdf>]
+ <./Codes/BasicsSafety/Safe3.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe3.pdf, id=384, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe3.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe3.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe3.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe4.pdf, id=396, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe4.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe4.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe4.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [9
 
- <./Codes/BasicsSafety/Safe3.pdf>]
+ <./Codes/BasicsSafety/Safe4.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe4.pdf, id=432, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe4.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe4.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe4.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe5.pdf, id=445, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe5.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe5.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe5.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [10
 
- <./Codes/BasicsSafety/Safe4.pdf>]
+ <./Codes/BasicsSafety/Safe5.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe5.pdf, id=481, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe5.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe5.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe5.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe6.pdf, id=493, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe6.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe6.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe6.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [11
 
- <./Codes/BasicsSafety/Safe5.pdf>]
+ <./Codes/BasicsSafety/Safe6.pdf>]
 File: Figures/SmartHouse.pdf Graphic file (type pdf)
 <use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
+Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 403.
 (pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
 File: Figures/OSHA.pdf Graphic file (type pdf)
 <use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
+Package pdftex.def Info: Figures/OSHA.pdf  used on input line 403.
 (pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
 File: Figures/Arrow.pdf Graphic file (type pdf)
 <use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
+Package pdftex.def Info: Figures/Arrow.pdf  used on input line 403.
 (pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
 
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
+Overfull \hbox (10.93451pt too wide) in paragraph at lines 403--403
 []  
  []
 
-<Codes/BasicsSafety/Safe6.pdf, id=529, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe6.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe6.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe6.pdf  used on input line 404.
+<Codes/BasicsSafety/Safe7.pdf, id=540, 481.11305pt x 366.92647pt>
+File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe7.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 403.
 (pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
 
-Overfull \vbox (11.78532pt too high) detected at line 404
+Overfull \vbox (11.78532pt too high) detected at line 403
  []
 
 [12
 
- <./Codes/BasicsSafety/Safe6.pdf>]
-File: Figures/SmartHouse.pdf Graphic file (type pdf)
-<use Figures/SmartHouse.pdf>
-Package pdftex.def Info: Figures/SmartHouse.pdf  used on input line 404.
-(pdftex.def)             Requested size: 85.35826pt x 51.12456pt.
-File: Figures/OSHA.pdf Graphic file (type pdf)
-<use Figures/OSHA.pdf>
-Package pdftex.def Info: Figures/OSHA.pdf  used on input line 404.
-(pdftex.def)             Requested size: 119.80544pt x 67.38243pt.
-File: Figures/Arrow.pdf Graphic file (type pdf)
-<use Figures/Arrow.pdf>
-Package pdftex.def Info: Figures/Arrow.pdf  used on input line 404.
-(pdftex.def)             Requested size: 68.45801pt x 51.26707pt.
-
-Overfull \hbox (10.93451pt too wide) in paragraph at lines 404--404
-[]  
- []
-
-<Codes/BasicsSafety/Safe7.pdf, id=576, 481.11305pt x 366.92647pt>
-File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe7.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 404.
-(pdftex.def)             Requested size: 107.82181pt x 82.23015pt.
-
-Overfull \vbox (11.78532pt too high) detected at line 404
- []
-
-[13
-
  <./Codes/BasicsSafety/Safe7.pdf>]
 File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe7.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 506.
+Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 505.
+(pdftex.def)             Requested size: 102.68962pt x 78.31656pt.
+ [13
+
+]
+File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Safe7.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 505.
 (pdftex.def)             Requested size: 102.68962pt x 78.31656pt.
  [14
 
 ]
 File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/Safe7.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 506.
+Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 505.
 (pdftex.def)             Requested size: 102.68962pt x 78.31656pt.
  [15
 
 ]
-File: Codes/BasicsSafety/Safe7.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Safe7.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Safe7.pdf  used on input line 506.
-(pdftex.def)             Requested size: 102.68962pt x 78.31656pt.
- [16
-
-]
-<Codes/BasicsSafety/PessimisticOneStep0.pdf, id=710, 345.4604pt x 350.94376pt>
+<Codes/BasicsSafety/PessimisticOneStep0.pdf, id=673, 345.4604pt x 350.94376pt>
 File: Codes/BasicsSafety/PessimisticOneStep0.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticOneStep0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep0.pdf  used on input line 640.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep0.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 139.08981pt.
 
-Overfull \vbox (10.5002pt too high) detected at line 640
+Overfull \vbox (10.5002pt too high) detected at line 644
  []
 
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
+ []
+
+[16
+
+ <./Codes/BasicsSafety/PessimisticOneStep0.pdf>]
+<Codes/BasicsSafety/PessimisticOneStep1.pdf, id=732, 345.4604pt x 350.94376pt>
+File: Codes/BasicsSafety/PessimisticOneStep1.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticOneStep1.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep1.pdf  used on input line 644.
+(pdftex.def)             Requested size: 136.91603pt x 139.08981pt.
+
+Overfull \vbox (19.7502pt too high) detected at line 644
+ []
+
+
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [17
 
- <./Codes/BasicsSafety/PessimisticOneStep0.pdf>]
-<Codes/BasicsSafety/PessimisticOneStep1.pdf, id=768, 345.4604pt x 350.94376pt>
-File: Codes/BasicsSafety/PessimisticOneStep1.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticOneStep1.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticOneStep1.pdf  used on input line 640.
-(pdftex.def)             Requested size: 136.91603pt x 139.08981pt.
+ <./Codes/BasicsSafety/PessimisticOneStep1.pdf>]
+<Codes/BasicsSafety/PessimisticModel0.pdf, id=782, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel0.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel0.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel0.pdf  used on input line 644.
+(pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (19.7502pt too high) detected at line 640
- []
-
-
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [18
 
- <./Codes/BasicsSafety/PessimisticOneStep1.pdf>]
-<Codes/BasicsSafety/PessimisticModel0.pdf, id=818, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel0.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel0.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel0.pdf>]
+<Codes/BasicsSafety/PessimisticModel1.pdf, id=840, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel1.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel1.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel1.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [19
 
- <./Codes/BasicsSafety/PessimisticModel0.pdf>]
-<Codes/BasicsSafety/PessimisticModel1.pdf, id=878, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel1.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel1.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel1.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel1.pdf>]
+<Codes/BasicsSafety/PessimisticModel2.pdf, id=899, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel2.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel2.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel2.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [20
 
- <./Codes/BasicsSafety/PessimisticModel1.pdf>]
-<Codes/BasicsSafety/PessimisticModel2.pdf, id=936, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel2.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel2.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel2.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel2.pdf>]
+<Codes/BasicsSafety/PessimisticModel3.pdf, id=958, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel3.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel3.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel3.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [21
 
- <./Codes/BasicsSafety/PessimisticModel2.pdf>]
-<Codes/BasicsSafety/PessimisticModel3.pdf, id=994, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel3.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel3.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel3.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel3.pdf>]
+<Codes/BasicsSafety/PessimisticModel4.pdf, id=1016, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel4.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel4.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel4.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [22
 
- <./Codes/BasicsSafety/PessimisticModel3.pdf>]
-<Codes/BasicsSafety/PessimisticModel4.pdf, id=1052, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel4.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel4.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel4.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel4.pdf>]
+<Codes/BasicsSafety/PessimisticModel5.pdf, id=1074, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel5.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel5.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel5.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [23
 
- <./Codes/BasicsSafety/PessimisticModel4.pdf>]
-<Codes/BasicsSafety/PessimisticModel5.pdf, id=1111, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel5.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel5.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel5.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel5.pdf>]
+<Codes/BasicsSafety/PessimisticModel6.pdf, id=1133, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel6.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel6.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel6.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [24
 
- <./Codes/BasicsSafety/PessimisticModel5.pdf>]
-<Codes/BasicsSafety/PessimisticModel6.pdf, id=1169, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel6.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel6.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel6.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel6.pdf>]
+<Codes/BasicsSafety/PessimisticModel7.pdf, id=1191, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel7.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel7.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel7.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [25
 
- <./Codes/BasicsSafety/PessimisticModel6.pdf>]
-<Codes/BasicsSafety/PessimisticModel7.pdf, id=1228, 363.0358pt x 348.34142pt>
-File: Codes/BasicsSafety/PessimisticModel7.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel7.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel7.pdf  used on input line 640.
+ <./Codes/BasicsSafety/PessimisticModel7.pdf>]
+<Codes/BasicsSafety/PessimisticModel40.pdf, id=1250, 363.0358pt x 348.34142pt>
+File: Codes/BasicsSafety/PessimisticModel40.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/PessimisticModel40.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [26
 
- <./Codes/BasicsSafety/PessimisticModel7.pdf>]
-<Codes/BasicsSafety/PessimisticModel40.pdf, id=1286, 363.0358pt x 348.34142pt>
+ <./Codes/BasicsSafety/PessimisticModel40.pdf>]
+Overfull \vbox (37.32997pt too high) detected at line 644
+ []
+
 File: Codes/BasicsSafety/PessimisticModel40.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel40.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 640.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [27
 
- <./Codes/BasicsSafety/PessimisticModel40.pdf>]
-Overfull \vbox (37.32997pt too high) detected at line 640
- []
-
+]
 File: Codes/BasicsSafety/PessimisticModel40.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel40.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 640.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
+<Codes/BasicsSafety/Support0.pdf, id=1335, 686.565pt x 348.34142pt>
+File: Codes/BasicsSafety/Support0.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Support0.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Support0.pdf  used on input line 644.
+(pdftex.def)             Requested size: 136.91603pt x 69.46506pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [28
 
-]
+ <./Codes/BasicsSafety/Support0.pdf>]
 File: Codes/BasicsSafety/PessimisticModel40.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/PessimisticModel40.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 640.
+Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 644.
 (pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
-<Codes/BasicsSafety/Support0.pdf, id=1371, 686.565pt x 348.34142pt>
-File: Codes/BasicsSafety/Support0.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Support0.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Support0.pdf  used on input line 640.
-(pdftex.def)             Requested size: 136.91603pt x 69.46506pt.
+<Codes/BasicsSafety/Support1.pdf, id=1374, 686.565pt x 359.47409pt>
+File: Codes/BasicsSafety/Support1.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/Support1.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/Support1.pdf  used on input line 644.
+(pdftex.def)             Requested size: 136.91603pt x 71.6851pt.
 
-Overfull \vbox (7.42075pt too high) detected at line 640
+Overfull \vbox (7.42075pt too high) detected at line 644
  []
 
 [29
 
- <./Codes/BasicsSafety/Support0.pdf>]
-File: Codes/BasicsSafety/PessimisticModel40.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/PessimisticModel40.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/PessimisticModel40.pdf  used on input line 640.
-(pdftex.def)             Requested size: 136.91603pt x 131.37184pt.
-<Codes/BasicsSafety/Support1.pdf, id=1410, 686.565pt x 359.47409pt>
-File: Codes/BasicsSafety/Support1.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/Support1.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/Support1.pdf  used on input line 640.
-(pdftex.def)             Requested size: 136.91603pt x 71.6851pt.
-
-Overfull \vbox (7.42075pt too high) detected at line 640
- []
-
-[30
-
  <./Codes/BasicsSafety/Support1.pdf>]
-<Figures/Chess.pdf, id=1447, 1204.5pt x 783.92876pt>
+<Figures/Chess.pdf, id=1410, 1204.5pt x 783.92876pt>
 File: Figures/Chess.pdf Graphic file (type pdf)
 <use Figures/Chess.pdf>
-Package pdftex.def Info: Figures/Chess.pdf  used on input line 727.
+Package pdftex.def Info: Figures/Chess.pdf  used on input line 731.
 (pdftex.def)             Requested size: 109.53113pt x 71.28021pt.
 
-Overfull \hbox (54.76556pt too wide) in paragraph at lines 727--727
+Overfull \hbox (54.76556pt too wide) in paragraph at lines 731--731
 [][] 
  []
 
-
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[31
+[30
 
  <./Figures/Chess.pdf>]
 Package epstopdf Info: Source file: <Codes/RobustMPC/IllustrationRobustMPCPreTerminal.eps>
@@ -1588,23 +1535,23 @@ Package epstopdf Info: Source file: <Codes/RobustMPC/IllustrationRobustMPCPreTer
 (epstopdf)                    date: 2025-09-16 10:22:07
 (epstopdf)                    size: 36209 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf Codes/RobustMPC/IllustrationRobustMPCPreTerminal.eps>
-(epstopdf)             \includegraphics on input line 727.
+(epstopdf)             \includegraphics on input line 731.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf, id=1486, 614.295pt x 794.97pt>
+<Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf, id=1449, 614.295pt x 794.97pt>
 File: Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf  used on input line 727.
-(pdftex.def)             Requested size: 82.14835pt x 106.30951pt.
+Package pdftex.def Info: Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf  used on input line 731.
+(pdftex.def)             Requested size: 164.29669pt x 212.61902pt.
 
-Overfull \hbox (27.38278pt too wide) in paragraph at lines 727--727
+Overfull \hbox (109.53113pt too wide) in paragraph at lines 731--731
  [] 
  []
 
 
-Overfull \vbox (8.92941pt too high) detected at line 727
+Overfull \vbox (38.9838pt too high) detected at line 731
  []
 
-[32
+[31
 
  <./Codes/RobustMPC/IllustrationRobustMPCPreTerminal-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Codes/RobustMPC/IllustrationRobustMPCTerminal.eps>
@@ -1614,150 +1561,138 @@ Package epstopdf Info: Source file: <Codes/RobustMPC/IllustrationRobustMPCTermin
 (epstopdf)                    date: 2025-09-16 10:25:16
 (epstopdf)                    size: 39168 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf Codes/RobustMPC/IllustrationRobustMPCTerminal.eps>
-(epstopdf)             \includegraphics on input line 727.
+(epstopdf)             \includegraphics on input line 731.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf, id=1520, 614.295pt x 794.97pt>
+<Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf, id=1484, 614.295pt x 794.97pt>
 File: Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf  used on input line 727.
-(pdftex.def)             Requested size: 82.14835pt x 106.30951pt.
+Package pdftex.def Info: Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf  used on input line 731.
+(pdftex.def)             Requested size: 164.29669pt x 212.61902pt.
 
-Overfull \hbox (27.38278pt too wide) in paragraph at lines 727--727
+Overfull \hbox (109.53113pt too wide) in paragraph at lines 731--731
  [] 
  []
 
 
-Overfull \vbox (8.92941pt too high) detected at line 727
+Overfull \vbox (38.9838pt too high) detected at line 731
+ []
+
+[32
+
+ <./Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf>] (./Codes/Scenariotree/scenario_1.tex)
+Overfull \hbox (75.56389pt too wide) in paragraph at lines 43--731
+[][] 
  []
 
 [33
 
- <./Codes/RobustMPC/IllustrationRobustMPCTerminal-eps-converted-to.pdf>] (./Codes/Scenariotree/scenario_1.tex)
-Overfull \hbox (75.56389pt too wide) in paragraph at lines 43--727
+] (./Codes/Scenariotree/scenario_2.tex)
+Overfull \hbox (75.222pt too wide) in paragraph at lines 53--731
 [][] 
- []
-
-
-Overfull \vbox (8.92941pt too high) detected at line 727
  []
 
 [34
 
-] (./Codes/Scenariotree/scenario_2.tex)
-Overfull \hbox (75.222pt too wide) in paragraph at lines 53--727
+] (./Codes/Scenariotree/scenario_3.tex)
+Overfull \hbox (75.222pt too wide) in paragraph at lines 53--731
 [][] 
- []
-
-
-Overfull \vbox (8.92941pt too high) detected at line 727
  []
 
 [35
-
-] (./Codes/Scenariotree/scenario_3.tex)
-Overfull \hbox (75.222pt too wide) in paragraph at lines 53--727
-[][] 
- []
-
-
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[36
 
 ] (./Codes/Scenariotree/scenario_4.tex
 Overfull \hbox (75.222pt too wide) in paragraph at lines 53--54
 [][]  
  []
 
-)
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[37
+) [36
 
 ] (./Codes/Scenariotree/scenario_5.tex
 Overfull \hbox (75.222pt too wide) in paragraph at lines 53--54
 [][]  
  []
 
-)
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[38
+) [37
 
 ] (./Codes/Scenariotree/scenario_6.tex
 Overfull \hbox (75.222pt too wide) in paragraph at lines 53--54
 [][]  
  []
 
-)
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[39
+) [38
 
 ] (./Codes/Scenariotree/scenario_6.tex
 Overfull \hbox (75.222pt too wide) in paragraph at lines 53--54
 [][]  
  []
 
-)
-Overfull \vbox (8.92941pt too high) detected at line 727
- []
-
-[40
+) [39
 
 ] (./Codes/Scenariotree/scenario_6.tex
 Overfull \hbox (75.222pt too wide) in paragraph at lines 53--54
 [][]  
  []
 
-)
-Overfull \vbox (8.92941pt too high) detected at line 727
+) [40
+
+]
+<Codes/Risk/HeavyTail_vs_Mean.pdf, id=1731, 289.08pt x 144.54pt>
+File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
+<use Codes/Risk/HeavyTail_vs_Mean.pdf>
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 800.
+(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
+<Codes/Risk/RiskFunctional_Rho.pdf, id=1732, 289.08pt x 180.675pt>
+File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
+<use Codes/Risk/RiskFunctional_Rho.pdf>
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 800.
+(pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
+
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 800--800
+ [] 
+ []
+
+
+Overfull \vbox (8.04175pt too high) detected at line 800
  []
 
 [41
 
-]
-<Codes/Risk/HeavyTail_vs_Mean.pdf, id=1767, 289.08pt x 144.54pt>
+ <./Codes/Risk/HeavyTail_vs_Mean.pdf> <./Codes/Risk/RiskFunctional_Rho.pdf>]
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 800.
 (pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
-<Codes/Risk/RiskFunctional_Rho.pdf, id=1768, 289.08pt x 180.675pt>
 File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
 <use Codes/Risk/RiskFunctional_Rho.pdf>
-Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 800.
 (pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
 
-Overfull \hbox (6.50409pt too wide) in paragraph at lines 796--796
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 800--800
  [] 
  []
 
 
-Overfull \vbox (8.04175pt too high) detected at line 796
+Overfull \vbox (8.04175pt too high) detected at line 800
  []
 
 [42
 
- <./Codes/Risk/HeavyTail_vs_Mean.pdf> <./Codes/Risk/RiskFunctional_Rho.pdf>]
+]
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 800.
 (pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
 File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
 <use Codes/Risk/RiskFunctional_Rho.pdf>
-Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 800.
 (pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
 
-Overfull \hbox (6.50409pt too wide) in paragraph at lines 796--796
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 800--800
  [] 
  []
 
 
-Overfull \vbox (8.04175pt too high) detected at line 796
+Overfull \vbox (8.04175pt too high) detected at line 800
  []
 
 [43
@@ -1765,19 +1700,19 @@ Overfull \vbox (8.04175pt too high) detected at line 796
 ]
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 800.
 (pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
 File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
 <use Codes/Risk/RiskFunctional_Rho.pdf>
-Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 800.
 (pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
 
-Overfull \hbox (6.50409pt too wide) in paragraph at lines 796--796
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 800--800
  [] 
  []
 
 
-Overfull \vbox (8.04175pt too high) detected at line 796
+Overfull \vbox (8.04175pt too high) detected at line 800
  []
 
 [44
@@ -1785,42 +1720,24 @@ Overfull \vbox (8.04175pt too high) detected at line 796
 ]
 File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
 <use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 800.
 (pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
 File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
 <use Codes/Risk/RiskFunctional_Rho.pdf>
-Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 796.
+Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 800.
 (pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
 
-Overfull \hbox (6.50409pt too wide) in paragraph at lines 796--796
+Overfull \hbox (6.50409pt too wide) in paragraph at lines 800--800
  [] 
  []
 
 
-Overfull \vbox (8.04175pt too high) detected at line 796
+Overfull \vbox (8.04175pt too high) detected at line 800
  []
 
 [45
 
-]
-File: Codes/Risk/HeavyTail_vs_Mean.pdf Graphic file (type pdf)
-<use Codes/Risk/HeavyTail_vs_Mean.pdf>
-Package pdftex.def Info: Codes/Risk/HeavyTail_vs_Mean.pdf  used on input line 796.
-(pdftex.def)             Requested size: 188.60468pt x 94.30054pt.
-File: Codes/Risk/RiskFunctional_Rho.pdf Graphic file (type pdf)
-<use Codes/Risk/RiskFunctional_Rho.pdf>
-Package pdftex.def Info: Codes/Risk/RiskFunctional_Rho.pdf  used on input line 796.
-(pdftex.def)             Requested size: 136.57797pt x 85.3611pt.
-
-Overfull \hbox (6.50409pt too wide) in paragraph at lines 796--796
- [] 
- []
-
-
-Overfull \vbox (8.04175pt too high) detected at line 796
- []
-
-[46
+] [46
 
 ] [47
 
@@ -1828,27 +1745,36 @@ Overfull \vbox (8.04175pt too high) detected at line 796
 
 ] [49
 
-] [50
-
 ]
-<Codes/BasicsSafety/ProbabilisticModel.pdf, id=2091, 357.03781pt x 348.34142pt>
+<Codes/BasicsSafety/ProbabilisticModel.pdf, id=2054, 357.03781pt x 348.34142pt>
 File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 891.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 895.
 (pdftex.def)             Requested size: 167.72395pt x 163.64075pt.
 
-Overfull \vbox (0.61993pt too high) detected at line 891
+Overfull \vbox (0.61993pt too high) detected at line 895
  []
 
-[51
+[50
 
  <./Codes/BasicsSafety/ProbabilisticModel.pdf>]
 File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 891.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 895.
 (pdftex.def)             Requested size: 167.72395pt x 163.64075pt.
 
-Overfull \vbox (0.61993pt too high) detected at line 891
+Overfull \vbox (0.61993pt too high) detected at line 895
+ []
+
+[51
+
+]
+File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/ProbabilisticModel.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 895.
+(pdftex.def)             Requested size: 167.72395pt x 163.64075pt.
+
+Overfull \vbox (0.61993pt too high) detected at line 895
  []
 
 [52
@@ -1856,317 +1782,317 @@ Overfull \vbox (0.61993pt too high) detected at line 891
 ]
 File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 891.
-(pdftex.def)             Requested size: 167.72395pt x 163.64075pt.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 964.
+(pdftex.def)             Requested size: 117.40881pt x 114.54906pt.
+<Codes/BasicsSafety/SafetyEstimation3_1.pdf, id=2188, 731.87968pt x 412.7198pt>
+File: Codes/BasicsSafety/SafetyEstimation3_1.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/SafetyEstimation3_1.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_1.pdf  used on input line 964.
+(pdftex.def)             Requested size: 171.14764pt x 96.51054pt.
 
-Overfull \vbox (0.61993pt too high) detected at line 891
+Overfull \vbox (36.3153pt too high) detected at line 964
  []
 
 [53
 
-]
+ <./Codes/BasicsSafety/SafetyEstimation3_1.pdf>]
 File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 960.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 964.
 (pdftex.def)             Requested size: 117.40881pt x 114.54906pt.
-<Codes/BasicsSafety/SafetyEstimation3_1.pdf, id=2225, 731.87968pt x 412.7198pt>
-File: Codes/BasicsSafety/SafetyEstimation3_1.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/SafetyEstimation3_1.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_1.pdf  used on input line 960.
-(pdftex.def)             Requested size: 171.14764pt x 96.51054pt.
+<Codes/BasicsSafety/SafetyEstimation3_2.pdf, id=2235, 740.04636pt x 412.7198pt>
+File: Codes/BasicsSafety/SafetyEstimation3_2.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/SafetyEstimation3_2.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_2.pdf  used on input line 964.
+(pdftex.def)             Requested size: 171.14764pt x 95.44624pt.
 
-Overfull \vbox (36.3153pt too high) detected at line 960
+Overfull \vbox (36.3153pt too high) detected at line 964
  []
 
 [54
 
- <./Codes/BasicsSafety/SafetyEstimation3_1.pdf>]
+ <./Codes/BasicsSafety/SafetyEstimation3_2.pdf>]
 File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
 <use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 960.
+Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 964.
 (pdftex.def)             Requested size: 117.40881pt x 114.54906pt.
-<Codes/BasicsSafety/SafetyEstimation3_2.pdf, id=2271, 740.04636pt x 412.7198pt>
-File: Codes/BasicsSafety/SafetyEstimation3_2.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/SafetyEstimation3_2.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_2.pdf  used on input line 960.
+<Codes/BasicsSafety/SafetyEstimation3_3.pdf, id=2276, 740.04636pt x 412.7198pt>
+File: Codes/BasicsSafety/SafetyEstimation3_3.pdf Graphic file (type pdf)
+<use Codes/BasicsSafety/SafetyEstimation3_3.pdf>
+Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_3.pdf  used on input line 964.
 (pdftex.def)             Requested size: 171.14764pt x 95.44624pt.
 
-Overfull \vbox (36.3153pt too high) detected at line 960
+Overfull \vbox (36.3153pt too high) detected at line 964
  []
 
 [55
 
- <./Codes/BasicsSafety/SafetyEstimation3_2.pdf>]
-File: Codes/BasicsSafety/ProbabilisticModel.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/ProbabilisticModel.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/ProbabilisticModel.pdf  used on input line 960.
-(pdftex.def)             Requested size: 117.40881pt x 114.54906pt.
-<Codes/BasicsSafety/SafetyEstimation3_3.pdf, id=2313, 740.04636pt x 412.7198pt>
-File: Codes/BasicsSafety/SafetyEstimation3_3.pdf Graphic file (type pdf)
-<use Codes/BasicsSafety/SafetyEstimation3_3.pdf>
-Package pdftex.def Info: Codes/BasicsSafety/SafetyEstimation3_3.pdf  used on input line 960.
-(pdftex.def)             Requested size: 171.14764pt x 95.44624pt.
-
-Overfull \vbox (36.3153pt too high) detected at line 960
- []
-
-[56
-
  <./Codes/BasicsSafety/SafetyEstimation3_3.pdf>] (./Presentation.toc)
 File: Figures/Track.pdf Graphic file (type pdf)
 <use Figures/Track.pdf>
-Package pdftex.def Info: Figures/Track.pdf  used on input line 965.
+Package pdftex.def Info: Figures/Track.pdf  used on input line 969.
 (pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [57
+ [56
 
-] [58
+] [57
 
 ]
-<Codes/RL/RLSafety0.pdf, id=2415, 348.34142pt x 348.34142pt>
+<Codes/RL/RLSafety0.pdf, id=2379, 348.34142pt x 348.34142pt>
 File: Codes/RL/RLSafety0.pdf Graphic file (type pdf)
 <use Codes/RL/RLSafety0.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety0.pdf  used on input line 1119.
+Package pdftex.def Info: Codes/RL/RLSafety0.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
-[59
+[58
 
  <./Codes/RL/RLSafety0.pdf>]
 File: Codes/RL/RLSafety0.pdf Graphic file (type pdf)
 <use Codes/RL/RLSafety0.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety0.pdf  used on input line 1119.
+Package pdftex.def Info: Codes/RL/RLSafety0.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
+ []
+
+[59
+
+]
+<Codes/RL/RLSafety1.pdf, id=2537, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety1.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety1.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety1.pdf  used on input line 1123.
+(pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
+
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [60
 
-]
-<Codes/RL/RLSafety1.pdf, id=2574, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety1.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety1.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety1.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety1.pdf>]
+<Codes/RL/RLSafety2.pdf, id=2668, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety2.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety2.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety2.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [61
 
- <./Codes/RL/RLSafety1.pdf>]
-<Codes/RL/RLSafety2.pdf, id=2705, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety2.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety2.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety2.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety2.pdf>]
+<Codes/RL/RLSafety3.pdf, id=2799, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety3.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety3.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety3.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [62
 
- <./Codes/RL/RLSafety2.pdf>]
-<Codes/RL/RLSafety3.pdf, id=2835, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety3.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety3.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety3.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety3.pdf>]
+<Codes/RL/RLSafety4.pdf, id=2929, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety4.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety4.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety4.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [63
 
- <./Codes/RL/RLSafety3.pdf>]
-<Codes/RL/RLSafety4.pdf, id=2966, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety4.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety4.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety4.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety4.pdf>]
+<Codes/RL/RLSafety5.pdf, id=3060, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety5.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety5.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety5.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [64
 
- <./Codes/RL/RLSafety4.pdf>]
-<Codes/RL/RLSafety5.pdf, id=3096, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety5.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety5.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety5.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety5.pdf>]
+<Codes/RL/RLSafety6.pdf, id=3190, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety6.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety6.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety6.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [65
 
- <./Codes/RL/RLSafety5.pdf>]
-<Codes/RL/RLSafety6.pdf, id=3226, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety6.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety6.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety6.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety6.pdf>]
+<Codes/RL/RLSafety7.pdf, id=3320, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety7.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety7.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety7.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [66
 
- <./Codes/RL/RLSafety6.pdf>]
-<Codes/RL/RLSafety7.pdf, id=3356, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety7.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety7.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety7.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety7.pdf>]
+<Codes/RL/RLSafety8.pdf, id=3450, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety8.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety8.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety8.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [67
 
- <./Codes/RL/RLSafety7.pdf>]
-<Codes/RL/RLSafety8.pdf, id=3488, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety8.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety8.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety8.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety8.pdf>]
+<Codes/RL/RLSafety9.pdf, id=3582, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety9.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety9.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety9.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [68
 
- <./Codes/RL/RLSafety8.pdf>]
-<Codes/RL/RLSafety9.pdf, id=3618, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety9.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety9.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety9.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety9.pdf>]
+<Codes/RL/RLSafety10.pdf, id=3712, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety10.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety10.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety10.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [69
 
- <./Codes/RL/RLSafety9.pdf>]
-<Codes/RL/RLSafety10.pdf, id=3748, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety10.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety10.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety10.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety10.pdf>]
+<Codes/RL/RLSafety11.pdf, id=3842, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety11.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety11.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety11.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [70
 
- <./Codes/RL/RLSafety10.pdf>]
-<Codes/RL/RLSafety11.pdf, id=3878, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety11.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety11.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety11.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety11.pdf>]
+<Codes/RL/RLSafety12.pdf, id=3972, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety12.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety12.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety12.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [71
 
- <./Codes/RL/RLSafety11.pdf>]
-<Codes/RL/RLSafety12.pdf, id=4009, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety12.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety12.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety12.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety12.pdf>]
+<Codes/RL/RLSafety13.pdf, id=4103, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety13.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety13.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety13.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [72
 
- <./Codes/RL/RLSafety12.pdf>]
-<Codes/RL/RLSafety13.pdf, id=4139, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety13.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety13.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety13.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety13.pdf>]
+<Codes/RL/RLSafety14.pdf, id=4233, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety14.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety14.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety14.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [73
 
- <./Codes/RL/RLSafety13.pdf>]
-<Codes/RL/RLSafety14.pdf, id=4270, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety14.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety14.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety14.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety14.pdf>]
+<Codes/RL/RLSafety15.pdf, id=4364, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety15.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety15.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety15.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [74
 
- <./Codes/RL/RLSafety14.pdf>]
-<Codes/RL/RLSafety15.pdf, id=4401, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety15.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety15.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety15.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety15.pdf>]
+<Codes/RL/RLSafety16.pdf, id=4495, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety16.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety16.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety16.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [75
 
- <./Codes/RL/RLSafety15.pdf>]
-<Codes/RL/RLSafety16.pdf, id=4531, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety16.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety16.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety16.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety16.pdf>]
+<Codes/RL/RLSafety17.pdf, id=4625, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety17.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety17.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety17.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [76
 
- <./Codes/RL/RLSafety16.pdf>]
-<Codes/RL/RLSafety17.pdf, id=4661, 348.34142pt x 348.34142pt>
-File: Codes/RL/RLSafety17.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety17.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety17.pdf  used on input line 1119.
+ <./Codes/RL/RLSafety17.pdf>]
+<Codes/RL/RLSafety18.pdf, id=4755, 348.34142pt x 348.34142pt>
+File: Codes/RL/RLSafety18.pdf Graphic file (type pdf)
+<use Codes/RL/RLSafety18.pdf>
+Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [77
 
- <./Codes/RL/RLSafety17.pdf>]
-<Codes/RL/RLSafety18.pdf, id=4791, 348.34142pt x 348.34142pt>
+ <./Codes/RL/RLSafety18.pdf>]
 File: Codes/RL/RLSafety18.pdf Graphic file (type pdf)
 <use Codes/RL/RLSafety18.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1119.
+Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [78
 
- <./Codes/RL/RLSafety18.pdf>]
+]
 File: Codes/RL/RLSafety18.pdf Graphic file (type pdf)
 <use Codes/RL/RLSafety18.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1119.
+Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [79
@@ -2174,227 +2100,216 @@ Overfull \vbox (12.35083pt too high) detected at line 1119
 ]
 File: Codes/RL/RLSafety18.pdf Graphic file (type pdf)
 <use Codes/RL/RLSafety18.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1119.
+Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1123.
 (pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
 
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (12.35083pt too high) detected at line 1123
  []
 
 [80
 
 ]
-File: Codes/RL/RLSafety18.pdf Graphic file (type pdf)
-<use Codes/RL/RLSafety18.pdf>
-Package pdftex.def Info: Codes/RL/RLSafety18.pdf  used on input line 1119.
-(pdftex.def)             Requested size: 136.91603pt x 136.91565pt.
-
-Overfull \vbox (12.35083pt too high) detected at line 1119
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [81
 
 ]
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [82
 
 ]
-Overfull \vbox (2.94528pt too high) detected at line 1246
+<Codes/SafetyFilters/Projection0.pdf, id=5026, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection0.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection0.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection0.pdf  used on input line 1250.
+(pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
+
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [83
 
-]
-<Codes/SafetyFilters/Projection0.pdf, id=5062, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection0.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection0.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection0.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection0.pdf>]
+<Codes/SafetyFilters/Projection1.pdf, id=5062, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection1.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection1.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection1.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [84
 
- <./Codes/SafetyFilters/Projection0.pdf>]
-<Codes/SafetyFilters/Projection1.pdf, id=5098, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection1.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection1.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection1.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection1.pdf>]
+<Codes/SafetyFilters/Projection2.pdf, id=5098, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection2.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection2.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection2.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [85
 
- <./Codes/SafetyFilters/Projection1.pdf>]
-<Codes/SafetyFilters/Projection2.pdf, id=5136, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection2.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection2.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection2.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection2.pdf>]
+<Codes/SafetyFilters/Projection3.pdf, id=5136, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection3.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection3.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection3.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [86
 
- <./Codes/SafetyFilters/Projection2.pdf>]
-<Codes/SafetyFilters/Projection3.pdf, id=5172, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection3.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection3.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection3.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection3.pdf>]
+<Codes/SafetyFilters/Projection4.pdf, id=5172, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection4.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection4.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection4.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [87
 
- <./Codes/SafetyFilters/Projection3.pdf>]
-<Codes/SafetyFilters/Projection4.pdf, id=5208, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection4.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection4.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection4.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection4.pdf>]
+<Codes/SafetyFilters/Projection5.pdf, id=5208, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection5.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection5.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection5.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [88
 
- <./Codes/SafetyFilters/Projection4.pdf>]
-<Codes/SafetyFilters/Projection5.pdf, id=5245, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection5.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection5.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection5.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection5.pdf>]
+<Codes/SafetyFilters/Projection6.pdf, id=5245, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection6.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection6.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection6.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [89
 
- <./Codes/SafetyFilters/Projection5.pdf>]
-<Codes/SafetyFilters/Projection6.pdf, id=5281, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection6.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection6.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection6.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection6.pdf>]
+<Codes/SafetyFilters/Projection7.pdf, id=5281, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection7.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection7.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection7.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [90
 
- <./Codes/SafetyFilters/Projection6.pdf>]
-<Codes/SafetyFilters/Projection7.pdf, id=5317, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection7.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection7.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection7.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection7.pdf>]
+<Codes/SafetyFilters/Projection8.pdf, id=5317, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection8.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection8.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection8.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [91
 
- <./Codes/SafetyFilters/Projection7.pdf>]
-<Codes/SafetyFilters/Projection8.pdf, id=5355, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection8.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection8.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection8.pdf  used on input line 1246.
+ <./Codes/SafetyFilters/Projection8.pdf>]
+<Codes/SafetyFilters/Projection9.pdf, id=5355, 462.52798pt x 459.6372pt>
+File: Codes/SafetyFilters/Projection9.pdf Graphic file (type pdf)
+<use Codes/SafetyFilters/Projection9.pdf>
+Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
 [92
 
- <./Codes/SafetyFilters/Projection8.pdf>]
-<Codes/SafetyFilters/Projection9.pdf, id=5391, 462.52798pt x 459.6372pt>
-File: Codes/SafetyFilters/Projection9.pdf Graphic file (type pdf)
-<use Codes/SafetyFilters/Projection9.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1246.
-(pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
-
-Overfull \vbox (2.94528pt too high) detected at line 1246
- []
-
-[93
-
  <./Codes/SafetyFilters/Projection9.pdf>]
 File: Figures/Chess.pdf Graphic file (type pdf)
 <use Figures/Chess.pdf>
-Package pdftex.def Info: Figures/Chess.pdf  used on input line 1246.
+Package pdftex.def Info: Figures/Chess.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 105.25623pt x 68.49312pt.
 
-Overfull \hbox (2.5666pt too wide) in paragraph at lines 1246--1246
+Overfull \hbox (2.5666pt too wide) in paragraph at lines 1250--1250
 []  
  []
 
 
 
 pdfTeX warning: pdflatex (file ./Figures/BlindCurve.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/BlindCurve.pdf, id=5428, 218.0145pt x 145.44337pt>
+<Figures/BlindCurve.pdf, id=5392, 218.0145pt x 145.44337pt>
 File: Figures/BlindCurve.pdf Graphic file (type pdf)
 <use Figures/BlindCurve.pdf>
-Package pdftex.def Info: Figures/BlindCurve.pdf  used on input line 1246.
+Package pdftex.def Info: Figures/BlindCurve.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 68.50708pt.
 
-Overfull \vbox (33.94908pt too high) detected at line 1246
+Overfull \vbox (33.94908pt too high) detected at line 1250
  []
 
 File: Codes/SafetyFilters/Projection9.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1246.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
-[94
+[93
 
  <./Figures/BlindCurve.pdf>]
 File: Figures/Chess.pdf Graphic file (type pdf)
 <use Figures/Chess.pdf>
-Package pdftex.def Info: Figures/Chess.pdf  used on input line 1246.
+Package pdftex.def Info: Figures/Chess.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 105.25623pt x 68.49312pt.
 
-Overfull \hbox (2.5666pt too wide) in paragraph at lines 1246--1246
+Overfull \hbox (2.5666pt too wide) in paragraph at lines 1250--1250
 []  
  []
 
 File: Figures/BlindCurve.pdf Graphic file (type pdf)
 <use Figures/BlindCurve.pdf>
-Package pdftex.def Info: Figures/BlindCurve.pdf  used on input line 1246.
+Package pdftex.def Info: Figures/BlindCurve.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 68.50708pt.
 
-Overfull \vbox (33.94908pt too high) detected at line 1246
+Overfull \vbox (33.94908pt too high) detected at line 1250
  []
 
 File: Codes/SafetyFilters/Projection9.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1246.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
-[95
+[94
 
 ]
 File: Codes/SafetyFilters/Projection9.pdf Graphic file (type pdf)
 <use Codes/SafetyFilters/Projection9.pdf>
-Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1246.
+Package pdftex.def Info: Codes/SafetyFilters/Projection9.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 102.68962pt x 102.04626pt.
 
-Overfull \vbox (2.94528pt too high) detected at line 1246
+Overfull \vbox (2.94528pt too high) detected at line 1250
  []
 
-[96
+[95
 
 ]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2404,14 +2319,14 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf, id=5526, 216.81pt x 216.81pt>
+<Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf, id=5490, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
- [97
+ [96
 
  <./Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2421,13 +2336,13 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
- [98
+ [97
 
 ]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
@@ -2437,11 +2352,11 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2450,14 +2365,14 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_QP_projection-eps-converted-to.pdf, id=5594, 289.08pt x 216.81pt>
+<Codes/CBF/CBF_QP_projection-eps-converted-to.pdf, id=5557, 289.08pt x 216.81pt>
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
- [99
+ [98
 
  <./Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_safe.eps>
@@ -2467,12 +2382,12 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_safe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:47
 (epstopdf)                    size: 35877 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Codes/CBF/CBF_Traj_safe.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=5641, 216.81pt x 216.81pt>
+<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=5605, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2481,75 +2396,99 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 1352.
+(epstopdf)             \includegraphics on input line 1356.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1352.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1356.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
- [100
+ [99
 
  <./Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>] (./Presentation.toc)
 File: Figures/Track.pdf Graphic file (type pdf)
 <use Figures/Track.pdf>
-Package pdftex.def Info: Figures/Track.pdf  used on input line 1355.
+Package pdftex.def Info: Figures/Track.pdf  used on input line 1359.
 (pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [101
+ [100
 
 ]
-<Codes/Epistemic/Explored_SA.jpeg, id=5711, 387.3672pt x 387.3672pt>
+<Codes/Epistemic/Explored_SA.jpeg, id=5674, 387.3672pt x 387.3672pt>
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
-<Codes/Epistemic/Dist_s_a_2.pdf, id=5713, 730.58003pt x 387.91452pt>
+<Codes/Epistemic/Dist_s_a_2.pdf, id=5676, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-<Codes/Epistemic/Dist_s_a_1.pdf, id=5715, 730.58003pt x 387.91452pt>
+<Codes/Epistemic/Dist_s_a_1.pdf, id=5678, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-<Codes/Epistemic/Dist_s_a_0.pdf, id=5717, 730.58003pt x 387.91452pt>
+<Codes/Epistemic/Dist_s_a_0.pdf, id=5680, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1463.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1467.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 1463.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1467.
 
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
+[][]  
+ []
+
+[101
+
+ <./Codes/Epistemic/Explored_SA.jpeg> <./Codes/Epistemic/Dist_s_a_2.pdf> <./Codes/Epistemic/Dist_s_a_1.pdf> <./Codes/Epistemic/Dist_s_a_0.pdf>]
+File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Explored_SA.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
+(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
+File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_2.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_1.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_0.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
 [102
 
- <./Codes/Epistemic/Explored_SA.jpeg> <./Codes/Epistemic/Dist_s_a_2.pdf> <./Codes/Epistemic/Dist_s_a_1.pdf> <./Codes/Epistemic/Dist_s_a_0.pdf>]
+]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2558,22 +2497,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2582,22 +2521,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2606,22 +2545,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2630,22 +2569,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2654,22 +2593,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
@@ -2678,253 +2617,229 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1467.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1467.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1467--1467
 [][]  
  []
 
 [109
 
-]
-File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1463.
-(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
-File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1463.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1463.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1463.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1463--1463
-[][]  
- []
-
-[110
-
-] [111
+] [110
 
 ]
-<Codes/DR/DistViewFew_0.pdf, id=6094, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_0.pdf, id=6058, 730.58003pt x 387.91452pt>
 File: Codes/DR/DistViewFew_0.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_0.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_0.pdf  used on input line 1514.
+Package pdftex.def Info: Codes/DR/DistViewFew_0.pdf  used on input line 1518.
+(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
+ [111
+
+ <./Codes/DR/DistViewFew_0.pdf>]
+<Codes/DR/DistViewFew_1.pdf, id=6102, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_1.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_1.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_1.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [112
 
- <./Codes/DR/DistViewFew_0.pdf>]
-<Codes/DR/DistViewFew_1.pdf, id=6138, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_1.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_1.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_1.pdf  used on input line 1514.
+ <./Codes/DR/DistViewFew_1.pdf>]
+<Codes/DR/DistViewFew_2.pdf, id=6143, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_2.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_2.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_2.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [113
 
- <./Codes/DR/DistViewFew_1.pdf>]
-<Codes/DR/DistViewFew_2.pdf, id=6180, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_2.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_2.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_2.pdf  used on input line 1514.
+ <./Codes/DR/DistViewFew_2.pdf>]
+<Codes/DR/DistViewFew_3.pdf, id=6185, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_3.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_3.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_3.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [114
 
- <./Codes/DR/DistViewFew_2.pdf>]
-<Codes/DR/DistViewFew_3.pdf, id=6221, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_3.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_3.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_3.pdf  used on input line 1514.
+ <./Codes/DR/DistViewFew_3.pdf>]
+<Codes/DR/DistViewFew_4.pdf, id=6226, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_4.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_4.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_4.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [115
 
- <./Codes/DR/DistViewFew_3.pdf>]
-<Codes/DR/DistViewFew_4.pdf, id=6263, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_4.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_4.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_4.pdf  used on input line 1514.
+ <./Codes/DR/DistViewFew_4.pdf>]
+<Codes/DR/DistViewFew_5.pdf, id=6268, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_5.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_5.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_5.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [116
 
- <./Codes/DR/DistViewFew_4.pdf>]
-<Codes/DR/DistViewFew_5.pdf, id=6305, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_5.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_5.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_5.pdf  used on input line 1514.
+ <./Codes/DR/DistViewFew_5.pdf>]
+<Codes/DR/DistViewFew_6.pdf, id=6310, 730.58003pt x 387.91452pt>
+File: Codes/DR/DistViewFew_6.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_6.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_6.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
  [117
 
- <./Codes/DR/DistViewFew_5.pdf>]
-<Codes/DR/DistViewFew_6.pdf, id=6346, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_6.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_6.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_6.pdf  used on input line 1514.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [118
-
  <./Codes/DR/DistViewFew_6.pdf>]
-<Codes/DR/DistViewFew_7.pdf, id=6388, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_7.pdf, id=6351, 730.58003pt x 387.91452pt>
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1514.
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [119
+ [118
 
  <./Codes/DR/DistViewFew_7.pdf>]
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1514.
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [120
+ [119
 
 ]
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1514.
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1518.
 (pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [121
+ [120
 
 ]
-Overfull \hbox (2.99272pt too wide) detected at line 1570
+Overfull \hbox (2.99272pt too wide) detected at line 1574
 []
  []
 
-<Codes/Epistemic/OOD_Map.jpeg, id=6481, 370.0224pt x 370.0224pt>
+<Codes/Epistemic/OOD_Map.jpeg, id=6444, 370.0224pt x 370.0224pt>
 File: Codes/Epistemic/OOD_Map.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/OOD_Map.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_Map.jpeg  used on input line 1570.
+Package pdftex.def Info: Codes/Epistemic/OOD_Map.jpeg  used on input line 1574.
 (pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
 
-Overfull \vbox (0.68001pt too high) detected at line 1570
+Overfull \vbox (0.68001pt too high) detected at line 1574
+ []
+
+[121
+
+ <./Codes/Epistemic/OOD_Map.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1574
+[]
+ []
+
+<Codes/Epistemic/OOD_Star.jpeg, id=6476, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/OOD_Star.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/OOD_Star.jpeg>
+Package pdftex.def Info: Codes/Epistemic/OOD_Star.jpeg  used on input line 1574.
+(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
+
+Overfull \vbox (0.68001pt too high) detected at line 1574
  []
 
 [122
 
- <./Codes/Epistemic/OOD_Map.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1570
+ <./Codes/Epistemic/OOD_Star.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1574
 []
  []
 
-<Codes/Epistemic/OOD_Star.jpeg, id=6513, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/OOD_Star.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/OOD_Star.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_Star.jpeg  used on input line 1570.
+<Codes/Epistemic/OOD_OOD.jpeg, id=6506, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/OOD_OOD.jpeg>
+Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1574.
 (pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
 
-Overfull \vbox (0.68001pt too high) detected at line 1570
+Overfull \vbox (0.68001pt too high) detected at line 1574
  []
 
 [123
 
- <./Codes/Epistemic/OOD_Star.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1570
+ <./Codes/Epistemic/OOD_OOD.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1574
 []
  []
 
-<Codes/Epistemic/OOD_OOD.jpeg, id=6542, 370.0224pt x 370.0224pt>
 File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/OOD_OOD.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1570.
+Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1574.
 (pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
 
-Overfull \vbox (0.68001pt too high) detected at line 1570
+Overfull \vbox (0.68001pt too high) detected at line 1574
  []
 
 [124
 
- <./Codes/Epistemic/OOD_OOD.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1570
-[]
- []
+]
+<Codes/Epistemic/Hybrid4.jpeg, id=6562, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid4.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid4.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid4.jpeg  used on input line 1621.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/OOD_OOD.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1570.
-(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
-
-Overfull \vbox (0.68001pt too high) detected at line 1570
+Overfull \vbox (31.49068pt too high) detected at line 1621
  []
 
 [125
 
-]
-<Codes/Epistemic/Hybrid4.jpeg, id=6598, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid4.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid4.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid4.jpeg  used on input line 1617.
+ <./Codes/Epistemic/Hybrid4.jpeg>]
+<Codes/Epistemic/Hybrid3.jpeg, id=6591, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid3.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid3.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid3.jpeg  used on input line 1621.
 (pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-Overfull \vbox (31.49068pt too high) detected at line 1617
+Overfull \vbox (31.49068pt too high) detected at line 1621
  []
 
 [126
 
- <./Codes/Epistemic/Hybrid4.jpeg>]
-<Codes/Epistemic/Hybrid3.jpeg, id=6628, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid3.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid3.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid3.jpeg  used on input line 1617.
+ <./Codes/Epistemic/Hybrid3.jpeg>]
+<Codes/Epistemic/Hybrid2.jpeg, id=6621, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid2.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid2.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid2.jpeg  used on input line 1621.
 (pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-Overfull \vbox (31.49068pt too high) detected at line 1617
+Overfull \vbox (31.49068pt too high) detected at line 1621
  []
 
 [127
 
- <./Codes/Epistemic/Hybrid3.jpeg>]
-<Codes/Epistemic/Hybrid2.jpeg, id=6658, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid2.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid2.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid2.jpeg  used on input line 1617.
+ <./Codes/Epistemic/Hybrid2.jpeg>]
+<Codes/Epistemic/Hybrid1.jpeg, id=6651, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid1.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid1.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid1.jpeg  used on input line 1621.
 (pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-Overfull \vbox (31.49068pt too high) detected at line 1617
+Overfull \vbox (31.49068pt too high) detected at line 1621
  []
 
 [128
 
- <./Codes/Epistemic/Hybrid2.jpeg>]
-<Codes/Epistemic/Hybrid1.jpeg, id=6687, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid1.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid1.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid1.jpeg  used on input line 1617.
+ <./Codes/Epistemic/Hybrid1.jpeg>]
+<Codes/Epistemic/Hybrid0.jpeg, id=6679, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid0.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid0.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid0.jpeg  used on input line 1621.
 (pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-Overfull \vbox (31.49068pt too high) detected at line 1617
+Overfull \vbox (31.49068pt too high) detected at line 1621
  []
 
 [129
-
- <./Codes/Epistemic/Hybrid1.jpeg>]
-<Codes/Epistemic/Hybrid0.jpeg, id=6715, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid0.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid0.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid0.jpeg  used on input line 1617.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
-
-Overfull \vbox (31.49068pt too high) detected at line 1617
- []
-
-[130
 
  <./Codes/Epistemic/Hybrid0.jpeg>]
 \tf@nav=\write8
@@ -2945,18 +2860,18 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 2A63F0274EB20187F279CC13C8E73976;694.
  ) 
 Here is how much of TeX's memory you used:
- 34261 strings out of 474050
- 715825 string characters out of 5742264
+ 34254 strings out of 474050
+ 715704 string characters out of 5742264
  1976751 words of memory out of 5000000
- 55697 multiletter control sequences out of 15000+600000
+ 55692 multiletter control sequences out of 15000+600000
  581025 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,26n,123p,487b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Presentation.pdf (130 pages, 11626881 bytes).
+Output written on Presentation.pdf (129 pages, 11627616 bytes).
 PDF statistics:
- 6913 PDF objects out of 7423 (max. 8388607)
- 4004 compressed objects within 41 object streams
- 264 named destinations out of 1000 (max. 500000)
- 1279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6876 PDF objects out of 7423 (max. 8388607)
+ 3974 compressed objects within 40 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 1249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
