@@ -605,7 +605,7 @@ Constraints
         Trajectories with ``containers"
   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel7.pdf}%
         }%
-                      \only<11->
+                      \only<11-> 
         {%
                 \center
         Trajectories with ``containers"
@@ -639,24 +639,93 @@ Constraints
 %\vspace{-1cm}
 \end{frame}
 
+% \begin{frame}{\normalsize Robust Repeated Planning}
+% \footnotesize
+% \begin{itemize}
+% \item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
+% \item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
+% \end{itemize}
+
+% \begin{columns}[t]
+% \column{0.5\textwidth}
+
+
+% \includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
+% \column{0.5\textwidth}
+% \textcolor{red}{TODOTODOTODO}
+% \end{columns}
+
+% \end{frame}
+
 
 \begin{frame}{\normalsize Robust Repeated Planning}
 \footnotesize
-\begin{itemize}
-\item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
-\item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
-\end{itemize}
 
-\begin{columns}[t]
-\column{0.5\textwidth}
+\begin{columns}[T,onlytextwidth]
+  % Left column: bulleted text
+  \column{0.6\textwidth}
+  \begin{itemize}
+    \visible<1->{
+      \item Re-plan at each step with safety in mind, hedging against worst case uncertainties in the future.
+    }
+        \visible<2->{
+    \item \textbf{Robust MPC:} rolling horizon, worst-case tubes, online re-plan.}
+        \visible<4->{
+    \item \textbf{Scenario trees \/ Stochastic programming:} hedge decisions across branched futures.}
+        \visible<10->{ 
+    \item \textbf{Sampling:} Monte Carlo and \emph{MPPI} for large-scale problems.}
+  \end{itemize}
+  \visible<11->{
+    \vspace{0.3cm}
+  \textbf{Remarks:}
+  \begin{itemize}
+    \item In practice: robust optimization = \textbf{min--max}: maximize utility over scenarios that avoid worst-case violation.
+    \item Hard to establish guarantees for nonlinear systems
+    \item Scenario explosion.
+    \item Persistent safety (\emph{recursive feasibility}) under re-planning.
+  \end{itemize}}
 
+  % Right column: overlay figures
+  \column{0.40\textwidth}
+\begin{overlayarea}{0.4\textwidth}{0.7\textheight}
+  \only<1>{
+      \includegraphics[width=2\textwidth,clip]{Figures/Chess.pdf}
+  }
+  \only<2>{
+        \begin{figure}
+        \centering
+        \includegraphics[width=1.5\textwidth]{Codes/RobustMPC/IllustrationRobustMPCPreTerminal.eps}
+      \end{figure}
+}
+\only<3>{
+        \begin{figure}
+        \centering
+        \includegraphics[width=1.5\textwidth]{Codes/RobustMPC/IllustrationRobustMPCTerminal.eps}
+      \end{figure}
+}
+\only<4>{
+  \input{Codes/Scenariotree/scenario_1.tex}
+}
+\only<5>{
+  \input{Codes/Scenariotree/scenario_2.tex}
+}
+\only<6>{
+  \input{Codes/Scenariotree/scenario_3.tex}
+}
+\only<7>{
+  \input{Codes/Scenariotree/scenario_4.tex}
+}
+\only<8>{
+  \input{Codes/Scenariotree/scenario_5.tex}
+}
+\only<9->{
+  \input{Codes/Scenariotree/scenario_6.tex}
+}
 
-\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
-\column{0.5\textwidth}
-\textcolor{red}{TODOTODOTODO}
+\end{overlayarea}
 \end{columns}
-
 \end{frame}
+
 
 
 % ===============================
@@ -1218,8 +1287,8 @@ Able to stop within the visible distance}
     u^\star(x) = \arg\min_{u}\tfrac12\|u-u_{\mathrm{des}}(x)\|_2^2
     \quad\text{s.t.}
   \]
-    \[
-  \quad\underbrace{L_f h(x) + L_g h(x)\,u + \alpha(h(x)) \ge 0}_{\text{\scriptsize CBF constraint}}
+    \[ \qquad CBF constraint
+  % \quad\underbrace{L_f h(x) + L_g h(x)\,u + \alpha(h(x)) \ge 0}_{\text{\scriptsize CBF constraint}}
   \]
   \vspace{-0.6em}
   \end{block}

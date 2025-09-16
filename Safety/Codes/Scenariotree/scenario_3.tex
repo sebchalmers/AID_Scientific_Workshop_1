@@ -1,0 +1,53 @@
+\begin{tikzpicture}[scale=0.7]
+%Initial conditions
+\draw (0,0)  node[draw,circle,fill=white,minimum size=5pt, inner sep=0pt, label = below left:{$\vect s,\,\vect u_0$}, label = {[xshift=-1cm, yshift=0.0cm]:{}}](sa) {};
+%First branching
+\draw (1.2,1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect x_{1,1},\vect u_{1,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s11)  {};
+\draw (1.2,-1.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect x_{1,2},\vect u_{1,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s12)  {};
+%Second branching
+\draw (2.4,3)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect x_{2,1},\vect u_{2,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s21)  {};
+\draw (2.4,1)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect x_{2,2},\vect u_{2,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s22)  {};
+\draw (2.4,-1)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=above left:{$\vect x_{2,3},\vect u_{2,3}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s23)  {};
+\draw (2.4,-3) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=below left:{$\vect x_{2,4},\vect u_{2,4}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s24)  {};
+%Third branching
+\draw (3.6,3.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,1}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s31)  {};
+\draw (3.6,2.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,2}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s32)  {};
+\draw (3.6,1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,3}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s33)  {};
+\draw (3.6,0.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,4}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s34)  {};
+\draw (3.6,-0.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,5}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s35)  {};
+\draw (3.6,-1.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,6}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s36)  {};
+\draw (3.6,-2.5)  node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,7}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s37)  {};
+\draw (3.6,-3.5) node[draw,circle,fill=black,minimum size=3pt, inner sep=0pt, label=right:{$\vect x_{3,8}$}, label = {[xshift=0.5cm, yshift=0.1cm]:{}}] (s38)  {};
+\path
+(sa) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s11)
+(sa) edge node[below, xshift=0.0cm, yshift=-0.275cm]{} (s12)
+ 
+(s11) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s21)
+(s11) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s22)
+ 
+(s12) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s23)
+(s12) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s24)
+ 
+ 
+(s21) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s31)
+(s21) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s32)
+ 
+(s22) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s33)
+(s22) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s34)
+ 
+(s23) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s35)
+(s23) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s36)
+ 
+(s24) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s37)
+(s24) edge node[above, xshift=0.0cm, yshift=0.275cm]{} (s38);
+
+% ===== Overlay 2+: green ticks / red crosses near leaves =====
+\node[align=left] at ($(s31)+(1,0.0)$) {\textcolor{myGreen2}{$\checkmark$}};
+\node[align=left] at ($(s32)+(1,0.0)$) {\textcolor{myGreen2}{$\checkmark$}};
+\node[align=left] at ($(s33)+(1,0.0)$) {\textcolor{myGreen2}{$\checkmark$}};
+\node[align=left] at ($(s34)+(1,0.0)$) {\textcolor{myGreen2}{$\checkmark$}};
+\node[align=left] at ($(s35)+(1,0.0)$) {\textcolor{myRed}{$\times$}};
+\node[align=left] at ($(s36)+(1,0.0)$) {\textcolor{myRed}{$\times$}};
+\node[align=left] at ($(s37)+(1,0.0)$) {\textcolor{myGreen2}{$\checkmark$}};
+\node[align=left] at ($(s38)+(1,0.0)$) {\textcolor{myRed}{$\times$}};
+\end{tikzpicture}
