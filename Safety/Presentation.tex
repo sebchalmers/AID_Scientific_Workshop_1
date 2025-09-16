@@ -754,6 +754,7 @@ Constraints
   }
 
   % Heavy-tail figure
+  \vspace{-0.3cm}
   \uncover<2->{
   \begin{figure}
     \centering
@@ -799,51 +800,51 @@ Constraints
 
 \end{frame}
 
-% ===============================
-\begin{frame}{\normalsize Methods for Risk-Sensitive RL}
-\footnotesize
-\begin{itemize}
-  \uncover<1->{
-  \item \textbf{Utility-based (Exponential / Entropic risk)}  
-        Reformulate Bellman operator with exponential utility \(U(x) = -\exp(-\beta x)\).  
-        \textit{Solved with DP.}}
-\uncover<2->{
-  \item \textbf{Coherent risk measures (CVaR, VaR, spectral)}  
-        Express objective a risk measure.  
-       \textit{Solved with covexification, policy gradient methods.}
+% % ===============================
+% \begin{frame}{\normalsize Methods for Risk-Sensitive RL}
+% \footnotesize
+% \begin{itemize}
+%   \uncover<1->{
+%   \item \textbf{Utility-based (Exponential / Entropic risk)}  
+%         Reformulate Bellman operator with exponential utility \(U(x) = -\exp(-\beta x)\).  
+%         \textit{Solved with DP.}}
+% \uncover<2->{
+%   \item \textbf{Coherent risk measures (CVaR, VaR, spectral)}  
+%         Express objective a risk measure.  
+%        \textit{Solved with covexification, policy gradient methods.}
   
-       {\centering
-$ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}\,\mathbb{E}\big[(Z-\eta)_+\big]\Big]$}
-       }
-\uncover<3->{
-  \item \textbf{Distributional approaches}  
-        Learn the full distribution of returns instead of just the mean.  \textit{Solved with distributional RL.}}
-\uncover<4->{
-  \item \textbf{Constraint-based formulations}  
-        Risk as explicit constraints, e.g.\ $\mathrm{CVaR}(\text{cost}) \le d$.  
-        \hfill \textit{Solved with Lagrangian relaxation, primal–dual policy gradient.}}
-\end{itemize}
+%        {\centering
+% $ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}\,\mathbb{E}\big[(Z-\eta)_+\big]\Big]$}
+%        }
+% \uncover<3->{
+%   \item \textbf{Distributional approaches}  
+%         Learn the full distribution of returns instead of just the mean.  \textit{Solved with distributional RL.}}
+% \uncover<4->{
+%   \item \textbf{Constraint-based formulations}  
+%         Risk as explicit constraints, e.g.\ $\mathrm{CVaR}(\text{cost}) \le d$.  
+%         \hfill \textit{Solved with Lagrangian relaxation, primal–dual policy gradient.}}
+% \end{itemize}
 
-\vspace{0.3cm}
+% \vspace{0.3cm}
 
-% --- Simple VaR / CVaR equations linked to left image ---
-\normalsize
+% % --- Simple VaR / CVaR equations linked to left image ---
+% \normalsize
 
-\begin{columns}[t]
-\column{0.5\textwidth}
-\uncover<2->{
-\centering
-%\includegraphics[width=0.85\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}\\
-\scriptsize CVaR tail beyond $\eta$ shapes the policy.}
+% \begin{columns}[t]
+% \column{0.5\textwidth}
+% \uncover<2->{
+% \centering
+% %\includegraphics[width=0.85\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}\\
+% \scriptsize CVaR tail beyond $\eta$ shapes the policy.}
 
-\column{0.5\textwidth}
-\uncover<4->{
-\centering
-%\includegraphics[width=0.85\linewidth]{Codes/Risk/DistributionalRL.pdf}\\
-\scriptsize Distributional RL: decisions from full return distribution.}
-\end{columns}
+% \column{0.5\textwidth}
+% \uncover<4->{
+% \centering
+% %\includegraphics[width=0.85\linewidth]{Codes/Risk/DistributionalRL.pdf}\\
+% \scriptsize Distributional RL: decisions from full return distribution.}
+% \end{columns}
 
-\end{frame}
+% \end{frame}
 
 %\section{Probabilistic Safety in Decision Making}
 \begin{frame}{\normalsize MDPs with probabilistic safety}
