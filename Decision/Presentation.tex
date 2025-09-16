@@ -1523,7 +1523,7 @@ Constraints
 \item Probabilistic: $\hat{\mathrm{P}}_{\vect\theta}\left[\,\vect s_+\,|\,\vect s,\vect a\,\right]$ $\rightarrow$ e.g. via Max Likelihood of $\hat{\mathrm{P}}_{\vect\theta}$ over data
 \item Point prediction: $\hat{\vect s}_+ = \vect f_{\vect\theta}\left(\vect s,\vect a\right)$ $\rightarrow$ e.g. via fitting on data (LS, Lasso, etc)
 \end{itemize}
-\item \visible<2->{\textbf{Build policy} from $\vect\pi_{\vect \theta}^\star=\argmax_{\vect \pi}\,\hat J_{\vect\theta}\left(\vect \pi\right)$, i.e optimal for the model}
+\item \visible<2->{\textbf{Build policy} from $\vect\pi_{\vect \theta}=\argmax_{\vect \pi}\,\hat J_{\vect\theta}\left(\vect \pi\right)$, i.e optimal for the model}
 \item \visible<3->{\textbf{Transfer} policy into the real world, hope for the best...}
 \end{itemize}
 
@@ -1547,7 +1547,7 @@ Constraints
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
 \vspace{-.75cm}
- \visible<1-4>{\flushright fitting real-world data}
+\flushright fitting real-world data
 \end{minipage}
  };
 
@@ -1559,7 +1559,7 @@ Constraints
 \textbf{Build Policy}
  \vspace{-0.2cm}
 \begin{align*}
-\vect\pi_{\vect \theta}^\star%(\vect{s})
+\vect\pi_{\vect \theta}
 \end{align*}
  \vspace{-0.5cm}\\
 optimal for ML model
@@ -1625,7 +1625,7 @@ L\left(\vect s,\vect a\right)
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
 \vspace{-.75cm}
- \visible<1-4>{\flushright fitting real-world data}
+\flushright fitting real-world data
 \end{minipage}
  };
 
@@ -1699,7 +1699,7 @@ L\left(\vect s,\vect a\right)
 \hat{\vect{s}}_{+} \sim \hat{\mathrm P}_{\vect{\theta}}\left[\cdot\,|\,\vect{s},\vect{a}\right]
 \end{align*}
 \vspace{-.75cm}
- \visible<1-4>{\flushright fitting real-world data}
+\flushright fitting real-world data
 \end{minipage}
  };
 
@@ -1902,6 +1902,49 @@ L\left(\vect s,\vect a\right)
 \end{itemize}
 
 
+
+
+\end{frame}
+
+\begin{frame}{\normalsize What does it say about AID?}
+\footnotesize
+\begin{center}
+\textit{We have discussed on the key concepts of decision making}
+\end{center}
+\begin{overlayarea}{\textwidth}{0.75\textheight}
+\only<2>{
+\begin{block}{}
+\textbf{Markov state and RA3 (Data to Information)} (more in another talk)
+\begin{itemize}
+\item The problem of ``building" a \textbf{Markov state} for a given problem is tricky
+\item Recent history of observation can play that role, but it is often too large
+\item ``Compression" observations into a relevant, lower-dimensional ``latent state" is critical
+\item How to build a latent state useful for decision is a key RQ
+\end{itemize}
+\end{block}
+}
+\only<3>{
+\begin{block}{}
+\textbf{Models for decision and RA5 (Training models for decision)} (more in another talk)
+\begin{itemize}
+\item Best model fit $\neq$ best model for decision
+\item Decision-oriented model training is possible
+\item More research needed 
+\end{itemize}
+\end{block}
+}
+\only<4>{
+\begin{block}{}
+\textbf{Repeated planning and RA7 (AI and formal decision tools)} (more in another talk)
+\begin{itemize}
+\item In practice, decisions are often taken from repeated planning
+\item Complex relationship model accuracy - policy performance in that context
+\item Theory explaining that relationship exists + methods to train repeated planning towards optimal decisions
+\item More research needed 
+\end{itemize}
+\end{block}
+}
+\end{overlayarea}
 
 
 \end{frame}
