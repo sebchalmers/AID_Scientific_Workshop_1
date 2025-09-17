@@ -1348,6 +1348,46 @@ J\left(\vect\pi\right)=\mathrm{E}\left[\left.\sum_{k=0}^\infty\,\gamma^kL\left(\
 
 \end{frame}
 
+\begin{frame}{\normalsize Solving MDPs}
+\footnotesize
+\begin{center}
+\textit{Assuming we know perfectly the ``transition function" $\mathrm{P}\left[\,\vect s_{+}\, |\, \vect s,\vect a\,\right]$ of our problem}
+\end{center}
+\begin{itemize}
+\visible<2->{
+\item \textbf{Dynamic Programming}:
+\begin{itemize}
+\scriptsize
+\item Solve the Bellman equations, leverage on the contraction of the Bellman operator
+\item State and action must be gridded (if continuous)
+\item Curse of dimensionality
+\item Several approximation methods 
+\item Used mostly on ``mickey-mouse" problems
+\end{itemize}}
+\visible<3->{
+\item \textbf{In-Simulation (In-Sim) Reinforcement Learning}:
+\begin{itemize}
+\scriptsize
+\item Generate virtual data in simulations and use them to train a policy
+\item Policy is often supported by a DNN
+\item Many methods to train the policy, actor-critic is the most popular
+\item Approximate optimal policy, local solution (gradient + sample based) 
+\item Popular in robotics...
+\end{itemize}}
+\visible<4->{
+\item \textbf{Using Repeated Planning}:
+\begin{itemize}
+\scriptsize
+\item Optimize action plans, apply first action, repeat
+\item Many different versions and names (MPC, MSSP, MPPI, etc)
+\item Approximate $\mathrm{P}\left[\,\vect s_{+}\, |\, \vect s,\vect a\,\right]$ (deterministic, MC sampling, scenario tree, etc)
+\item Popular in many industries
+\end{itemize}
+}
+\end{itemize}
+
+
+\end{frame}
 
 %\begin{frame}{\normalsize Markov State and MDPs}
 %\footnotesize
@@ -1358,31 +1398,31 @@ J\left(\vect\pi\right)=\mathrm{E}\left[\left.\sum_{k=0}^\infty\,\gamma^kL\left(\
 %TODO: forecasts are part of the Markov state, POMDP, Rock-paper-scissor example...
 %\end{frame}
 
-\begin{frame}{\normalsize Solving MDPs}
-\footnotesize
-BUILD THIS 
-%
-%\begin{columns}
-%\column{0.5\textwidth}
-%\begin{figure}
-%\newcommand{\FS}{1}
-%%\includegraphics<13>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf0.eps}
-%%\includegraphics<14>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf1.eps}
-%%\includegraphics<15>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf2.eps}
-%\includegraphics[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf3.eps}
-%%\includegraphics<17>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf4.eps}
-%%\includegraphics<18>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf5.eps}
-%%\includegraphics<19>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf6.eps}
-%%\includegraphics<20>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf7.eps}
-%%\includegraphics<21>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf8.eps}
-%%\includegraphics<22->[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf9.eps}
-%\end{figure}
-%\column{0.5\textwidth}
-%$J\left(\vect\pi\right)$ is assuming an underlying initial state distribution
-%\end{columns}
-%
-%
-\end{frame}
+%\begin{frame}{\normalsize Solving MDPs}
+%\footnotesize
+%BUILD THIS 
+%%
+%%\begin{columns}
+%%\column{0.5\textwidth}
+%%\begin{figure}
+%%\newcommand{\FS}{1}
+%%%\includegraphics<13>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf0.eps}
+%%%\includegraphics<14>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf1.eps}
+%%%\includegraphics<15>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf2.eps}
+%%\includegraphics[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf3.eps}
+%%%\includegraphics<17>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf4.eps}
+%%%\includegraphics<18>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf5.eps}
+%%%\includegraphics<19>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf6.eps}
+%%%\includegraphics<20>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf7.eps}
+%%%\includegraphics<21>[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf8.eps}
+%%%\includegraphics<22->[width=\FS\textwidth,clip]{Codes/Basics/MDPPerf9.eps}
+%%\end{figure}
+%%\column{0.5\textwidth}
+%%$J\left(\vect\pi\right)$ is assuming an underlying initial state distribution
+%%\end{columns}
+%%
+%%
+%\end{frame}
 %
 %
 %\begin{frame}{\normalsize The Role of the Value Functions}
@@ -1398,27 +1438,27 @@ BUILD THIS
 %
 %\end{frame}
 
-
-\section{Solving MDPs}
-
-\begin{frame}{\normalsize Dynamic Programming}
-\footnotesize
-
-\end{frame}
-
-\begin{frame}{\normalsize Repeated Planning}
-\footnotesize
-
-\end{frame}
-
-\begin{frame}{\normalsize Reinforcement Learning}
-\footnotesize
-
-\end{frame}
+%
+%\section{Solving MDPs}
+%
+%\begin{frame}{\normalsize Dynamic Programming}
+%\footnotesize
+%
+%\end{frame}
+%
+%\begin{frame}{\normalsize Repeated Planning}
+%\footnotesize
+%
+%\end{frame}
+%
+%\begin{frame}{\normalsize Reinforcement Learning}
+%\footnotesize
+%
+%\end{frame}
 
 \section{Using Data in Decision Making}
 
-\begin{frame}{\normalsize Model-Free Reinforcement Learning}
+\begin{frame}{\normalsize Model-Free (In-Real) Reinforcement Learning}
 \footnotesize
 \begin{center}
 \textit{Learn a policy purely via interactions with the real world}
@@ -1912,38 +1952,38 @@ L\left(\vect s,\vect a\right)
 \begin{frame}{\normalsize What does it say about AID?}
 \footnotesize
 \begin{center}
-\textit{We have discussed on the key concepts of decision making}
+\textit{We have discussed on the key concepts of decision making, the ``core" of AID}
 \end{center}
 \begin{overlayarea}{\textwidth}{0.75\textheight}
 \only<2>{
 \begin{block}{}
-\textbf{Markov state and RA3 (Data to Information)} (more in another talk)
+\textbf{Markov state $\rightarrow$ RA3 (Data to Information)} (more in another talk)
 \begin{itemize}
 \item The problem of ``building" a \textbf{Markov state} for a given problem is tricky
 \item Recent history of observation can play that role, but it is often too large
-\item ``Compression" observations into a relevant, lower-dimensional ``latent state" is critical
-\item How to build a latent state useful for decision is a key RQ
+\item ``Compression" of observations into a lower-dimensional ``latent state" is key
+\item How to build a latent state useful for decision is a key RA/RQ
 \end{itemize}
 \end{block}
 }
 \only<3>{
 \begin{block}{}
-\textbf{Models for decision and RA5 (Training models for decision)} (more in another talk)
+\textbf{Models for decision $\rightarrow$ RA5 (Training models for decision)} (more other talks)
 \begin{itemize}
 \item Best model fit $\neq$ best model for decision
 \item Decision-oriented model training is possible
-\item More research needed 
+\item More research is needed 
 \end{itemize}
 \end{block}
 }
 \only<4>{
 \begin{block}{}
-\textbf{Repeated planning and RA7 (AI and formal decision tools)} (more in another talk)
+\textbf{Repeated planning $\rightarrow$ RA7 (AI and formal decision tools)} (more in other talks)
 \begin{itemize}
 \item In practice, decisions are often taken from repeated planning
 \item Complex relationship model accuracy - policy performance in that context
 \item Theory explaining that relationship exists + methods to train repeated planning towards optimal decisions
-\item More research needed 
+\item More research is needed 
 \end{itemize}
 \end{block}
 }
