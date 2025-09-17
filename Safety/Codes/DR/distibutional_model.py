@@ -49,7 +49,7 @@ alt_plausible = [
 # Generate 8 sequential plots where each adds another plausible fit
 for i in range(8):
     plt.close('all')
-    fig, ax = plt.subplots(figsize=(12,6))
+    fig, ax = plt.subplots(figsize=(12,12))
 
     # Histogram of few data points
     ax.fill_between(sf, Hf, np.zeros(len(sf)), color='b', step='mid', label=r"Empirical $\hat{P}$ (few)")
@@ -63,7 +63,7 @@ for i in range(8):
     for j in range(i):
         mu_p, sig_p = alt_plausible[j]
         alt = np.exp(-(x-mu_p)**2/(2*sig_p**2)) / (np.sqrt(2*np.pi)*sig_p)
-        ax.plot(x, alt, 'r:', linewidth=3, label=r"$P \in \mathcal{P}$" if j == 0 else None)
+        ax.plot(x, alt, 'r:', linewidth=10, label=r"$P \in \mathcal{P}$" if j == 0 else None)
         max_alt = max(max_alt, float(np.max(alt)))
     ymax = 1.5*max(float(np.max(Hf)), max_alt)
     ax.set_ylim([0, ymax])

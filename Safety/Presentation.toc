@@ -1,3 +1,3 @@
 \beamer@sectionintoc {1}{Some Basics of Safe Decision Making}{3}{0}{1}
 \beamer@sectionintoc {2}{Safe Decisions from Data \& AI}{52}{0}{2}
-\beamer@sectionintoc {3}{Epistemic Uncertainty and Safe Decisions}{96}{0}{3}
+\beamer@sectionintoc {3}{Epistemic Uncertainty and Safe Decisions}{99}{0}{3}

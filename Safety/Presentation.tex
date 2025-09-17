@@ -1324,6 +1324,13 @@ Able to stop within the visible distance}
         \caption*{\scriptsize CBF-filtered trajectory.}
       \end{figure}
     }% end only<4>
+        \only<5-6>{
+        \begin{figure}
+        \centering
+        \includegraphics[width=0.55\linewidth]{Codes/CBF/unsafe_vectorfield.eps}
+        \caption*{\scriptsize Vector filed without CBF filter.}
+      \end{figure}
+}
   \end{overlayarea}
 
   % ---- Right figure: QP projection appears from overlay 3 ----
@@ -1332,25 +1339,35 @@ Able to stop within the visible distance}
     \only<1-2>{ % keep the area blank on overlays 1-2 to preserve layout
       \vspace{0.2em}
     }
-    \only<3->{
+    \only<3-4>{
       \begin{figure}
         \centering
         \includegraphics[width=0.55\linewidth]{Codes/CBF/CBF_QP_projection.eps}
         \caption*{\scriptsize CBF filter: project $u_{\mathrm{des}}$ to feasible $u_{\mathrm{safe}}$.}
       \end{figure}
     }
+    \only<6>{
+        \begin{figure}
+        \centering
+        \includegraphics[width=0.55\linewidth]{Codes/CBF/safe_vectorfield.eps}
+        \caption*{\scriptsize vector field with CBF filter.}
+      \end{figure}
+}
   \end{overlayarea}
 \end{columns}
 
 % ==============
 % remarks 
 % ==============
-\only<4->{%
-\vspace{-0.35em}
+
+
+\only<7->{%
+\vspace{-3cm}
+\textbf{Remarks:}
 \scriptsize
 \begin{itemize}
-  \item The barrier function and safe set $\mathcal{C}$ are typically \textbf{constructed from domain knowledge} (physics, rules, safety envelopes).
-  \item Requires a (possibly simplified, conservative) \textbf{system model}: \textbf{robust} approach.
+  \item The barrier function and safe set $\mathcal{C}$ are typically {constructed from domain knowledge} (physics, rules, safety envelopes).
+  \item Requires a (possibly simplified, conservative) {system model}: {robust} approach.
 \end{itemize}
 }
 \endgroup
@@ -1474,21 +1491,21 @@ Able to stop within the visible distance}
 \begin{columns}[T,onlytextwidth]
 
   % -------- LEFT column
-  \column{0.7\textwidth}
-  \uncover<1->{
+  \column{0.6\textwidth}
+  \visible<1->{
   \begin{itemize}
-    \item True dynamics are unknown; only samples or estimates available.}
-    \uncover<5-> {
-    \item Instead of a single density, distribution of densities.  }
-    \uncover<6->{\item {Knowledge embedding:} encode physics/rules as priors or constraints on models.}
-    \uncover<7->{\item \textbf{Bayesian view:} posterior $p(P\mid\mathcal D)$ over kernels}
-    \uncover<8->{\item \textbf{Building $\mathcal P$:}  ensembles, parametric, non-parametric.}
+    \item True dynamics are unknown; only samples or estimates available}
+    \visible<4-> {
+    \item Instead of a single density, distribution of densities}
+    \visible<10->{\item {Knowledge embedding:} encode physics/rules as priors or constraints on models}
+    \visible<11->{\item {Bayesian view:} Data updates the prior belief about the model providing a posterior }
+    \visible<12->{\item {Building $\mathcal P$:}  ensembles, parametric, non-parametric}
   \end{itemize}
   
 
 
   % -------- RIGHT column
-  \column{0.3\textwidth}
+  \column{0.4\textwidth}
 
   % Figure left (progressive few-data ambiguity visuals)
   \begin{overlayarea}{0.9\linewidth}{0.45\textheight}
@@ -1505,12 +1522,11 @@ Able to stop within the visible distance}
 
 \end{columns}
 
-\only<11->{
-\vspace{-0.1cm}
+\only<13->{
+\vspace{0.1cm}
 \scriptsize\textbf{Remarks:}
 \begin{itemize}
   \item Accounts for \textbf{epistemic uncertainty} from limited data; connects to probabilistic safety via confidence levels.
-  \item Probabilistic safety with confidence levels (chance constraints)  
   \item Distributionally Robust Optimization for worst-case robustness against model misspecification (more conservative).
   \item Expectation over distribution of distributions: some form of discretization. Bayesian marginalization or Scenario discretization
 \end{itemize}
@@ -1586,7 +1602,7 @@ Able to stop within the visible distance}
 \end{center}
 \begin{itemize}
 \item Transition AI $\leftrightarrow$ Knowledge should be smooth
-\item Knowledge-driven model can still be data-driven, but with simpler structure that AI (e.g. linear)
+\item Knowledge-driven model can still be data-driven, but with simpler structure than AI model (e.g. linear)
 \item Tends to outperform AI or Knowledge alone in decision making
 \item Approach is heuristic, lack of theoretical foundations
 \end{itemize}
