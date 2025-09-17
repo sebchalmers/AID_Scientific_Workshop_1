@@ -742,7 +742,7 @@ Constraints
 \begin{itemize}
 \scriptsize
 \item Actions: spot prices
-\item Utility: $\sum$ participants utility
+\item Utility: $\sum$ participants utility 
 \item Constraints: 
  \begin{itemize}
 \scriptsize
@@ -751,7 +751,7 @@ Constraints
 \end{itemize}
 \end{itemize}
 \vspace{-0.25cm}
-\flushright \textbf{... but ``planning-style"}
+\flushright ... but \textbf{action plan} instead of policy
 \end{block}
 }}
 \only<4->{
@@ -770,7 +770,7 @@ Performance of (optimal) planning}
 \visible<8->{
 \begin{alertblock}{}
 \center
-The distinction planning-policy is not obvious, but we won't expand today
+The distinction planning-policy is not so obvious, but we won't expand today
 \end{alertblock}
 }
 }
@@ -833,12 +833,13 @@ The distinction planning-policy is not obvious, but we won't expand today
 
 \begin{columns}
 \column{0.4\textwidth}
-
-
-
+\vspace{-.2cm}
+\center
+\textit{A classical practical approach to decision making}
+\vspace{-.2cm}
   \begin{overlayarea}{\textwidth}{0.9\textheight}
     \begin{figure}
-    \newcommand{\FS}{1}
+    \newcommand{\FS}{0.9}
       \centering
       \only<1>
         {%
@@ -878,6 +879,7 @@ The distinction planning-policy is not obvious, but we won't expand today
 
 
 \column{0.6\textwidth}
+\vspace{-1cm}
 \begin{block}{}
 \textbf{Repeated Planning Strategy}
 \vspace{-.1cm}
@@ -986,7 +988,7 @@ The distinction planning-policy is not obvious, but we won't expand today
 \begin{itemize}
 \scriptsize
 \item Representative of real problem uncertainty: e.g. Monte Carlo sampling of probabilistic AI model
-\item \visible<10->{Can select scenarios that are most relevant for decisions (not simple but doable)}
+\item \visible<10->{Focus on sampling scenarios that are most relevant for decisions (not simple but doable)}
 \visible<11->{
 \item Setup
 \begin{itemize}
@@ -1078,26 +1080,26 @@ The distinction planning-policy is not obvious, but we won't expand today
 
 
 
-\section{Some Fundamentals of Decision Making Theory}
+\section{Let's Switch Gear...}
 
 
 \begin{frame}{\normalsize Markov State}
 \footnotesize
 
-\textbf{Markov State:} often labelled $\vect s$
+\textbf{We label it ``$\vect s$"}
 \begin{itemize}
 \scriptsize
-\item Is often a collection of numbers, i.e. $\vect s\in \mathbb R^n$, but it can be ``anything"
+\item Is often (eventually) a collection of numbers, i.e. $\vect s\in \mathbb R^n$, but it can be ``anything"
 \item Evolves over time, e.g. label $\vect s_k$ with $k=0,\ldots,\infty$
-\item Usually stochastic 
+\item Usually assumed stochastic 
 \end{itemize}
 \visible<2->{
-\textbf{Definition}: $\vect s_k$ provides a ``complete statistics" of the past sufficient to predict $\vect s_{k+1,\ldots,\infty}$.} 
+\textbf{Definition}: $\vect s_k$ provides a ``complete statistics" of the past, sufficient to predict $\vect s_{k+1,\ldots,\infty}$} 
 \begin{center}
 \visible<3->{More formally: $\mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k\right] = \mathrm{P}\left[\vect s_{k+i}\,|\, \vect\pi,\vect s_k, \vect s_{k-1},\ldots, \vect s_0\right]$ for any $i>0$, $\vect \pi$}\\
 \vspace{.25cm}
 \visible<4->{
-\textcolor{myBlue2}{I.e. state $\vect s_k$ collects all the information to predict the future (after $k$). \\ Past states $\vect s_{k-1,\ldots,0}$ do not add information}
+\textcolor{myBlue2}{Past states $\vect s_{k-1,\ldots,0}$ do not add information over $\vect s_{k}$ }
 }
 \end{center}
 
