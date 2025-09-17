@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  16 SEP 2025 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.8)  17 SEP 2025 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2291,12 +2291,12 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
 <Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf, id=5383, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
  [92
 
@@ -2308,11 +2308,11 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
  [93
 
@@ -2324,11 +2324,11 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_unsafe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 34371 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Codes/CBF/CBF_Traj_unsafe.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_unsafe-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2337,12 +2337,12 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
 <Codes/CBF/CBF_QP_projection-eps-converted-to.pdf, id=5449, 289.08pt x 216.81pt>
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
  [94
 
@@ -2354,12 +2354,12 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_Traj_safe.eps>
 (epstopdf)                    date: 2025-09-10 12:35:47
 (epstopdf)                    size: 35877 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Codes/CBF/CBF_Traj_safe.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
-<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=5497, 216.81pt x 216.81pt>
+<Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf, id=5498, 216.81pt x 216.81pt>
 File: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 71.19691pt x 71.19684pt.
 Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:40
@@ -2368,147 +2368,136 @@ Package epstopdf Info: Source file: <Codes/CBF/CBF_QP_projection.eps>
 (epstopdf)                    date: 2025-09-10 12:35:46
 (epstopdf)                    size: 30042 bytes
 (epstopdf)             Command: <repstopdf --outfile=Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Codes/CBF/CBF_QP_projection.eps>
-(epstopdf)             \includegraphics on input line 1357.
+(epstopdf)             \includegraphics on input line 1374.
 Package epstopdf Info: Output file is already uptodate.
 File: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf Graphic file (type pdf)
 <use Codes/CBF/CBF_QP_projection-eps-converted-to.pdf>
-Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1357.
+Package pdftex.def Info: Codes/CBF/CBF_QP_projection-eps-converted-to.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 90.36565pt x 67.7728pt.
  [95
 
- <./Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>] (./Presentation.toc)
-File: Figures/Track.pdf Graphic file (type pdf)
-<use Figures/Track.pdf>
-Package pdftex.def Info: Figures/Track.pdf  used on input line 1360.
-(pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
- [96
+ <./Codes/CBF/CBF_Traj_safe-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Codes/CBF/unsafe_vectorfield.eps>
+(epstopdf)                    date: 2025-09-16 20:44:44
+(epstopdf)                    size: 224641 bytes
+(epstopdf)             Output file: <Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-16 20:49:54
+(epstopdf)                    size: 22614 bytes
+(epstopdf)             Command: <repstopdf --outfile=Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf Codes/CBF/unsafe_vectorfield.eps>
+(epstopdf)             \includegraphics on input line 1374.
+Package epstopdf Info: Output file is already uptodate.
+<Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf, id=5537, 289.08pt x 289.08pt>
+File: Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf Graphic file (type pdf)
+<use Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf>
+Package pdftex.def Info: Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf  used on input line 1374.
+(pdftex.def)             Requested size: 97.8978pt x 97.89772pt.
 
-]
-<Codes/Epistemic/Explored_SA.jpeg, id=5566, 387.3672pt x 387.3672pt>
-File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
-(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
-<Codes/Epistemic/Dist_s_a_2.pdf, id=5568, 730.58003pt x 387.91452pt>
-File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-<Codes/Epistemic/Dist_s_a_1.pdf, id=5570, 730.58003pt x 387.91452pt>
-File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-<Codes/Epistemic/Dist_s_a_0.pdf, id=5572, 730.58003pt x 387.91452pt>
-File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1468.
+Overfull \vbox (20.39656pt too high) detected at line 1374
+ []
 
+[96
 
-LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 1468.
+ <./Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Codes/CBF/unsafe_vectorfield.eps>
+(epstopdf)                    date: 2025-09-16 20:44:44
+(epstopdf)                    size: 224641 bytes
+(epstopdf)             Output file: <Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-16 20:49:54
+(epstopdf)                    size: 22614 bytes
+(epstopdf)             Command: <repstopdf --outfile=Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf Codes/CBF/unsafe_vectorfield.eps>
+(epstopdf)             \includegraphics on input line 1374.
+Package epstopdf Info: Output file is already uptodate.
+File: Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf Graphic file (type pdf)
+<use Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf>
+Package pdftex.def Info: Codes/CBF/unsafe_vectorfield-eps-converted-to.pdf  used on input line 1374.
+(pdftex.def)             Requested size: 97.8978pt x 97.89772pt.
 
+Overfull \vbox (20.39656pt too high) detected at line 1374
+ []
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
-[][]  
+Package epstopdf Info: Source file: <Codes/CBF/safe_vectorfield.eps>
+(epstopdf)                    date: 2025-09-16 20:44:44
+(epstopdf)                    size: 224883 bytes
+(epstopdf)             Output file: <Codes/CBF/safe_vectorfield-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-16 20:52:34
+(epstopdf)                    size: 23557 bytes
+(epstopdf)             Command: <repstopdf --outfile=Codes/CBF/safe_vectorfield-eps-converted-to.pdf Codes/CBF/safe_vectorfield.eps>
+(epstopdf)             \includegraphics on input line 1374.
+Package epstopdf Info: Output file is already uptodate.
+<Codes/CBF/safe_vectorfield-eps-converted-to.pdf, id=5566, 289.08pt x 289.08pt>
+File: Codes/CBF/safe_vectorfield-eps-converted-to.pdf Graphic file (type pdf)
+<use Codes/CBF/safe_vectorfield-eps-converted-to.pdf>
+Package pdftex.def Info: Codes/CBF/safe_vectorfield-eps-converted-to.pdf  used on input line 1374.
+(pdftex.def)             Requested size: 90.36565pt x 90.36374pt.
+
+Overfull \vbox (12.86258pt too high) detected at line 1374
  []
 
 [97
 
- <./Codes/Epistemic/Explored_SA.jpeg> <./Codes/Epistemic/Dist_s_a_2.pdf> <./Codes/Epistemic/Dist_s_a_1.pdf> <./Codes/Epistemic/Dist_s_a_0.pdf>]
-File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
-(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
-File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+ <./Codes/CBF/safe_vectorfield-eps-converted-to.pdf>] [98
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
-[][]  
- []
-
-[98
+] (./Presentation.toc)
+File: Figures/Track.pdf Graphic file (type pdf)
+<use Figures/Track.pdf>
+Package pdftex.def Info: Figures/Track.pdf  used on input line 1377.
+(pdftex.def)             Requested size: 200.30467pt x 273.15117pt.
+ [99
 
 ]
+<Codes/Epistemic/Explored_SA.jpeg, id=5652, 387.3672pt x 387.3672pt>
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
+<Codes/Epistemic/Dist_s_a_2.pdf, id=5654, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+<Codes/Epistemic/Dist_s_a_1.pdf, id=5656, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+<Codes/Epistemic/Dist_s_a_0.pdf, id=5658, 730.58003pt x 387.91452pt>
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 1485.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
-[][]  
- []
 
-[99
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 1485.
 
-]
-File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
-(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
-File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
-File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
-<use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
 [100
 
-]
+ <./Codes/Epistemic/Explored_SA.jpeg> <./Codes/Epistemic/Dist_s_a_2.pdf> <./Codes/Epistemic/Dist_s_a_1.pdf> <./Codes/Epistemic/Dist_s_a_0.pdf>]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
@@ -2517,22 +2506,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
@@ -2541,22 +2530,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
@@ -2565,22 +2554,22 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
@@ -2589,239 +2578,337 @@ Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
 ]
 File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/Explored_SA.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
 (pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
 File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_2.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_1.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
 <use Codes/Epistemic/Dist_s_a_0.pdf>
-Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1468.
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
 (pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
 
-Overfull \hbox (0.94159pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
 [][]  
  []
 
 [105
 
-] [106
+]
+File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Explored_SA.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
+(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
+File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_2.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_1.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_0.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
+[][]  
+ []
+
+[106
 
 ]
-<Codes/DR/DistViewFew_0.pdf, id=5950, 730.58003pt x 387.91452pt>
+File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Explored_SA.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
+(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
+File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_2.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_1.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_0.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
+[][]  
+ []
+
+[107
+
+]
+File: Codes/Epistemic/Explored_SA.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Explored_SA.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Explored_SA.jpeg  used on input line 1485.
+(pdftex.def)             Requested size: 128.0374pt x 128.03844pt.
+File: Codes/Epistemic/Dist_s_a_2.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_2.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_2.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_1.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_1.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_1.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+File: Codes/Epistemic/Dist_s_a_0.pdf Graphic file (type pdf)
+<use Codes/Epistemic/Dist_s_a_0.pdf>
+Package pdftex.def Info: Codes/Epistemic/Dist_s_a_0.pdf  used on input line 1485.
+(pdftex.def)             Requested size: 142.26378pt x 75.53351pt.
+
+Overfull \hbox (0.94159pt too wide) in paragraph at lines 1485--1485
+[][]  
+ []
+
+[108
+
+] [109
+
+]
+<Codes/DR/DistViewFew_0.pdf, id=6035, 730.58003pt x 721.80193pt>
 File: Codes/DR/DistViewFew_0.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_0.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_0.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [107
+Package pdftex.def Info: Codes/DR/DistViewFew_0.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+
+Overfull \vbox (3.35004pt too high) detected at line 1535
+ []
+
+[110
 
  <./Codes/DR/DistViewFew_0.pdf>]
-<Codes/DR/DistViewFew_1.pdf, id=5994, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_1.pdf, id=6080, 730.58003pt x 721.80193pt>
 File: Codes/DR/DistViewFew_1.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_1.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_1.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [108
+Package pdftex.def Info: Codes/DR/DistViewFew_1.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+
+Overfull \vbox (3.35004pt too high) detected at line 1535
+ []
+
+[111
 
  <./Codes/DR/DistViewFew_1.pdf>]
-<Codes/DR/DistViewFew_2.pdf, id=6035, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_2.pdf, id=6121, 730.58003pt x 721.80193pt>
 File: Codes/DR/DistViewFew_2.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_2.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_2.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [109
+Package pdftex.def Info: Codes/DR/DistViewFew_2.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+
+Overfull \vbox (3.35004pt too high) detected at line 1535
+ []
+
+[112
 
  <./Codes/DR/DistViewFew_2.pdf>]
-<Codes/DR/DistViewFew_3.pdf, id=6078, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_3.pdf, id=6163, 730.58003pt x 721.80193pt>
 File: Codes/DR/DistViewFew_3.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_3.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_3.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [110
-
- <./Codes/DR/DistViewFew_3.pdf>]
-<Codes/DR/DistViewFew_4.pdf, id=6119, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_4.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_4.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_4.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [111
-
- <./Codes/DR/DistViewFew_4.pdf>]
-<Codes/DR/DistViewFew_5.pdf, id=6160, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_5.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_5.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_5.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [112
-
- <./Codes/DR/DistViewFew_5.pdf>]
-<Codes/DR/DistViewFew_6.pdf, id=6202, 730.58003pt x 387.91452pt>
-File: Codes/DR/DistViewFew_6.pdf Graphic file (type pdf)
-<use Codes/DR/DistViewFew_6.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_6.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
+Package pdftex.def Info: Codes/DR/DistViewFew_3.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
  [113
 
+ <./Codes/DR/DistViewFew_3.pdf>]
+<Codes/DR/DistViewFew_4.pdf, id=6204, 730.58003pt x 721.80193pt>
+File: Codes/DR/DistViewFew_4.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_4.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_4.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [114
+
+ <./Codes/DR/DistViewFew_4.pdf>]
+<Codes/DR/DistViewFew_5.pdf, id=6245, 730.58003pt x 721.80193pt>
+File: Codes/DR/DistViewFew_5.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_5.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_5.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [115
+
+ <./Codes/DR/DistViewFew_5.pdf>]
+<Codes/DR/DistViewFew_6.pdf, id=6288, 730.58003pt x 721.80193pt>
+File: Codes/DR/DistViewFew_6.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_6.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_6.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [116
+
  <./Codes/DR/DistViewFew_6.pdf>]
-<Codes/DR/DistViewFew_7.pdf, id=6243, 730.58003pt x 387.91452pt>
+<Codes/DR/DistViewFew_7.pdf, id=6329, 730.58003pt x 721.80193pt>
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [114
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [117
 
  <./Codes/DR/DistViewFew_7.pdf>]
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [115
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [118
 
 ]
 File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
 <use Codes/DR/DistViewFew_7.pdf>
-Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1519.
-(pdftex.def)             Requested size: 83.17746pt x 44.16234pt.
- [116
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [119
 
 ]
-Overfull \hbox (2.99272pt too wide) detected at line 1575
+File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_7.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [120
+
+]
+File: Codes/DR/DistViewFew_7.pdf Graphic file (type pdf)
+<use Codes/DR/DistViewFew_7.pdf>
+Package pdftex.def Info: Codes/DR/DistViewFew_7.pdf  used on input line 1535.
+(pdftex.def)             Requested size: 110.90047pt x 109.56523pt.
+ [121
+
+]
+Overfull \hbox (2.99272pt too wide) detected at line 1591
 []
  []
 
-<Codes/Epistemic/OOD_Map.jpeg, id=6337, 370.0224pt x 370.0224pt>
+<Codes/Epistemic/OOD_Map.jpeg, id=6475, 370.0224pt x 370.0224pt>
 File: Codes/Epistemic/OOD_Map.jpeg Graphic file (type jpg)
 <use Codes/Epistemic/OOD_Map.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_Map.jpeg  used on input line 1575.
+Package pdftex.def Info: Codes/Epistemic/OOD_Map.jpeg  used on input line 1591.
 (pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
 
-Overfull \vbox (0.68001pt too high) detected at line 1575
- []
-
-[117
-
- <./Codes/Epistemic/OOD_Map.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1575
-[]
- []
-
-<Codes/Epistemic/OOD_Star.jpeg, id=6368, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/OOD_Star.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/OOD_Star.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_Star.jpeg  used on input line 1575.
-(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
-
-Overfull \vbox (0.68001pt too high) detected at line 1575
- []
-
-[118
-
- <./Codes/Epistemic/OOD_Star.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1575
-[]
- []
-
-<Codes/Epistemic/OOD_OOD.jpeg, id=6398, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/OOD_OOD.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1575.
-(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
-
-Overfull \vbox (0.68001pt too high) detected at line 1575
- []
-
-[119
-
- <./Codes/Epistemic/OOD_OOD.jpeg>]
-Overfull \hbox (2.99272pt too wide) detected at line 1575
-[]
- []
-
-File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/OOD_OOD.jpeg>
-Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1575.
-(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
-
-Overfull \vbox (0.68001pt too high) detected at line 1575
- []
-
-[120
-
-]
-<Codes/Epistemic/Hybrid4.jpeg, id=6454, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid4.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid4.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid4.jpeg  used on input line 1622.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
-
-Overfull \vbox (31.49068pt too high) detected at line 1622
- []
-
-[121
-
- <./Codes/Epistemic/Hybrid4.jpeg>]
-<Codes/Epistemic/Hybrid3.jpeg, id=6486, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid3.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid3.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid3.jpeg  used on input line 1622.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
-
-Overfull \vbox (31.49068pt too high) detected at line 1622
+Overfull \vbox (0.68001pt too high) detected at line 1591
  []
 
 [122
 
- <./Codes/Epistemic/Hybrid3.jpeg>]
-<Codes/Epistemic/Hybrid2.jpeg, id=6516, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid2.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid2.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid2.jpeg  used on input line 1622.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+ <./Codes/Epistemic/OOD_Map.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1591
+[]
+ []
 
-Overfull \vbox (31.49068pt too high) detected at line 1622
+<Codes/Epistemic/OOD_Star.jpeg, id=6507, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/OOD_Star.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/OOD_Star.jpeg>
+Package pdftex.def Info: Codes/Epistemic/OOD_Star.jpeg  used on input line 1591.
+(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
+
+Overfull \vbox (0.68001pt too high) detected at line 1591
  []
 
 [123
 
- <./Codes/Epistemic/Hybrid2.jpeg>]
-<Codes/Epistemic/Hybrid1.jpeg, id=6545, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid1.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid1.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid1.jpeg  used on input line 1622.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+ <./Codes/Epistemic/OOD_Star.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1591
+[]
+ []
 
-Overfull \vbox (31.49068pt too high) detected at line 1622
+<Codes/Epistemic/OOD_OOD.jpeg, id=6536, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/OOD_OOD.jpeg>
+Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1591.
+(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
+
+Overfull \vbox (0.68001pt too high) detected at line 1591
  []
 
 [124
 
- <./Codes/Epistemic/Hybrid1.jpeg>]
-<Codes/Epistemic/Hybrid0.jpeg, id=6573, 370.0224pt x 370.0224pt>
-File: Codes/Epistemic/Hybrid0.jpeg Graphic file (type jpg)
-<use Codes/Epistemic/Hybrid0.jpeg>
-Package pdftex.def Info: Codes/Epistemic/Hybrid0.jpeg  used on input line 1622.
-(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+ <./Codes/Epistemic/OOD_OOD.jpeg>]
+Overfull \hbox (2.99272pt too wide) detected at line 1591
+[]
+ []
 
-Overfull \vbox (31.49068pt too high) detected at line 1622
+File: Codes/Epistemic/OOD_OOD.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/OOD_OOD.jpeg>
+Package pdftex.def Info: Codes/Epistemic/OOD_OOD.jpeg  used on input line 1591.
+(pdftex.def)             Requested size: 123.22359pt x 123.22003pt.
+
+Overfull \vbox (0.68001pt too high) detected at line 1591
  []
 
 [125
 
- <./Codes/Epistemic/Hybrid0.jpeg>] [126
+]
+<Codes/Epistemic/Hybrid4.jpeg, id=6592, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid4.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid4.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid4.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-] [127
+Overfull \vbox (31.49068pt too high) detected at line 1638
+ []
 
-] [128
+[126
 
-] [129
+ <./Codes/Epistemic/Hybrid4.jpeg>]
+<Codes/Epistemic/Hybrid3.jpeg, id=6624, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid3.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid3.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid3.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
 
-] [130
+Overfull \vbox (31.49068pt too high) detected at line 1638
+ []
+
+[127
+
+ <./Codes/Epistemic/Hybrid3.jpeg>]
+<Codes/Epistemic/Hybrid2.jpeg, id=6654, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid2.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid2.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid2.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+
+Overfull \vbox (31.49068pt too high) detected at line 1638
+ []
+
+[128
+
+ <./Codes/Epistemic/Hybrid2.jpeg>]
+<Codes/Epistemic/Hybrid1.jpeg, id=6683, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid1.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid1.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid1.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+
+Overfull \vbox (31.49068pt too high) detected at line 1638
+ []
+
+[129
+
+ <./Codes/Epistemic/Hybrid1.jpeg>]
+<Codes/Epistemic/Hybrid0.jpeg, id=6711, 370.0224pt x 370.0224pt>
+File: Codes/Epistemic/Hybrid0.jpeg Graphic file (type jpg)
+<use Codes/Epistemic/Hybrid0.jpeg>
+Package pdftex.def Info: Codes/Epistemic/Hybrid0.jpeg  used on input line 1638.
+(pdftex.def)             Requested size: 154.03183pt x 154.0307pt.
+
+Overfull \vbox (31.49068pt too high) detected at line 1638
+ []
+
+[130
+
+ <./Codes/Epistemic/Hybrid0.jpeg>] [131
+
+] [132
+
+] [133
+
+] [134
+
+] [135
 
 ]
 \tf@nav=\write8
@@ -2842,18 +2929,18 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: 2A63F0274EB20187F279CC13C8E73976;694.
  ) 
 Here is how much of TeX's memory you used:
- 34257 strings out of 474050
- 715776 string characters out of 5742264
+ 34281 strings out of 474050
+ 716595 string characters out of 5742264
  1976751 words of memory out of 5000000
- 55693 multiletter control sequences out of 15000+600000
+ 55707 multiletter control sequences out of 15000+600000
  581025 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,26n,123p,487b,1295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Presentation.pdf (130 pages, 11620956 bytes).
+Output written on Presentation.pdf (135 pages, 11683183 bytes).
 PDF statistics:
- 6899 PDF objects out of 7423 (max. 8388607)
- 3997 compressed objects within 40 object streams
- 264 named destinations out of 1000 (max. 500000)
- 1255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7040 PDF objects out of 7423 (max. 8388607)
+ 4129 compressed objects within 42 object streams
+ 274 named destinations out of 1000 (max. 500000)
+ 1265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
