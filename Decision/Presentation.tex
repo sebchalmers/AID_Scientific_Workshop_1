@@ -622,9 +622,9 @@ Constraints
 \column{0.1\textwidth}
 
 \column{0.8\textwidth}
-
-\begin{alertblock}{}
 \vspace{-.25cm}
+\begin{alertblock}{}
+\vspace{-.5cm}
 \begin{align*}
 \vect\pi^\star = \argmax_{\vect\pi}&\quad \sum_{\text{time}} \text{Utility}\\
 \mathrm{s.t.}&\quad \text{Constraints ok at all time}
@@ -632,20 +632,17 @@ Constraints
 \end{alertblock}
 \column{0.1\textwidth}
 \end{columns}
-
-\vspace{.25cm}
-%\textbf{Example}:
-%\begin{itemize}
-%\item Minimize my monthly cost of energy (sum of hourly cost)
-%\item Stay within my comfort boundaries 
-%\end{itemize}
+\vspace{.2cm}
 \visible<13->{
 \textbf{Remarks}:
 \begin{itemize}
+\scriptsize
 \item Policy has a ``long-term" perspective, i.e. it accounts for long-term consequences
 \item Optimization is not an action but a ``map" \\info $\rightarrow$ action
 \item ``Optimal policy" is supposed to be ``safe" w.r.t. the constraints
 \end{itemize}}
+\vspace{-.35cm}
+\visible<13->{\center\textit{\scriptsize Note: illustrations will look like ``control" for simplicity. Control is a tiny subset of decision making.}}
 \column{0.4\textwidth}
 \vspace{-1cm}\\
 \visible<2->{
@@ -909,8 +906,8 @@ The distinction planning-policy is not so obvious, but we won't expand today
 \item Optimal plan $\Rightarrow$ optimal policy? 
 \begin{itemize}
 \tiny
-\item It can if predictions are perfect
-\item Imperfect model: complex relationship optimal plan / optimal policy (recently understood, more in a bit)
+\item It can if predictions are perfect. Imperfect model: complex relationship optimal plan / optimal policy.
+\item Finite (short) horizon makes the decision ``short-sighted". Can be fixed via cost-to-go.
 \end{itemize}
 \item Terminology: MPC, Receding-Horizon Optimization, Planning, etc.
 \end{itemize}
@@ -1236,7 +1233,7 @@ L\left(\vect s,\vect a\right) = \text{Utility} - \cmatr{ccc}{0&\text{if}&\text{C
 \infty&\text{if}&\text{Constraints violated} }
 \end{align*}}
 \vspace{-.5cm}
-\item \visible<3->{\textbf{Policy}: function $\vect\pi\,:\, \text{state} \rightarrow \text{action}$}
+\item \visible<3->{\textbf{Policy}: function $\vect\pi$ from $\text{state} \rightarrow \text{action}$}
 \end{itemize}
 }
 \only<13->{
