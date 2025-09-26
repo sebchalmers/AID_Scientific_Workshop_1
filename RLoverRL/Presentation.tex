@@ -253,10 +253,11 @@
 
 
 
-\title[Introduction to Safe Decision Making]{Introduction to Theory of Safe Decision Making}
+\title[RloverRL]{Closing Sim2Real Gap via Bi-level Reinforcement Learning}
 \author[Akhil S Anand]{\large Akhil S Anand}
 \institute[NTNU]{Department of Engineering Cybernetics \\ Faculty of Information Technology \\  NTNU}
-\date[18 September 2025]{$1^\mathrm{st}$ AID Scientific Workshop, Trondheim}
+\date[18 September 2025]
+% {$1^\mathrm{st}$ AID Scientific Workshop, Trondheim}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -277,1411 +278,180 @@
 
 
 
-\begin{frame}{\normalsize Forewords \& Disclaimer}
-\footnotesize
 
-\textbf{Objectives:}
+
+       
+% RL-over-RL Motivation and Bi-Level Formulation
+
+\section{RL-over-RL Motivation and Bi-Level Formulation}
+
+\begin{frame}{\normalsize Closing Sim2Real gap via Bi-level RL}
+\footnotesize
+\only<1>{
 \begin{itemize}
-\item Put in place some common concepts \& language
-\item Identify some key points in safe decision making 
-\item Connect to AID
+\item Sim2Real Gap:
+\begin{itemize}
+  \item Improving simulator accuracy and robustness.
+  \item Acuuracy and robustness does not guarantee optimal real-world performance.
+  \item Optimize simulator parameters \(\theta\) to maximize real-world return.
 \end{itemize}
-% \center
-% \textbf{Disclaimer:} we are a broad group who needs to get to know each others scientifically. Apologies if I don't "hit" the right level for all. \\I have favored simplicity over ``absolute" rigor. 
-\vspace{0.5cm}
-\center
-\includegraphics[width=0.6\textwidth,clip]{Figures/image.png}
-
-\end{frame}
-
-\section{Some Basics of Safe Decision Making}
-
-
-\begin{frame}{\normalsize Formally Defining Safety?}
-\footnotesize
-
-% \newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=2\textwidth,clip]{Figures/image.png}}
-
-% \tikzstyle{Sys_block} = [rectangle, draw, fill=none,  text width=3.cm, text centered, rounded corners, minimum height=4em,inner sep=2pt]
-\tikzstyle{Sys_block} = [
-  rectangle,
-  draw,
-  fill=none,
-  inner sep=0pt,   % no padding
-  minimum size=0pt % allow exact fit
-]
-\tikzstyle{Opt_block} = [rectangle, draw, fill=myLightGreen,  text width=3.5cm,  text centered, rounded corners]
-\tikzstyle{Util_block} = [rectangle, draw, fill=myLightBlue,  text width=3.5cm,  text centered, rounded corners]
-\tikzstyle{Const_block} = [rectangle, draw, fill=myLightRed,  text width=3.5cm,  text centered, rounded corners]
-\tikzstyle{line} = [draw, -latex']
-
-
-\begin{tikzpicture}[->,>=stealth']
-
-\node [Sys_block] (sys0) at (8,0) {
-  \includegraphics[width=0.35\textwidth]{Figures/image.png}
-};
-
-% \node [Sys_block] (sys0) {\Sys};
-
-
- \node [Opt_block, left of=sys0, node distance = 5cm] (opt0) {
- \begin{minipage}[c]{3.5cm}
- \center
-Information to Decisions\\
-\textbf{Policy} $\vect\pi$
-\end{minipage}
- };
- 
-  \node [Util_block, below of=opt0, node distance = 1.6cm] (util0) {
- \begin{minipage}[c]{3.5cm}
- \center
-Utility
-\end{minipage}
- };
-  \node [Const_block, above of=opt0, node distance = 1.6cm] (limit0) {
- \begin{minipage}[c]{3.5cm}
- \center
-Constraints
-\end{minipage}
- };
-
- 
- \path  (sys0) edge[bend left=20]  node[anchor=north] {Information} (opt0)
- (opt0) edge[bend left=20]  node[anchor=south] {Action} (sys0);
- \path (util0) edge[<->]  node[anchor=east] {Performance} (opt0);
-\path (limit0) edge[<->]  node[anchor=east] {Violations} (opt0);
- 
-\end{tikzpicture}
-\vspace{.25cm}
-\begin{columns}[t]
-\column{0.35\textwidth}
-%\center
-\only<2->{
-\textbf{Safety in the real world}
-\includegraphics[width=1\textwidth,clip]{Figures/OSHA.pdf}
-\column{0.2\textwidth}
-\vspace{.1cm}
-%\center
-%\includegraphics[width=1\textwidth,clip]{Figures/Bridge.pdf}
-\includegraphics[width=1\textwidth,clip,angle=-15]{Figures/Arrow.pdf}}
-\column{0.45\textwidth}
-%\center
-\only<2->{
-\textbf{Safety in the math world}
-}  %Stay within certain ``sets"
-\vspace{.1cm}
-  \begin{overlayarea}{\textwidth}{0.3\textheight}
-    \begin{figure}
-     \newcommand{\FS}{0.7}
-
-      \only<2>
-        {%
-       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe0.pdf}%
-        }%
-              \only<3>
-        {%
-        \hspace{-1.5cm}            \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe1.pdf}
-        }%
-                      \only<4>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe2.pdf}
-        }%
-                      \only<5>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe3.pdf}
-               }%
-                      \only<6>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe4.pdf}
-        }%
-                      \only<7>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe5.pdf}
-               }%
-                      \only<8>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe6.pdf}
-               }%
-                      \only<9>
-        {%
-       \hspace{-1.5cm}             \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/Safe7.pdf}
-               }%
-    \end{figure}
-  \end{overlayarea} 
-\end{columns}
-
-\end{frame}
-
-%\section{Safe Decision Making}
-
-\begin{frame}{\normalsize MDPs with Hard Constraints}
-\footnotesize
-\vspace{-0.5cm}
-\begin{columns}
-\column{0.5\textwidth}
-\begin{alertblock}{}
-\textbf{In words}
-\vspace{-.25cm}
-\begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]\\
-\mathrm{s.t.}&\quad \text{Constraints ok at all time}
-\end{align*}
-\end{alertblock}
-\column{0.3\textwidth}
- \includegraphics[width=1\textwidth]{Codes/BasicsSafety/Safe7.pdf}
-\end{columns}
-\visible<2->{
-\begin{block}{}
-\textbf{Formally}
-\vspace{-.25cm}
-\begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[  \sum_{\text{time}} \left(\text{Utility} - \cmatr{ccc}{0&\text{if}&\text{Constraint ok}\\\infty &\text{if}&\text{Constraint not ok}}\right)\right]
-\end{align*}
-\end{block}}
-%\visible<3->{
-%\textbf{Remarks}: $-\infty$ penalty on constraints violations $\Rightarrow$ safe policy (mathematically) } \underline{but}
-%\begin{columns}
-%\column{0.6\textwidth}
-\visible<3->{\textbf{Build policy} using either:
-\begin{itemize}
-\item Perfect model of the real world $\hat{\mathrm P}[\vect s_+|\vect s,\vect a]=\mathrm P[\vect s_+|\vect s,\vect a]$
-\item Model ``pessimistic" about the uncertainties
-%\item \visible<4->{Formally support of $\mathrm P[\cdot|\vect s,\vect a]$ is included in  support of $\hat{\mathrm P}[\cdot|\vect s,\vect a]$}
-\end{itemize}
-... to evaluate ``$\mathrm E[\cdot]$"
-}
-
-%\column{0.4\textwidth}
-%\hspace{-2cm}\includegraphics[width=1.5\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep.pdf}
-%\end{columns}
-
-%\begin{columns}
-%\column{0.5\textwidth}
-%\visible<3->{
-%\begin{itemize}
-%\item Requires perfect (or pessimistic) model 
-%\item Perfect (or pessimistic) policy calculation 
-%\item Pessimistic? In case of doubt, assume the worst...
-%\end{itemize}}
-%\center
-%\visible<4->{\textcolor{myBlue2}{\textbf{Classical view:\\ ``Robust" decision making}}}
-%\column{0.5\textwidth}
-%\vspace{-1cm}
-%  \begin{overlayarea}{\textwidth}{0.4\textheight}
-%    \begin{figure}
-%     \newcommand{\FS}{0.65}
-%      \only<3>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED0.pdf}%
-%        }%
-%              \only<4>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED1.pdf}%
-%        }%
-%              \only<5>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED2.pdf}%
-%        }%
-%                      \only<6>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED3.pdf}%
-%        }%
-%                      \only<7>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED4.pdf}%
-%        }%
-%                              \only<8>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED5.pdf}%
-%        }%
-%                              \only<9>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED6.pdf}%
-%        }%
-%                              \only<10>
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED7.pdf}%
-%        }%
-%                      \only<11->
-%        {%
-%       \hspace{-1.5cm}   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModelSTEPBOXED40.pdf}%
-%        }%
-%    \end{figure}
-%  \end{overlayarea} 
-%  
-%
-%\end{columns}
-
-\end{frame}
-
-
-\begin{frame}{\normalsize Pessimistic Models for Decision Making}
-\footnotesize
-\begin{columns}[t]
-\column{0.6\textwidth}
-\begin{itemize}
-\only<1->{
-\item Model must ``contain" the uncertainty }
-\only<2->{
-\item Trajectories predicted by pessimistic model will ``cover" the real world
-\item ``Container" (set) should be simple for computational reasons
-}
-\only<3->{
-\item Decision policy wants to be safe w.r.t. the ``containers"
-}
-\end{itemize}
-\vspace{0.5cm}
-
-\begin{overlayarea}{\textwidth}{0.25\textheight}
-\only<12>{
-\textbf{Remarks}
-\begin{itemize}
-\item The propagation of the ``containers" in the model predictions can be expensive / difficult
-\item Pessimistic propagations are usually needed $\rightarrow$ pessimistic over pessimistic
-\item Policy based on worst-case perspective makes the decisions highly conservative
-\item Often labelled ``Robust" decision making
-\end{itemize}
-}
-\only<13->{
-\textbf{Epistemic problem}: build container... 
-\begin{itemize}
-\item from data, but it may expand with more data and safety is ``asymptotic", as data $\rightarrow\infty$
-\item \visible<14->{``theoretically" (from knowledge), but can be impractically pessimistic}
-\end{itemize}
-}
-\end{overlayarea}
-
-
-
-\column{0.4\textwidth}
-
-\vspace{-1cm}
-  \begin{overlayarea}{\textwidth}{0.6\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<1>
-        {
-        \center
-        Distribution of one-step forward
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep0.pdf}
-	}
-      \only<2>
-        {
-        \center
-        Distribution of one-step forward with ``container"
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/PessimisticOneStep1.pdf}
-	}
-      \only<3>
-        {%
-        \center
-        Trajectories 
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel0.pdf}%
-        }%
-              \only<4>
-        {%
-        \center
-        Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel1.pdf}%
-        }%
-              \only<5>
-        {%
-                \center
-        Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel2.pdf}%
-        }%
-                      \only<6>
-        {%
-                \center
-        Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel3.pdf}%
-        }%
-                      \only<7>
-        {%
-                \center
-        Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel4.pdf}%
-        }%
-                              \only<8>
-        {%
-                \center
-        Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel5.pdf}%
-        }%
-                              \only<9>
-        {%
-                \center
-        Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel6.pdf}%
-        }%
-                              \only<10>
-        {%
-                \center
-        Trajectories with ``containers"
-  \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel7.pdf}%
-        }%
-                      \only<11-> 
-        {%
-                \center
-        Trajectories with ``containers"
-   \includegraphics[width=\FS\textwidth]{Codes/BasicsSafety/PessimisticModel40.pdf}%
-        }%
-    \end{figure}
-    
-    
-   % \textcolor{red}{Illustrate: wide \& thin-tailed distribution requires a big box, to contain transitions that almost surely won't happen. SG can do on 11.9}
-  \end{overlayarea} 
-
-
-  \begin{overlayarea}{\textwidth}{0.4\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<13>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/Support0.pdf}
-	}
-	      \only<14>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/Support1.pdf}
-	}
-	\end{figure}
-  \end{overlayarea} 
-
-\end{columns}
-
-%\vspace{-1cm}
-\end{frame}
-
-% \begin{frame}{\normalsize Robust Repeated Planning}
-% \footnotesize
-% \begin{itemize}
-% \item Introduction: Robust MPC, Scenario Trees, MC, robust multi-stage stochastic programing, MPPI?
-% \item Difficulties: guarantees for nonlinear systems, persistent safety (recursive feasibility)
-% \end{itemize}
-
-% \begin{columns}[t]
-% \column{0.5\textwidth}
-
-
-% \includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
-% \column{0.5\textwidth}
-% \textcolor{red}{TODOTODOTODO}
-% \end{columns}
-
-% \end{frame}
-
-
-\begin{frame}{\normalsize Robust Repeated Planning}
-\footnotesize
-
-\begin{columns}[T,onlytextwidth]
-  % Left column: bulleted text
-  \column{0.6\textwidth}
-  \begin{itemize}
-    \visible<1->{
-      \item Re-plan at each stage, hedging against worst case uncertainties in the future
-    }
-        \visible<2->{
-    \item \textbf{Robust MPC:} constraint tightening}
-        \visible<4->{
-    \item \textbf{Scenario trees \/ Stochastic programming:} hedge decisions across all branched futures.}
-        \visible<10->{ 
-    \item \textbf{Sampling:} Monte Carlo for large-scale problems}
-  \end{itemize}
-  \visible<11->{
-    \vspace{0.3cm}
-  \textbf{Remarks:}
-  \begin{itemize}
-    \item In practice: robust optimization = \textbf{min--max}: maximize utility over scenarios that avoid worst-case violation.
-    \item Hard to establish guarantees for nonlinear systems
-    \item Scenario explosion.
-    \item Persistent safety (\emph{recursive feasibility}) under re-planning.
-  \end{itemize}}
-
-  % Right column: overlay figures
-  \column{0.40\textwidth}
-\begin{overlayarea}{0.4\textwidth}{0.7\textheight}
-  \only<1>{
-      \includegraphics[width=2\textwidth,clip]{Figures/Chess.pdf}
-  }
-  \only<2>{
-        \begin{figure}
-        \centering
-        \includegraphics[width=3\textwidth]{Codes/RobustMPC/IllustrationRobustMPCPreTerminal.eps}
-      \end{figure}
-}
-\only<3>{
-        \begin{figure}
-        \centering
-        \includegraphics[width=3\textwidth]{Codes/RobustMPC/IllustrationRobustMPCTerminal.eps}
-      \end{figure}
-}
-\only<4>{
-  \input{Codes/Scenariotree/scenario_1.tex}
-}
-\only<5>{
-  \input{Codes/Scenariotree/scenario_2.tex}
-}
-\only<6>{
-  \input{Codes/Scenariotree/scenario_3.tex}
-}
-\only<7>{
-  \input{Codes/Scenariotree/scenario_4.tex}
-}
-\only<8>{
-  \input{Codes/Scenariotree/scenario_5.tex}
-}
-\only<9->{
-  \input{Codes/Scenariotree/scenario_6.tex}
-}
-
-\end{overlayarea}
-\end{columns}
-\end{frame}
-
-
-
-% ===============================
-\begin{frame}{\normalsize Risk-sensitive MDPs}
-\footnotesize
-\setlength{\columnsep}{1.1cm}
-
-\begin{columns}[T,onlytextwidth]
-
-  % -------- LEFT column
-  \column{0.58\textwidth}
-
-  % In words block
-  \uncover<1->{
-  \begin{alertblock}{}
-  \textbf{In words}
-  \begin{itemize}   
- \item No notion of Constraints
- \item Maximize the utility of bad outcomes
-  \item Modify the utility to account for risk
-  \end{itemize}
-  \end{alertblock}
-  }
-
-  % Heavy-tail figure
-  \vspace{-0.1cm}
-  \uncover<3->{
-  \begin{figure}
-    \centering
-    \includegraphics[width=0.75\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}
-  \end{figure}
-  }
-
-  % -------- RIGHT column
-  \column{0.38\textwidth}
-
-  % Formal block
-  \uncover<2->{
-  \begin{block}{}
-  \textbf{Formally}
-  \[
-    \pi^* = \arg\max_{\pi}\; \rho\!\Big(\sum_{t=0}^{\infty} \gamma^t r_t\Big)
-  \]
-  \scriptsize $\rho$: VaR, CVaR, Entropic Risk.
-  \end{block}
-  }
-
-  % Rho figure
-  \uncover<4->{
-    \vspace{-0.3cm}
-  \begin{figure}
-    \centering
-    \includegraphics[width=1.05\linewidth]{Codes/Risk/RiskFunctional_Rho.pdf}
-  \end{figure}
-  }
-
-\end{columns}
-
-% -------- Bottom full-width remarks
-\uncover<5->{
-\vspace{-0.03cm}
-\scriptsize\textbf{Remarks:}
-\begin{itemize}
- \item Views risk through the lens of utility (not undesirable events).
-  \item Risk-sensitive criteria do \emph{not} guarantee a bound on violation.
-  \item  Cares only about the average severity of bad outcomes in the tail and not about the rest.
-\end{itemize}
-}
-
-\end{frame}
-
-% % ===============================
-% \begin{frame}{\normalsize Methods for Risk-Sensitive RL}
-% \footnotesize
-% \begin{itemize}
-%   \uncover<1->{
-%   \item \textbf{Utility-based (Exponential / Entropic risk)}  
-%         Reformulate Bellman operator with exponential utility \(U(x) = -\exp(-\beta x)\).  
-%         \textit{Solved with DP.}}
-% \uncover<2->{
-%   \item \textbf{Coherent risk measures (CVaR, VaR, spectral)}  
-%         Express objective a risk measure.  
-%        \textit{Solved with covexification, policy gradient methods.}
-  
-%        {\centering
-% $ \mathrm{CVaR}_{\alpha}(Z)=\min_{\eta\in\mathbb R}\Big[\eta+\tfrac{1}{1-\alpha}\,\mathbb{E}\big[(Z-\eta)_+\big]\Big]$}
-%        }
-% \uncover<3->{
-%   \item \textbf{Distributional approaches}  
-%         Learn the full distribution of returns instead of just the mean.  \textit{Solved with distributional RL.}}
-% \uncover<4->{
-%   \item \textbf{Constraint-based formulations}  
-%         Risk as explicit constraints, e.g.\ $\mathrm{CVaR}(\text{cost}) \le d$.  
-%         \hfill \textit{Solved with Lagrangian relaxation, primal–dual policy gradient.}}
-% \end{itemize}
-
-% \vspace{0.3cm}
-
-% % --- Simple VaR / CVaR equations linked to left image ---
-% \normalsize
-
-% \begin{columns}[t]
-% \column{0.5\textwidth}
-% \uncover<2->{
-% \centering
-% %\includegraphics[width=0.85\linewidth]{Codes/Risk/RS_CVaR_Saddle.pdf}\\
-% \scriptsize CVaR tail beyond $\eta$ shapes the policy.}
-
-% \column{0.5\textwidth}
-% \uncover<4->{
-% \centering
-% %\includegraphics[width=0.85\linewidth]{Codes/Risk/DistributionalRL.pdf}\\
-% \scriptsize Distributional RL: decisions from full return distribution.}
-% \end{columns}
-
-% \end{frame}
-
-%\section{Probabilistic Safety in Decision Making}
-\begin{frame}{\normalsize MDPs with probabilistic safety}
-\footnotesize
-
-\begin{columns}
-\column{0.54\textwidth}
-\begin{alertblock}{}
-\textbf{In words}
-\vspace{-.2cm}
-\begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]\\
-\mathrm{s.t.}&\quad \text{Probability of no violation} \geq c
-\end{align*}
-\end{alertblock}
-
-
-
-\column{0.44\textwidth}
-\visible<2->{
-\begin{block}{}
-\textbf{Formally}
-\vspace{-.2cm}
-\begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^k r\left(\vect s_k,\vect a_k\right)\right]\\
-\mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
-\end{align*}
-\end{block}}
-\end{columns}
-
-\begin{columns}[t]
-\column{0.5\textwidth}
-\vspace{.5cm}\\
-\visible<3->{
-\textbf{Remarks}:
-\begin{itemize}
-%\item Matches the ``worst-case" (robust) version for $c=0$
-\item If we can tolerate $c>0$ (small) it can make a big gain in performance
-\item Aligned with industrial / practical standards on ``large series"
-\item Problem needs a ``termination" (time or goal reached)
-\item Building decisions can be difficult from a computational point of view
 \end{itemize}}
-\column{0.5\textwidth}
-\vspace{-.25cm}
- \begin{figure}
-   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
-  \end{figure}
-\end{columns}
+\only<2->{
+\centering
+\includegraphics[width=\textwidth]{Figures/rl_over_rl_overview.pdf}
+
+This leads to a {bi-level optimization problem}:
+\[
+\max_{\theta} \; J(\pi_{\phi(\theta)}, \; \text{real world}) 
+\quad \text{s.t.}\quad 
+\phi(\theta) = \arg\max_{\phi} \; \hat J(\pi_\phi, f_\theta,R_\theta).
+\]
+}
+
+\only<3-4>{
+\begin{itemize}
+\item \textbf{Inner level:} In-sim RL (SPG) finds \(\pi_\phi\) optimal for simulator.
+\item \textbf{Outer level:} Updates simulator parameters \(\theta\) to improve real-world performance.
+\end{itemize}
+}
+
+\only<4->{
+\[
+\nabla_\theta J_{\text{real}}\!\big(\pi_{\phi(\theta)}\big)
+\;=\;
+\underbrace{\nabla_\theta \phi(\theta)}_{\text{policy sensitivity}}
+\;
+\underbrace{\mathbb{E}_{s\sim \rho^{\pi_\phi},\,a\sim\pi_\phi(\cdot|s)}
+\!\big[\,\nabla_\phi \log \pi_\phi(a|s)\; Q^{\pi_\phi}(s,a)\big]}_{\text{policy gradient (real world)}}.
+\]}
+
+\only<5->{
+\(\nabla_\theta \phi\): To compute outer gradients, we need how the inner policy \(\pi_\phi\) changes when simulator parameters \(\theta\) are perturbed.}
 \end{frame}
 
 
-\begin{frame}{\normalsize Solving Problems with Probabilistic Safety}
+
+\begin{frame}{\normalsize Sensitivity of In-Sim RL}
 \footnotesize
-\vspace{-.7cm}
-\begin{columns}[t]
-\column{0.65\textwidth}
-\begin{columns}[t]
-\column{0.1\textwidth}
 
-\column{0.8\textwidth}
+\begin{itemize}
+\item Inner SPG defines an implicit condition:
+\(\hat\phi(\phi,\theta) = \mathbb{E}_{\hat\rho^{\pi_\phi}_\theta}\!\big[\nabla_\phi \log \pi_\phi \; \hat Q^{\pi_\phi}_\theta\big] = 0.\)
+\item \(\nabla_\theta \phi\) using the {Implicit Function Theorem} applied to this condition.
+\item Conceptually, this requires:
+  \begin{enumerate}\footnotesize
+  \item Estimating the sensitivity of the markov chain of the simulator under a policy w.r.t. \(\theta\).
+  \item Estimating the sensit of in-sim critic w.r.t simulator parameters \(\theta\).
+  \item Combining these to obtain the sensitivity of in-sim policy: \(\nabla_\theta \phi\)
+  \end{enumerate}
+\item In practice, these quantities can be estimated using in-sim rollouts (no need for real-world exploration).
+\item Combine real-world PG with the in-sim sensitivities to update $\theta$ for better real return.
+\end{itemize}
 
-\begin{alertblock}{}
-\vspace{-.2cm}
+
+\end{frame}
+
+
+
+\begin{frame}{\normalsize Differentiating the Markov Chain}
+\footnotesize
+Sensitivity of a Markov chain expectation: Differentiate an expectation at a fixed step \(k\) under the in-sim Markov chain.\\[0.1cm]
 \begin{align*}
-\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^k r\left(\vect s_k,\vect a_k\right)\right]\\
-\mathrm{s.t.}&\quad \mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right] \geq c
+\partial \, \mathbb E_{s\sim \hat\rho_{\theta,k}^{\pi_{\phi}}} \bigl[\eta(s_k,a_k)\bigr] 
+= \mathbb{E}_{\substack{s_0\sim\rho^0,\,a_i\sim\pi_\phi,\\s_{i+1}\sim f^{\pi_\phi}_{\theta}}}
+   \Bigl[\,
+     \eta(s_k,a_k)\,\Bigl(
+        \partial\log\pi_\phi(a_k\!\mid\!s_k)
+      + \sum_{i=0}^{k-1}\partial\log f^{\pi_\phi}_{\theta}(s_{i+1}\!\mid\!s_i,a_i)
+     \Bigr)
+   \Bigr]\,.
 \end{align*}
-\end{alertblock}
-\column{0.1\textwidth}
-\end{columns}
-%\begin{block}{}
-%\textbf{Expected value form} 
-%\vspace{-.2cm}
-%\begin{align*}
-%\vect\pi^\star = \argmax_{\vect\pi}&\quad\mathrm E\left[ \sum_{k=0}^\infty \gamma^kL\left(\vect s_k,\vect a_k\right)\right]\\
-%\mathrm{s.t.}&\quad \mathrm{E}\left[ \begin{array}{cc}\textcolor{blue}{1}&\text{if no violation occurred}\\\textcolor{myRed}{0}&\text{otherwise}\end{array} \right] \geq c
-%\end{align*}
-%\end{block}
 
-\column{0.35\textwidth}
- \begin{figure}
-   \includegraphics[width=0.98\textwidth]{Codes/BasicsSafety/ProbabilisticModel.pdf}%
-  \end{figure}
-\end{columns}
+\centering 
+\begin{tikzpicture}[>=latex',node distance=1.05cm,scale=0.95, every node/.style={scale=0.95}]
+\tikzstyle{st}=[circle, draw=black, fill=myLightBlue, minimum size=0.75cm, inner sep=0pt]
+\tikzstyle{edge}=[->, line width=0.9pt]
+\tikzstyle{edgeThin}=[->, line width=0.35pt, densely dashed]
+\tikzstyle{lbl}=[font=\scriptsize, inner sep=1pt, fill=white, draw=black!20, rounded corners=1pt]
+% chain backbone
+\node[st] (s0) {$s_0$};
+\node[st, right=1.6cm of s0] (s1) {$s_1$};
+\node[st, right=1.6cm of s1] (s2) {$s_2$};
+\node[st, right=1.6cm of s2] (sk) {$s_k$};
+% main (upweighted) path
+\draw[edge] (s0) -- node[above] {$a_0$} node[lbl, below] {$\partial\log f_\theta^{\pi_\phi}$} (s1);
+\draw[edge] (s1) -- node[above] {$a_1$} node[lbl, below] {$\partial\log f_\theta^{\pi_\phi}$} (s2);
+\draw[edge] (s2) -- node[above] {$a_{k-1}$} node[lbl, below] {$\partial\log f_\theta^{\pi_\phi}$} (sk);
+% alternative (downweighted) branches
+\path (s0) edge[edgeThin, bend left=25] node[above] {\scriptsize $\downarrow w$} (s1);
+\path (s1) edge[edgeThin, bend left=20] node[above] {\scriptsize $\downarrow w$} (s2);
+% action score at step k
+\draw[->, thick] ($(sk)+(0,0.9)$) -- (sk) node[midway, right] {\scriptsize $\partial\log\pi_\phi(a_k|s_k)$};
+% eta marker
+\node[draw=myRed2, circle, inner sep=1pt, minimum size=0.5cm, right=0.0cm of sk] (eta) {};
+\node[font=\scriptsize, right=0.05cm of eta] {$\eta(s_k,a_k)$};
+\end{tikzpicture}
+\vspace{0.1cm}
 
-\begin{columns}[t]
-\column{0.5\textwidth}
 \begin{itemize}
-\item Classical techniques (e.g. DP and RL) apply but they become very data intensive
-\item Difficulties: estimate expected values from data (real or not) when $\mathrm{P}\left[ \vect s_{0,\ldots\infty}\in \mathbb S\right]$ is close to 1. 
+  \item The sensitivity estimation amounts to reweighting each trajectory by how its likelihood changes under $\partial$ and adjusting at step $k$ for the chosen action.
 \end{itemize}
 
-\column{0.5\textwidth}
-
-\begin{overlayarea}{\textwidth}{0.6\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<1>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_1.pdf}
-	}
-	      \only<2>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_2.pdf}
-	}
-	      \only<3->
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/BasicsSafety/SafetyEstimation3_3.pdf}
-	}
-	\end{figure}
-\end{overlayarea}
-
-\end{columns}
 
 \end{frame}
 
-
-
-
-\section{Safe Decisions from Data \& AI}
-
-
-\begin{frame}{\normalsize Reinforcement Learning \& Safety}
+\begin{frame}{\normalsize Differentiating the Critic }
 \footnotesize
-\begin{columns}
-\column{0.6\textwidth}
-\vspace{-0.25cm}
-\begin{center}
-\textbf{Key idea}: Add a strong penalty to the utility when a violation occurs
-\end{center}
-\vspace{-0.1cm}
-\begin{itemize}
-\item \visible<3->{May start with a ``fully unsafe" policy}
-\item \visible<4->{Following gradient $\nabla_{\vect\theta}J\left(\vect\pi_{\vect\theta}\right)$ reduces violations  }
-\item \visible<10->{But safety improvement ``stalls" as violations become more rare}
-\end{itemize}
-\visible<21->{\textbf{Difficulties:}}
-\begin{itemize}
-\item \visible<21->{Noisy gradient when violations become rare}
-\item \visible<22->{``Hard"safety is never reached (asymptotic)}
-\item \visible<23->{The higher (probabilistic) safety we want the more data we need}
-\end{itemize}
-
-
-\column{0.4\textwidth}
-  \begin{overlayarea}{\textwidth}{.55\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<2-3>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety0.pdf}
-	}
-	      \only<4>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety1.pdf}
-	}
-	      \only<5>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety2.pdf}
-	}
-	      \only<6>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety3.pdf}
-	}
-	      \only<7>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety4.pdf}
-	}
-	      \only<8>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety5.pdf}
-	}
-	      \only<9>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety6.pdf}
-	}
-	      \only<10>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety7.pdf}
-	}
-	      \only<11>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety8.pdf}
-	}
-	      \only<12>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety9.pdf}
-	}
-	      \only<13>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety10.pdf}
-	}
-	      \only<14>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety11.pdf}
-	}
-	      \only<15>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety12.pdf}
-	}
-	      \only<16>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety13.pdf}
-	}
-	      \only<17>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety14.pdf}
-	}
-	      \only<18>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety15.pdf}
-	}
-	      \only<19>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety16.pdf}
-	}
-	      \only<20>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety17.pdf}
-	}
-	      \only<21->
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/RL/RLSafety18.pdf}
-	}
-\end{figure}
-\end{overlayarea}
-\end{columns}
-
-\begin{columns}[t]
-\column{0.725\textwidth}
-
-
-\visible<2->{
-\begin{block}{}
-\textbf{Train policy }$\vect\pi_{\vect\theta}$ via evaluations of $\nabla_{\vect\theta}J\left(\vect\pi_{\vect\theta}\right) $ and
-\vspace{-.1cm}
+The critic satisfies a fixed point under the bellman operator; change in $\theta$ perturbs \emph{every} backup along the trajectory tree.\\[0.15cm]
 \begin{align*}
-J\left(\vect\pi_{\vect\theta}\right) = \mathrm E\left[  \sum_{\text{time}} \left(\text{Utility} - \cmatr{ccc}{0&\text{if}&\text{Constraint ok}\\p &\text{if}&\text{Constraint not ok}}\right)\right]
+\partial Q^{\pi}(s,a)&= \partial R(s,a)+\gamma\mathbb E_{s_+ \sim f}\left[\partial V^{\pi}(s_+) + V^{\pi}(s_+)\partial\log f(s_+|s,a)\right],\\
+\partial V^{\pi}(s)&=\mathbb E_{a\sim\pi}\left[\partial Q^{\pi}(s,a)+Q^{\pi}(s,a)\partial\log\pi(a|s)\right].
 \end{align*}
-\flushright  for $p$ large
-\end{block}}
 
-\column{0.25\textwidth}
-
-\visible<24->{
-\begin{alertblock}{}
-\center
-Unrealistic in the real world, it's a simulation-based process
-\end{alertblock}
-
-}
-
-\end{columns}
-
-\end{frame}
-
-
-
-\begin{frame}{\normalsize Safety Filters \& Reinforcement Learning}
-\footnotesize
+\begin{columns}[T]
+\column{0.5\textwidth}
 \begin{itemize}
-\item For any state $\vect s$, an ``oracle" tells you which actions will not jeopardize safety in the long run$\rightarrow$``Safe set" $\mathrm{S}\left(\vect s\right)$
-\item \visible<2->{We can learn an ``unsafe" policy $$\vect\pi^\star = \argmax_{\vect\pi}\quad\mathrm E\left[ \sum_{\text{time}} \text{Utility}\right]$$
-\begin{flushright} that focuses only on utility\end{flushright}}
-\item \visible<3->{For state $\vect s$, take the decisions using: $\text{Action} = \text{Projection}_{\mathrm{S}(\vect s)}\left[\vect\pi^\star\left(\vect s\right)\right]$}
-
+\item Start at $Q(s_t,a_t)$.
+\item A small $\delta\theta$ 
+  \begin{enumerate}
+    \footnotesize
+  \item perturbs $R_\theta(s_t,a_t)$ (local),
+  \item re-weights next states via $f_\theta$ (global),
+  \item and keeps propagating through $V(s_{t+1})$, $V(s_{t+2})$, \dots
+  \end{enumerate}
 \end{itemize}
 
-\begin{columns}[t]
-\column{0.6\textwidth}
-
-\begin{overlayarea}{\textwidth}{0.3\textheight}
-\only<13-14>{
-\textbf{Remark}: ``oracle" can be very hard to build, or not...
-\begin{columns}[t]
 \column{0.5\textwidth}
-\visible<13->{
-\vspace{-.35cm}
-\includegraphics[width=1.025\textwidth,clip]{Figures/Chess.pdf}
-\center
-Not losing the king}
-\column{0.5\textwidth}
-\visible<14->{
-\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.pdf}
-\center
-\vspace{-.25cm}
-Able to stop within the visible distance}
-\end{columns}
-}
-\only<15>{
-\textbf{Remarks}:
-\begin{itemize}
-\item Often close to practice, e.g., flight envelope protection in modern airplane, semi-autonomous driving in cars, etc
-\item Oracle $\Rightarrow$ knowledge-based \& conservative!
-\end{itemize} 
-}
-\end{overlayarea}
-
-
-%\visible<13-14>{\textbf{Remarks}: the ``oracle" can be very hard to build, or not...}
-%\begin{columns}[t]
-%\column{0.6\textwidth}
-%\visible<13->{
-%\begin{columns}
-%\column{0.5\textwidth}
-%\vspace{-.35cm}
-%\includegraphics[width=1.05\textwidth,clip]{Figures/Chess.pdf}
-%\center
-%Not losing the king
-%\column{0.5\textwidth}
-%\visible<14->{
-%\includegraphics[width=1\textwidth,clip]{Figures/BlindCurve.pdf}
-%\center
-%Able to stop within the visible distance}
-%\end{columns}}
-
-\column{0.3\textwidth}
-
-  \begin{overlayarea}{\textwidth}{.5\textheight}
-    \begin{figure}
-     \newcommand{\FS}{1}
-      \only<3>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection0.pdf}
-	}
-	      \only<4>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection1.pdf}
-	}
-	      \only<5>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection2.pdf}
-	}
-	      \only<6>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection3.pdf}
-	}
-	      \only<7>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection4.pdf}
-	}
-	      \only<8>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection5.pdf}
-	}
-	      \only<9>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection6.pdf}
-	}
-	      \only<10>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection7.pdf}
-	}
-	      \only<11>
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection8.pdf}
-	}
-	      \only<12->
-        {
-        \center
-	\includegraphics[width=1\textwidth,clip]{Codes/SafetyFilters/Projection9.pdf}
-	}
-%		      \only<14->
-%        {
-%        \center
-%	\includegraphics[width=1\textwidth,clip]{Figures/Chess.pdf}
-%	}
-\end{figure}
-\end{overlayarea}
-	
-\end{columns}
-
-\end{frame}
-
-
-
-
-\begin{frame}{\normalsize Control Barrier Functions (CBFs)}
-\begingroup
-% Tighter look + small headers
-\setbeamerfont{block title}{size=\small}
-\scriptsize
-% Visible gap between the "In words" and "Formally" columns
-\setlength{\columnsep}{1.1cm}
-
-% =======================
-% TOP HALF: text content
-% =======================
-
-  % ---- Left: In words (always visible) ----
-  \vspace{-1cm}
-    \begin{itemize}
-      \only<1->{
-    \item CBFs provide a formal, model-based way to build the ``oracle'' safe set}
-    \only<2->{
-    \item Use a barrier function $h(x)$ so that staying safe means staying in set $\mathcal{C}=\{x: h(x)\ge 0$\} }
-    \only<4->{ 
-    \item CBF modifies the nomainal decision by solving a QP \[
-    u^\star(x) = \arg\min_{u}\tfrac12\|u-u_{\mathrm{des}}(x)\|_2^2
-    \quad\text{s.t. derivative of the h(x) along the vector field} \geq 0
-  \]}
-  \end{itemize}
-  
- 
-
-
-% =======================
-% BOTTOM HALF: figures
-% =======================
-\begin{columns}[T,onlytextwidth]
-  % ---- Left figure: swap unsafe -> safe on overlay 4 ----
-  \column{0.52\textwidth}
-  % Fix the drawing area so later content doesn't reflow
-  \begin{overlayarea}{\linewidth}{0.42\textheight}
-    \only<5-6>{
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.40\linewidth]{Codes/CBF/CBF_Traj_unsafe.eps}
-        \caption*{\scriptsize Unsafe trajectory: violates $h(x)\ge 0$.}
-      \end{figure}
-    }% end only<1-3>
-    \only<7>{
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.4\linewidth]{Codes/CBF/CBF_Traj_safe.eps}
-        \caption*{\scriptsize CBF-filtered trajectory.}
-      \end{figure}
-    }% end only<4>
-        \only<3-4>{
-        \begin{figure}
-        \centering
-        \includegraphics[width=0.55\linewidth]{Codes/CBF/unsafe_vectorfield.eps}
-        \caption*{\scriptsize Vector field without CBF filter.}
-      \end{figure}
-}
-  \end{overlayarea}
-
-  % ---- Right figure: QP projection appears from overlay 3 ----
-  \column{0.48\textwidth}
-  \begin{overlayarea}{\linewidth}{0.42\textheight}
-    \only<1-2>{ % keep the area blank on overlays 1-2 to preserve layout
-      \vspace{0.2em}
-    }
-    \only<6-7>{
-      \begin{figure}
-        \centering
-        \includegraphics[width=0.55\linewidth]{Codes/CBF/CBF_QP_projection.eps}
-        \caption*{\scriptsize CBF filter: project $u_{\mathrm{des}}$ to feasible $u_{\mathrm{safe}}$.}
-      \end{figure}
-    }
-    \only<4>{
-        \begin{figure}
-        \centering
-        \includegraphics[width=0.55\linewidth]{Codes/CBF/safe_vectorfield.eps}
-        \caption*{\scriptsize vector field with CBF filter.}
-      \end{figure}
-}
-  \end{overlayarea}
-\end{columns}
-
-% ==============
-% remarks 
-% ==============
-
-
-\only<8->{%
-\vspace{-3cm}
-\textbf{Remarks:}
-\scriptsize
-\begin{itemize}
-  \item The barrier function and safe set $\mathcal{C}$ are typically {constructed from domain knowledge} (physics, rules, safety envelopes).
-  \item Requires a (possibly simplified, conservative) {system model}: {robust} approach.
-\end{itemize}
-}
-\endgroup
-\end{frame}
-
-
-\section{Epistemic Uncertainty and Safe Decisions}
-
-
-\begin{frame}{\normalsize Data \& Epistemic Uncertainty}
-\footnotesize
-\vspace{-.5cm}
-%\newcommand{\Sys}{\vspace{-0.25cm}\includegraphics[width=1\textwidth,clip]{Figures/SmartHouse.pdf}}
-
-\tikzstyle{Dist_block} = [rectangle, draw=none, fill=none,  text width=5.cm, text centered, minimum height=4em,inner sep=2pt]
-\tikzstyle{SA_block} = [rectangle, draw=none, fill=none,  text width=4.5cm,  text height=3cm,  text centered]
-
-\tikzstyle{Text_block} = [rectangle, draw=none, fill=none,  text width=6.5cm, minimum height=3cm,inner sep=5pt]
-
-
-\tikzstyle{line} = [draw, -latex']
-
-
-\begin{tikzpicture}[->,>=stealth']
-
-
-
-
-
-\node [SA_block] (SA0) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Explored_SA.jpeg}
-%\textbf{State \& actions}
-};
-
-\visible<2->{
-% High density
-\node[  below right = 14mm and 11mm of SA0.north west] (SA1) {\textcolor{red}{$\vect s,\vect a$}};  
-}
-
-\visible<4->{
-% Medium density
-\node[  below right =  -5mm and 25mm of SA0.north west] (SA2) {\textcolor{red}{$\vect s,\vect a$}};}
-
-\visible<5->{
-% Low density
-\node[  below right =  21mm and 37mm of SA0.north west] (SA3) {\textcolor{red}{$\vect s,\vect a$}};   
-}
-
-   \visible<3->{
-  % High density
-   \node [Dist_block, right of=SA0, node distance = 5cm] (Dist0) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_2.pdf}
- };}
- 
-    \visible<4->{
-% Medium density
-   \node [Dist_block, above of=Dist0, node distance = 2.7cm] (Dist1) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_1.pdf}
- };}
- 
- \visible<5->{
-% Low density
-  \node [Dist_block, below of=Dist0, node distance = 2.7cm] (Dist2) {
- \includegraphics[width=1\textwidth,clip]{Codes/Epistemic/Dist_s_a_0.pdf}
- };}
- 
-  \visible<6->{
-    \node [Text_block,  below left =  -7mm and 0mm of SA0.south east] (Text0) {
-    \textbf{Remarks}
-    \begin{itemize}
-    \scriptsize
-    \item \textcolor{red}{$\vect s,\vect a$} not much visited $\rightarrow$ Low \textcolor{blue}{data} about $\vect s_+$
-    \item \visible<7->{Low data about $\vect s_+$ $\rightarrow$ uncertainty about the distribution \textit{itself}: epistemic uncertainty (unknown unknown)}
-    \item  \visible<8->{Continuous state-action problems $\rightarrow$ single data point per $\vect s,\vect a$}
-    \item  \visible<9->{Rely on regularity across $\vect s,\vect a$!!}
-    \end{itemize}
- };}
- 
- 
- \visible<3->{
-   % High density
- \path  (SA1)  edge[bend left=10] [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist0);}
-
-   \visible<4->{
- % Medium density
- \path  (SA2) edge[bend left=20]  [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist1);}
-
-\visible<5->{
-% Low density
-  \path  (SA3) edge[bend left=20]  [
-   postaction={decorate},
-     decoration={
-       markings,
-       mark = at position 0.0 with {\fill[red] circle[radius=0.05cm];}
-  }
-] (Dist2);}
-  
-  
-
- 
+\centering
+\begin{tikzpicture}[>=latex',node distance=0.8cm,scale=0.92, every node/.style={scale=0.92}]
+\tikzstyle{st}=[circle, draw=black, fill=myLightBlue, minimum size=0.75cm, inner sep=0pt]
+\tikzstyle{edge}=[->, thick]
+\node[st] (s0) {$s_t$};
+\node[st, above right=0.6cm and 1.2cm of s0] (s1a) {$s_{t+1}^a$};
+\node[st, right=2.0cm of s0] (s1b) {$s_{t+1}^b$};
+\node[st, below right=0.6cm and 1.2cm of s0] (s1c) {$s_{t+1}^c$};
+\draw[edge] (s0) -- (s1a);
+\draw[edge] (s0) -- (s1b);
+\draw[edge] (s0) -- (s1c);
+% weight changes
+\draw[->, dashed] ($(s0)!0.5!(s1a)$) to[bend left=20] +(0,0.7);
+\draw[->, dashed] ($(s0)!0.5!(s1c)$) to[bend right=20] +(0,-0.7);
+\node at ($(s0)!0.55!(s1a)+(0,0.6)$) {\scriptsize $\uparrow w$};
+\node at ($(s0)!0.55!(s1c)+(0,-0.6)$) {\scriptsize $\downarrow w$};
+% value arrows
+\draw[edge, densely dotted] (s1a) -- +(1.2,0) node[right] {\scriptsize future $V$ up};
+\draw[edge, densely dotted] (s1c) -- +(1.2,0) node[right] {\scriptsize future $V$ down};
 \end{tikzpicture}
 
-\end{frame}
-
-\begin{frame}{\normalsize Distributional View on MDPs}
-\footnotesize
-\setlength{\columnsep}{1.1cm}
-
-\begin{columns}[T,onlytextwidth]
-
-  % -------- LEFT column
-  \column{0.6\textwidth}
-  \visible<1->{
-  \begin{itemize}
-    \item True dynamics are unknown; only samples or estimates available}
-    \visible<4-> {
-    \item Instead of a single distribution, a family of distributions
-    }
-    \visible<10->{\item {Knowledge embedding:} encode physics/rules as priors or constraints on models}
-    \visible<11->{\item {Bayesian view:} Data updates the prior belief about the model providing a posterior }
-    \visible<12->{\item {Building $\mathcal P$:}  ensembles, parametric, non-parametric}
-  \end{itemize}
-  
-
-
-  % -------- RIGHT column
-  \column{0.4\textwidth}
-
-  % Figure left (progressive few-data ambiguity visuals)
-  \begin{overlayarea}{0.9\linewidth}{0.45\textheight}
-    \only<2>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_0.pdf}}
-    \only<3>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_1.pdf}}
-    \only<4>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_2.pdf}}
-    \only<5>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_3.pdf}}
-    \only<6>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_4.pdf}}
-    \only<7>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_5.pdf}}
-    \only<8>{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_6.pdf}}
-    \only<9->{\centering\includegraphics[width=0.9\linewidth]{Codes/DR/DistViewFew_7.pdf}}
-  \end{overlayarea}
-
-
+{\scriptsize \textit{Graphic:} $\delta\theta$ changes edge weights (transition probs), so the Bellman backup shifts via both reward and where we go next.}
 \end{columns}
-
-\only<13->{
-\vspace{0.1cm}
-\scriptsize\textbf{Remarks:}
 \begin{itemize}
-  \item Accounts for \textbf{epistemic uncertainty} from limited data; connects to probabilistic safety via confidence levels.
-  \item Distributionally Robust Optimization for worst-case robustness against model misspecification (more conservative).
-  \item Expectation over distribution of distributions: some form of discretization. Bayesian marginalization or Scenario discretization
+\item Immediate effect: rewards $R_\theta(s,a)$ shift with $\theta$.
+\item Propagated effect: transition shifts alter \emph{who} we next visit $\Rightarrow$ future values change.
+\item The overall sensitivity is a \textit{backward} accumulation along edges of the trajectory tree.
 \end{itemize}
-}
 
 \end{frame}
 
-\begin{frame}{\normalsize Out-Of-Distribution (OOD) ``Guarding" Methods}
-\footnotesize
-\textbf{Utility + model may ``push" a problem to get ``Out-Of-Distribution"}
-\begin{itemize}
-\scriptsize
-\item Unwarranted extrapolation / generalization
-\item Optimization often exploits the model ``weaknesses" 
-\end{itemize}
-\begin{columns}[t]
-\column{0.6\textwidth}
-\visible<2->{
-\begin{block}{}
-\vspace{-.25cm}
-\begin{align*}
-\textcolor{myGreen3}{\vect\pi^\star} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2\right)\right]
-\end{align*}
-\end{block}}
-\visible<3->{
-\textbf{Key idea} 
-\begin{itemize}
-\item Max utility while penalizing OOD. E.g.
-\begin{alertblock}{}
-\vspace{-.25cm}
-\begin{align*}
-\textcolor{myMagenta}{\vect\pi^\text{OOD}} = \argmax_{\vect\pi}\,\mathrm E\left[ \sum_{k=0}^\infty \gamma^k\left(\vect s_k^2+\vect a_k^2-\omega\cdot\varphi\left(\vect s_k,\vect a_k\right)\right)\right]
-\end{align*}
-\end{alertblock}
-\begin{flushright} where $\varphi$ is the data density (e.g. kernel)\end{flushright}}
-\item \visible<4->{As we get more data, $\vect\pi^\text{OOD}\rightarrow\vect\pi^\star$ (where it is useful)}
-\end{itemize}
-
-\column{0.4\textwidth}
-
-  \begin{overlayarea}{\textwidth}{0.5\textheight}
-    \begin{figure}
-     \newcommand{\FS}{0.9}
-
-      \only<1>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Map.jpeg}
-        }
-      \only<2>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_Star.jpeg}
-        }
-        \only<3->
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/OOD_OOD.jpeg}
-        }
-        \end{figure}
-        \end{overlayarea}
-\end{columns}
-
-     
-       \end{frame}
-
-\begin{frame}{\normalsize Out-Of-Distribution (OOD) Hybrid Model Methods}
-\footnotesize
-
-
-
-\begin{columns}
-\column{0.5\textwidth}
-\begin{center}
-\textbf{Key idea}: use AI when we are ``within data", and knowledge when OOD
-\end{center}
-\begin{itemize}
-\item Transition AI $\leftrightarrow$ Knowledge should be smooth
-\item Knowledge-driven model can still be data-driven, but with simpler structure than AI model (e.g. linear)
-\item Tends to outperform AI or Knowledge alone in decision making
-\item Approach is heuristic, lack of theoretical foundations
-\end{itemize}
-\column{0.5\textwidth}
-  \begin{overlayarea}{\textwidth}{0.5\textheight}
-    \begin{figure}
-     \newcommand{\FS}{0.9}
-        
-              \only<1>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid4.jpeg}
-        }
-      \only<2>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid3.jpeg}
-        }
-              \only<3>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid2.jpeg}
-        }
-      \only<4>
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid1.jpeg}
-        }
-        \only<5->
-        {%
-         \includegraphics[width=\FS\textwidth,clip]{Codes/Epistemic/Hybrid0.jpeg}
-        }
-        \end{figure}
-        \end{overlayarea}
-\end{columns}
-
-       \end{frame}
-       
-       
- \begin{frame}{\normalsize What does it say about AID?}
-\footnotesize
-\begin{center}
-\textit{We have discussed on the key concepts of safe decision making}
-\end{center}
-
-\begin{overlayarea}{\textwidth}{0.75\textheight}
-\only<2-3>{
-\begin{block}{}
-\textbf{RA6 (Extrapolation \& Generalization)} 
-\begin{itemize}
-\item Data-based models have epistemic uncertainty
-\item Decision making will often push the models outside their validity (unwarranted extrapolation)
-\item How to manage this problem better is a key RA in AID
-\end{itemize}
-\end{block}
-}
-\only<3>{
-\begin{block}{}
-\textbf{RA4 (Knowledge embedding)}
-\begin{itemize}
-\item Knowledge is often key to manage epistemic uncertainty 
-\item How to embed knowledge in AI for Decision to manage extrapolation better is a key RQ in AID
-\end{itemize}
-\end{block}
-}
-\only<4-5>{
-\begin{block}{}
-\textbf{RA5 (Training models for decision)} 
-\begin{itemize}
-\item Best model fit $\neq$ best model for decision
-\item The problem of generating relevant scenarios (or probability mass) for safe decision making is strongly connected (same theory)
-\item How to train models to give us predictions conducive to safety is a key RQ in AID
-\item Especially open for probabilistic safety guarantees
-\end{itemize}
-\end{block}
-}
-\only<5>{
-\begin{block}{}
-\textbf{RA7 (AI and formal decision tools)} 
-\begin{itemize}
-\item Formal decision tools offer a pathway to ensure safe decisions
-\item E.g. robust repeated planning
-\item How to combine these tools in a good way with AI is an active research topic. Especially how to make it work in practice. 
-\end{itemize}
-\end{block}
-}
-\end{overlayarea}
-
-
-\end{frame}
-       
 \end{document}
 
