@@ -288,14 +288,17 @@
 \begin{frame}{\normalsize Closing Sim2Real gap via Bi-level RL}
 \footnotesize
 \only<1>{
+  \begin{overlayarea}{\textwidth}{7cm}
 \begin{itemize}
 \item Sim2Real Gap:
 \begin{itemize}
   \item Improving simulator accuracy and robustness.
-  \item Acuuracy and robustness does not guarantee optimal real-world performance.
+  \item Accuracy and robustness does not guarantee optimal real-world performance.
   \item Optimize simulator parameters \(\theta\) to maximize real-world return.
 \end{itemize}
-\end{itemize}}
+\end{itemize}
+\end{overlayarea}
+}
 \only<2->{
 \centering
 \includegraphics[width=\textwidth]{Figures/rl_over_rl_overview.pdf}
@@ -443,7 +446,7 @@ The critic satisfies a fixed point under the bellman operator; change in $\theta
 \draw[edge, densely dotted] (s1c) -- +(1.2,0) node[right] {\scriptsize future $V$ down};
 \end{tikzpicture}
 
-{\scriptsize \textit{Graphic:} $\delta\theta$ changes edge weights (transition probs), so the Bellman backup shifts via both reward and where we go next.}
+{\scriptsize  $\delta\theta$ changes edge weights (transition probs), so the Bellman backup shifts via both reward and where we go next.}
 \end{columns}
 \begin{itemize}
 \item Immediate effect: rewards $R_\theta(s,a)$ shift with $\theta$.
