@@ -1,5 +1,4 @@
 # Ignore all PDF files
-*.pdf
 
 # LaTeX auxiliary files
 *.aux
